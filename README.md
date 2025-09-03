@@ -1,15 +1,20 @@
 # Universidad Peruana de Ciencias Aplicadas
 
+<img src="/images/UPCLogo.png">
+
+
+
+
 **Ciclo:** 2025 - 02  
 **Curso:** Aplicaciones Web - 7432  
 **Docente:** Villafuerte Bazán, Óscar Iván  
 
-**Startup:** *[Nombre de la startup]*  
-**Producto:** *[Nombre del producto]*  
+**Startup:** *SymmetriQ*  
+**Producto:** *Harminox*  
 
 **Integrantes:**  
 - [Integrante 1]  
-- [Integrante 2]  
+- Martinez Valdivis Jose Luis - U202213989 
 - [Integrante 3]  
 - [Integrante 4]  
 - Córdova Valdivia Sebastián — U202111041  
