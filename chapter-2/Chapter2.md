@@ -69,6 +69,16 @@ Por último, en términos de marketing, conviene apostar por la educación y el 
 
 
 ### 2.3.2. User Task Matrix.
+| **Persona**                 | **Tarea**                                  | **Importancia** | **Frecuencia** |
+|------------------------------|--------------------------------------------|-----------------|----------------|
+| **Ana (Miembro del hogar)** | Registrar su ingreso mensual                | Alta            | Baja           |
+|                              | Revisar cuánto debe aportar según su ingreso | Alta            | Alta           |
+|                              | Recibir recordatorios y confirmar pagos    | Media           | Media          |
+|                              | Consultar historial de pagos               | Media           | Baja           |
+| **Luis (Representante del hogar)** | Crear y gestionar gastos compartidos       | Alta            | Alta           |
+|                              | Supervisar pagos realizados y pendientes   | Alta            | Alta           |
+|                              | Enviar recordatorios automáticos           | Media           | Media          |
+|                              | Generar reportes mensuales                 | Alta            | Baja           |
 
 ### 2.3.3. User Journey Mapping.
 
