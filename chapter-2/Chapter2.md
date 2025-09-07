@@ -69,6 +69,9 @@ Por último, en términos de marketing, conviene apostar por la educación y el 
 
 
 ### 2.3.2. User Task Matrix.
+
+- En esta sección se presenta la User Task Matrix, enfocada en los dos segmentos clave de Harmonix: miembros del hogar y representantes del hogar. Permite identificar sus tareas habituales y principales necesidades, facilitando la priorización de funcionalidades en el producto.
+
 | **Persona**                 | **Tarea**                                  | **Importancia** | **Frecuencia** |
 |------------------------------|--------------------------------------------|-----------------|----------------|
 | **Ana (Miembro del hogar)** | Registrar su ingreso mensual                | Alta            | Baja           |
@@ -81,6 +84,8 @@ Por último, en términos de marketing, conviene apostar por la educación y el 
 |                              | Generar reportes mensuales                 | Alta            | Baja           |
 
 ### 2.3.3. User Journey Mapping.
+
+Aquí se presentan los User Journey Mapping para cada user persona. El recorrido refleja cómo los usuarios reciben notificaciones de nuevos gastos, consultan su historial, calculan su aporte proporcional y completan el pago, asegurando claridad y transparencia en el proceso.
 
 - Segmento #1: Personas del hogar
 
@@ -95,6 +100,18 @@ Por último, en términos de marketing, conviene apostar por la educación y el 
 </p>
 
 ### 2.3.4. Empathy Mapping.
+
+- El Empathy Mapping permite comprender a fondo qué piensan, sienten, ven, escuchan y hacen los usuarios, así como sus frustraciones y motivaciones. Este análisis facilita diseñar soluciones alineadas con sus verdaderas necesidades.
+
+<p styles="align: left">
+  <img src="../images/Empathy Map 1.png" width="1100">
+</p>
+
+- Segmento #2: Representante del hogar
+
+<p styles="align: left">
+  <img src="../images/Empathy Map 2.png" width="1100">
+</p>
 
 ### 2.3.5. As-is Scenario Mapping.
 
