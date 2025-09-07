@@ -36,8 +36,37 @@ Por último, en términos de marketing, conviene apostar por la educación y el 
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
+- Las necesidades principales que hemos recopilado en nuestros segmentos objetivos son la siguientes:
+  
+## Segmento #1: Personas del hogar
+
+- **Dividir los gastos comunes** de forma justa y proporcional a los ingresos de cada miembro.  
+- **Contar con visibilidad en tiempo real** sobre pagos realizados y saldos pendientes.  
+- **Garantizar transparencia** para evitar malentendidos y conflictos dentro de la convivencia.  
+- **Usar una aplicación sencilla** que organice los pagos del hogar.  
+
+## Segmento #2: Representante del hogar
+
+- **Gestionar y supervisar** todos los aportes desde un panel centralizado.  
+- **Recibir alertas automáticas** y recordatorios de pagos pendientes.  
+- **Asegurar contribuciones equitativas**, basadas en ingresos reales.  
+- **Obtener reportes financieros claros** y automáticos para ahorrar tiempo en la planificación.  
 
 ### 2.3.1. User Personas
+
+- Segmento #1: Personas del hogar
+
+<p styles="align: left">
+  <img src="../images/UserPersona1.png" width="1100">
+</p>
+
+- Segmento #2: Representante del hogar
+
+<p styles="align: left">
+  <img src="../images/UserPersona2.png" width="1100">
+</p>
+
+
 
 ### 2.3.2. User Task Matrix.
 
