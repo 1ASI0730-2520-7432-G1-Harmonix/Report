@@ -82,6 +82,18 @@ Por último, en términos de marketing, conviene apostar por la educación y el 
 
 ### 2.3.3. User Journey Mapping.
 
+- Segmento #1: Personas del hogar
+
+<p styles="align: left">
+  <img src="../images/JourneyMap-1.png" width="1100">
+</p>
+
+- Segmento #2: Representante del hogar
+
+<p styles="align: left">
+  <img src="../images/JourneyMap-2.png" width="1100">
+</p>
+
 ### 2.3.4. Empathy Mapping.
 
 ### 2.3.5. As-is Scenario Mapping.
