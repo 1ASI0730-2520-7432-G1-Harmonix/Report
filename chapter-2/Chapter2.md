@@ -101,8 +101,10 @@ Aquí se presentan los User Journey Mapping para cada user persona. El recorrido
 
 ### 2.3.4. Empathy Mapping.
 
-- El Empathy Mapping permite comprender a fondo qué piensan, sienten, ven, escuchan y hacen los usuarios, así como sus frustraciones y motivaciones. Este análisis facilita diseñar soluciones alineadas con sus verdaderas necesidades.
+El Empathy Mapping permite comprender a fondo qué piensan, sienten, ven, escuchan y hacen los usuarios, así como sus frustraciones y motivaciones. Este análisis facilita diseñar soluciones alineadas con sus verdaderas necesidades.
 
+- Segmento #1: Personas del hogar
+  
 <p styles="align: left">
   <img src="../images/Empathy Map 1.png" width="1100">
 </p>
@@ -114,6 +116,20 @@ Aquí se presentan los User Journey Mapping para cada user persona. El recorrido
 </p>
 
 ### 2.3.5. As-is Scenario Mapping.
+
+El As-Is Scenario Mapping describe cómo los usuarios actualmente gestionan sus gastos compartidos sin Harmonix, mostrando sus acciones, pensamientos y emociones en cada paso. Esto ayuda a identificar los principales puntos de dolor que la plataforma busca resolver.
+
+- Segmento #1: Personas del hogar
+  
+<p styles="align: left">
+  <img src="../images/As-Is Map 1.png" width="1100">
+</p>
+
+- Segmento #2: Representante del hogar
+
+<p styles="align: left">
+  <img src="../images/As-Is Map 2.png" width="1100">
+</p>
 
 ## 2.4. Ubiquitous Language.
 
