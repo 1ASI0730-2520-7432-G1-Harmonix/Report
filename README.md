@@ -15,7 +15,7 @@
 **Integrantes:**  
 - [Integrante 1]  
 - Martinez Valdivis Jose Luis - U202213989 
-- [Integrante 3]  
+- Pardo Chumpitazi Kevin Patrick -U20221A525 
 - [Integrante 4]  
 - Córdova Valdivia Sebastián — U202111041  
 
