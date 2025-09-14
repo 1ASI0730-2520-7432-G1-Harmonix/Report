@@ -36,7 +36,9 @@ Por último, en términos de marketing, conviene apostar por la educación y el 
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
-- Las necesidades principales que hemos recopilado en nuestros segmentos objetivos son la siguientes:
+En esta sección se detallan las principales necesidades detectadas en los segmentos objetivos de Harmonix. A través del análisis de sus contextos, se identificaron las dificultades que enfrentan al momento de repartir los gastos comunes del hogar, como la falta de equidad, transparencia y control en los pagos. Estas necesidades constituyen la base para orientar el diseño del producto, asegurando que las funcionalidades de Harmonix respondan directamente a los problemas reales de los usuarios y contribuyan a mejorar la convivencia en el hogar.
+
+De esta manera, se presentan a continuación los hallazgos clave que guiarán el desarrollo de la solución
   
 ## Segmento #1: Personas del hogar
 
