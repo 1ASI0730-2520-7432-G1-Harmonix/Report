@@ -102,7 +102,7 @@ Este tono refuerza la **transparencia y cercanía** de la marca, asegurando que 
 Se utilizó la tendencia web de **funcionalismo minimalista** con un esquema de colores oscuros predominante (negro y gris oscuro) como fondo. Esto proporciona una experiencia visual suave, favoreciendo el contraste con elementos interactivos y textos claros.
 
 <p styles="align: left">
-  <img src="../images/imagen1.PNG" alt="imagen1" width="500">
+  <img src="../images/.PNG" alt="imagen1" width="500">
 </p>
 
 Para enriquecer la estética y agregar dinamismo:
@@ -162,7 +162,84 @@ De esta manera, Harmonix asegura una experiencia de navegación **intuitiva, efi
 
 ### 4.2.2. Labeling Systems.
 
+La landing page de **Harmonix** emplea un sistema de etiquetado **directo, simple y orientado a la acción**, cuyo objetivo principal es facilitar la comprensión inmediata del contenido y garantizar una navegación fluida para distintos tipos de usuarios.  
 
+El sistema de etiquetado se caracteriza por:  
+- Uso de **términos cortos y claros**, evitando ambigüedades.  
+- Refuerzo mediante **íconos visuales de Bootstrap Icons**, que optimizan la identificación de secciones.  
+- Consistencia terminológica en todas las áreas de la interfaz, reforzando la coherencia comunicativa.  
+
+#### Menú de navegación  
+
+En el menú principal, ubicado en la parte superior de la landing page, se emplean etiquetas simples y directas, acompañadas de íconos para mejorar la comprensión visual:  
+
+- **Home** (`bi-house-door-fill`)  
+- **About** (`bi-info-circle-fill`)  
+- **Services** (`bi-tools`)  
+- **How does it work?** (`bi-lightbulb-fill`)  
+- **Prices** (`bi-currency-dollar`)  
+- **Reviews** (`bi-chat-dots-fill`)  
+- **Contact us** (`bi-envelope-fill`)  
+
+<p styles="align: left">
+  <img src="images/.PNG" alt="imagen3" width="500">  
+</p>  
+
+#### Botón principal (CTA)  
+
+El botón principal de la landing page funciona como la **llamada a la acción (CTA)** más destacada:  
+
+- **Register** → etiqueta clara y universal, válida tanto para miembros como para representantes.  
+
+<p styles="align: left">
+  <img src="images/.PNG" alt="imagen4" width="500">  
+</p>  
+
+#### Sección *How does it work?* – Representantes  
+
+Para los **representantes del hogar**, las etiquetas enfatizan acciones de gestión:  
+
+- **Sign up** (`bi-person-plus-fill`)  
+- **Create your home** (`bi-house-fill`)  
+- **Assign contributions** (`bi-cash-coin`)  
+- **Control your finances** (`bi-bar-chart-fill`)  
+
+<p styles="align: left">
+  <img src="images/.PNG" alt="" width="500">  
+</p>  
+
+#### Sección *How does it work?* – Miembros  
+
+Para los **miembros del hogar**, las etiquetas refuerzan su rol de participación:  
+
+- **Sign up** (`bi-person-plus-fill`)  
+- **Join a household** (`bi-key-fill`)  
+- **Declare your income** (`bi-wallet-fill`)  
+- **Monitor your contributions** (`bi-graph-up-arrow`)  
+
+<p styles="align: left">
+  <img src="images/.PNG" alt="" width="500">  
+</p>  
+
+
+#### Footer  
+
+El pie de página organiza el etiquetado en dos bloques principales:  
+
+- **Enlaces legales:**  
+  - Legal notice  
+  - Privacy Policy  
+  - Cookies Policy  
+
+- **Soporte y ayuda:**  
+  - Contact Support  
+  - Help Center  
+
+Además, se incluyen **íconos de redes sociales** (Facebook, Instagram, Twitter, LinkedIn) que funcionan como accesos rápidos.  
+
+<p styles="align: left">
+  <img src="images/.PNG" alt="" width="500">  
+</p>  
 
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems.
