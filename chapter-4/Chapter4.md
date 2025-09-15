@@ -118,8 +118,52 @@ Este equilibrio entre funcionalidad y diseño moderno garantiza una interfaz efi
 </p>
 
 ## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
+### 4.2.1. Organization Systems  
+
+En la plataforma **Harmonix**, se aplican diferentes sistemas de organización del contenido para optimizar la **accesibilidad** y la **experiencia de usuario**, en función del tipo de información presentada.  
+Estos sistemas garantizan una navegación intuitiva, clara y eficiente.  
+
+#### Organización Visual del Contenido  
+
+**Jerárquica (Visual Hierarchy):**  
+Se utiliza en secciones que requieren una estructura clara de importancia y relevancia, como formularios de creación de hogar o asignación de aportes.  
+Se aplican **variaciones tipográficas** y un **orden lógico de presentación** para resaltar los elementos más relevantes (botones de acción o campos requeridos), guiando al usuario de manera natural a través del flujo de la aplicación.  
+
+**Secuencial (Step-by-Step):**  
+En procesos que deben completarse paso a paso —como el registro de usuario o la creación de un hogar— se aplica un enfoque secuencial.  
+Cada paso se presenta en una pantalla específica, lo que permite a los usuarios comprender y completar cada acción antes de avanzar, reduciendo errores y confusión.  
+
+#### Esquemas de Categorización de Contenido  
+
+**Por Audiencia (User Groups):**  
+La plataforma distingue entre **representantes de hogar** y **miembros de hogar**:  
+- **Representantes** → gestionan aportes y creación de hogar.  
+- **Miembros** → consultan sus aportes y realizan seguimiento de gastos.  
+
+Esta categorización asegura que cada tipo de usuario acceda únicamente a las funcionalidades que necesita, reforzando la simplicidad y eficiencia de la experiencia.  
+
+**Por Tópicos:**  
+En las secciones de ayuda y soporte, el contenido se organiza por categorías temáticas:  
+- *Preguntas Frecuentes*  
+- *Política de Privacidad*  
+- *Centro de Ayuda*  
+
+Esto facilita la búsqueda de información relevante y la resolución autónoma de dudas por parte del usuario.  
+
+#### Implementación en la Interfaz  
+
+La aplicación de estos sistemas se refleja en el diseño mediante:  
+- **Navegación clara y estructurada** con menús desplegables.  
+- **Botones con texto explicativo** que guían acciones.  
+- **Flujos visibles paso a paso** en procesos clave.  
+- **Íconos y etiquetas textuales** que refuerzan la comprensión del contenido.  
+
+De esta manera, Harmonix asegura una experiencia de navegación **intuitiva, eficiente y adaptada** a cada perfil de usuario, manteniendo coherencia con su estilo visual minimalista y accesible.  
+
 ### 4.2.2. Labeling Systems.
+
+
+
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems.
 ### 4.2.5. Navigation Systems.
