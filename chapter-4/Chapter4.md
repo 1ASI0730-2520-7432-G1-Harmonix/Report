@@ -36,8 +36,8 @@ La identidad visual se apoya en un esquema cromático que combina **sobriedad y 
 - **Apoyo**: `#E3F2FD` (azul claro)  
 - **Texto**: `#FFFFFF` (blanco)  
 
-<p align="left">
-  <img src="images/paleta.PNG" alt="paleta de colores" width="500">
+<p styles="align: left">
+  <img src="../images/paleta.PNG" alt="paleta de colores" width="500">
 </p>  
 
 Esta combinación de colores refuerza la **claridad, accesibilidad y coherencia visual** de la plataforma.  
@@ -98,6 +98,25 @@ El tono de Harmonix es **claro, inclusivo y accesible**, diseñado para generar 
 Este tono refuerza la **transparencia y cercanía** de la marca, asegurando que cada usuario se sienta acompañado en el control de sus finanzas compartidas.  
 
 ### 4.1.2. Web Style Guidelines.
+
+Se utilizó la tendencia web de **funcionalismo minimalista** con un esquema de colores oscuros predominante (negro y gris oscuro) como fondo. Esto proporciona una experiencia visual suave, favoreciendo el contraste con elementos interactivos y textos claros.
+
+<p styles="align: left">
+  <img src="../images/imagen1.PNG" alt="imagen1" width="500">
+</p>
+
+Para enriquecer la estética y agregar dinamismo:
+
+- Se emplearon íconos blancos con moderación.  
+- El diseño se mantiene minimalista pero atractivo.  
+- Los íconos, claramente visibles sobre el fondo oscuro, refuerzan una experiencia visual limpia y ordenada.
+
+Este equilibrio entre funcionalidad y diseño moderno garantiza una interfaz eficaz y atractiva.
+
+<p styles="align: left">
+  <img src="../images/imagen2.PNG" alt="imagen2" width="500">
+</p>
+
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
