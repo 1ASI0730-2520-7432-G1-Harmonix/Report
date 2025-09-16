@@ -365,6 +365,28 @@ Permiten volver fácilmente a secciones anteriores o más generales.
 
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+
+La **Landing Page** constituye el primer punto de interacción entre el usuario y la plataforma **Harmonix**, por lo que su diseño debe ser claro, atractivo y funcional.  
+El wireframe presentado a continuación permite visualizar de manera preliminar la disposición de los elementos clave, garantizando una **navegación intuitiva**, la **jerarquización de la información** y la correcta integración de **llamadas a la acción (CTAs)** que orienten al usuario hacia el registro y el uso de la aplicación.  
+
+Los esquemas se centran en reflejar los bloques fundamentales de la interfaz, como el menú de navegación, secciones de presentación de servicios, planes de precios, testimonios, y la sección de contacto. Este enfoque asegura una experiencia de usuario consistente con los objetivos de comunicación de la startup.
+
+<p styles="align: left">
+  <img src="../images/lpw1.PNG" alt="lpw1" width="500">
+</p>
+<p styles="align: left">
+  <img src="../images/lpw2.PNG" alt="lpw2" width="500">
+</p>
+<p styles="align: left">
+  <img src="../images/lpw3.PNG" alt="lpw3" width="500">
+</p>
+<p styles="align: left">
+  <img src="../images/lpw4.PNG" alt="lpw4" width="500">
+</p>
+<p styles="align: left">
+  <img src="../images/lpw5.PNG" alt="lpw5" width="500">
+</p>
+
 ### 4.3.2. Landing Page Mock-up.
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
