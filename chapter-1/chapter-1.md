@@ -33,15 +33,15 @@
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
-        [Nombre completo] - [Código]<br>
-        <img src="images/[nombre_archivo].jpg" alt="Foto Integrante 2" width="50%">
+        Angel Martin Gonzales Castillo - u202319724<br>
+        <img src="https://i.imgur.com/dfZFyYP.jpg" alt="Foto Integrante 2" width="50%">
       </p>
     </td>
     <td style="text-align: center" align="center">
-      [Descripción personal y académica del integrante 2]
+      Soy estudiante de la carrera de Ingeniería de Software y actualmente me encuentro en el sexto ciclo. Me caracterizo por mi interés en la programación, la tecnología y el aprendizaje continuo. Tengo una actitud analítica y organizada, lo que me permite desarrollar proyectos académicos y prácticos con dedicación, buscando siempre aplicar los conocimientos adquiridos de manera efectiva
     </td>
     <td style="text-align: center" align="center">
-      [Conocimientos técnicos, lenguajes, herramientas, intereses]
+      Tengo conocimientos en Python y C++, Java Basico, HTML y CSS basico, frameworks conocidos como Angular y Vue. Apoyo al equipo activamente y trato de aprendar cosas nuevas y mejorar los conocimientos que ya poseo.
     </td>
   </tr>
 
