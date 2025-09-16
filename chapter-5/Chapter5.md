@@ -230,34 +230,34 @@ Link: ()
 
 - Home:<br>
 
-   ![Alt Text](images/home.png)
+   ![Alt Text](../images/home.png)
 <br>
 - About Us:<br>
 
-   ![Alt Text](images/abputus.png)
+   ![Alt Text](../images/abputus.png)
 
   <br>
   
 - Services: <br>
 
-  ![Alt Text](images/services.png)
+  ![Alt Text](../images/services.png)
   
   <br>
 - How does it work?: <br>
 
-  ![Alt Text](images/howitworks.png)
+  ![Alt Text](../images/howitworks.png)
 
   <br>
 
 - Prices: <br>
 
-  ![Alt Text](images/prices.png)
+  ![Alt Text](../images/prices.png)
 
   <br>
 
 - Contact us: <br>
 
-  ![Alt Text](images/contactus.png)
+  ![Alt Text](../images/contactus.png)
 
   <br>
 
@@ -274,19 +274,19 @@ Se puede acceder a la página de inicio a través del siguiente enlace: https://
 A continuación, se muestran las capturas de los insights del repositorio de la Landing Page para evidenciar la participación de todos los miembros del grupo:
 
 - feature/chapter-1
-<img src="images/chapter1.png" alt="Trello" width="100%">
+<img src="../images/chapter1.png" alt="Trello" width="100%">
 
 - feature/chapter-2
-<img src="images/chapter2.png" alt="Trello" width="100%">
+<img src="../images/chapter2.png" alt="Trello" width="100%">
 
 - feature/chapter-3
-<img src="images/chapter3.png" alt="Trello" width="100%">
+<img src="../images/chapter3.png" alt="Trello" width="100%">
 
 - feature/chapter-4
-<img src="images/chapter4.png" alt="Trello" width="100%">
+<img src="../images/chapter4.png" alt="Trello" width="100%">
 
 - feature/chapter-5
-<img src="images/chapter5.png" alt="Trello" width="100%">
+<img src="../images/chapter5.png" alt="Trello" width="100%">
 
 
 
