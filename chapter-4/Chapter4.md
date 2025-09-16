@@ -102,7 +102,7 @@ Este tono refuerza la **transparencia y cercanía** de la marca, asegurando que 
 Se utilizó la tendencia web de **funcionalismo minimalista** con un esquema de colores oscuros predominante (negro y gris oscuro) como fondo. Esto proporciona una experiencia visual suave, favoreciendo el contraste con elementos interactivos y textos claros.
 
 <p styles="align: left">
-  <img src="../images/.PNG" alt="imagen1" width="500">
+  <img src="../images/imagen1.jpg" alt="imagen1" width="500">
 </p>
 
 Para enriquecer la estética y agregar dinamismo:
@@ -182,7 +182,7 @@ En el menú principal, ubicado en la parte superior de la landing page, se emple
 - **Contact us** (`bi-envelope-fill`)  
 
 <p styles="align: left">
-  <img src="images/.PNG" alt="imagen3" width="500">  
+  <img src="../images/imagen3.jpg" alt="imagen3" width="500">  
 </p>  
 
 #### Botón principal (CTA)  
@@ -192,7 +192,7 @@ El botón principal de la landing page funciona como la **llamada a la acción (
 - **Register** → etiqueta clara y universal, válida tanto para miembros como para representantes.  
 
 <p styles="align: left">
-  <img src="images/.PNG" alt="imagen4" width="500">  
+  <img src="../images/imagen1.jpg" alt="imagen4" width="500">  
 </p>  
 
 #### Sección *How does it work?* – Representantes  
@@ -205,7 +205,7 @@ Para los **representantes del hogar**, las etiquetas enfatizan acciones de gesti
 - **Control your finances** (`bi-bar-chart-fill`)  
 
 <p styles="align: left">
-  <img src="images/.PNG" alt="" width="500">  
+  <img src="../images/imagen4.jpg" alt="" width="500">  
 </p>  
 
 #### Sección *How does it work?* – Miembros  
@@ -218,7 +218,7 @@ Para los **miembros del hogar**, las etiquetas refuerzan su rol de participació
 - **Monitor your contributions** (`bi-graph-up-arrow`)  
 
 <p styles="align: left">
-  <img src="images/.PNG" alt="" width="500">  
+  <img src="../images/imagen5.jpg" alt="" width="500">  
 </p>  
 
 
@@ -234,14 +234,18 @@ El pie de página organiza el etiquetado en dos bloques principales:
 - **Soporte y ayuda:**  
   - Contact Support  
   - Help Center  
+  - Frequently asked questions
 
 Además, se incluyen **íconos de redes sociales** (Facebook, Instagram, Twitter, LinkedIn) que funcionan como accesos rápidos.  
 
 <p styles="align: left">
-  <img src="images/.PNG" alt="" width="500">  
+  <img src="../images/imagen6.jpg" alt="" width="500">  
 </p>  
 
 ### 4.2.3. SEO Tags and Meta Tags
+
+
+
 ### 4.2.4. Searching Systems.
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
