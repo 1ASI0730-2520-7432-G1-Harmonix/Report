@@ -194,6 +194,16 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 #### 5.2.1.3. Sprint Backlog 1
 
+| **User Story Id** | **Title**                                                                  | **Task Id** | **Task Title**              | **Description**                                                                                  | **Estimation (Hours)** | **Assigned To** | **Status (To-do/In-Process/To-Review/Done)** |
+| ----------------- | -------------------------------------------------------------------------- | ----------- | --------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------- | --------------- | -------------------------------------------- |
+| US31              | Visualizar información general sobre SplitEasy desde la landing page       | T1          | Información general         | Desarrollo de la sección con información introductoria de SplitEasy                              | 2                      | —               | To-do                                        |
+| US32              | Conocer las funciones principales para representantes y miembros del hogar | T1          | Funciones principales       | Diseño y desarrollo de la sección que explica las funciones clave para representantes y miembros | 2                      | —               | To-do                                        |
+| US33              | Explorar beneficios del sistema de aportes proporcionales                  | T1          | Beneficios                  | Desarrollo de la sección que muestre los beneficios de usar el sistema de aportes proporcionales | 2                      | —               | To-do                                        |
+| US34              | Ver ejemplos o simulaciones de cómo funciona la plataforma                 | T1          | Ejemplos y simulaciones     | Implementación de ejemplos visuales o simulaciones del funcionamiento de la plataforma           | 3                      | —               | To-do                                        |
+| US35              | Acceder fácilmente al registro o login desde botones destacados            | T1          | Botones de acceso           | Diseño e implementación de botones visibles para registro y login                                | 1                      | —               | To-do                                        |
+| TS18              | Documentar los pasos para desplegar nuevas versiones                       | T1          | Documentación de despliegue | Redacción de la guía de pasos necesarios para desplegar nuevas versiones                         | 2                      | —               | To-do                                        |
+| TS19              | Habilitar monitoreo básico del sistema desplegado (logs, uptime)           | T1          | Monitoreo básico            | Configuración inicial para registrar logs y habilitar monitoreo de uptime                        | 3                      | —               | To-do                                        |
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
