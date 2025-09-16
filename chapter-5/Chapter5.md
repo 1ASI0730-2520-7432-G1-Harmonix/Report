@@ -234,7 +234,7 @@ Link: ()
 <br>
 - About Us:<br>
 
-   ![Alt Text](../images/abputus.png)
+   ![Alt Text](../images/aboutus.png)
 
   <br>
   
