@@ -399,10 +399,45 @@ El mock-up facilita la validación temprana con los interesados (stakeholders), 
 </p>
 
 ## 4.4. Web Applications UX/UI Design.
+En este apartado se define la propuesta de diseño UX/UI para Harmonix, enfocada en brindar una experiencia simple, intuitiva y transparente en la gestión de gastos compartidos. El diseño prioriza la facilidad de uso para los distintos perfiles de usuario (miembros y representantes del hogar), asegurando accesibilidad desde dispositivos móviles y navegadores web. Se emplean principios de usabilidad, consistencia visual y jerarquía de la información, con el objetivo de reducir fricciones en el registro de datos, visualización de aportes y seguimiento de pagos, fortaleciendo la confianza y satisfacción de los usuarios.
+
 ### 4.4.1. Web Applications Wireframes.
+
+<p styles="align: left">
+  <img src="../images/WAW.png" alt="lpw5" width="500">
+</p>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
+<p styles="align: left">
+  <img src="../images/WAWD.png" alt="lpw5" width="500">
+</p>
+
 ### 4.4.2. Web Applications Mock-ups.
+
+<p styles="align: left">
+  <img src="../images/wam.PNG" alt="lpw5" width="500">
+</p>
+
 ### 4.4.3. Web Applications User Flow Diagrams.
+A continuación, se presenta el User Flow Diagram, diseñado a partir de los objetivos principales de los usuarios. El flujo refleja cada meta funcional dentro de la aplicación y los distintos recorridos que pueden seguir para alcanzarla. Para una mejor comprensión, se incluyen mockups de alta fidelidad que ilustran visualmente cada paso, facilitando la validación de la experiencia y la coherencia del diseño.
+
+<p styles="align: left">
+  <img src="../images/user-goal-1.jpg" alt="lpw5" width="500">
+</p>
+
+<p styles="align: left">
+  <img src="../images/user-goal-2.jpg" alt="lpw5" width="500">
+</p>
+
+<p styles="align: left">
+  <img src="../images/user-goal-3.jpg" alt="lpw5" width="500">
+</p>
+
+<p styles="align: left">
+  <img src="../images/user-goal-4.jpg" alt="lpw5" width="500">
+</p>
+
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level EventStorming.
