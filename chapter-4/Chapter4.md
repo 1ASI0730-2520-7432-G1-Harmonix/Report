@@ -404,46 +404,65 @@ En este apartado se define la propuesta de diseño UX/UI para Harmonix, enfocada
 ### 4.4.1. Web Applications Wireframes.
 
 <p styles="align: left">
-  <img src="../images/WAW.png" alt="lpw5" width="500">
+  <img src="../images/WAW.png" alt="WAW" width="500">
 </p>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 <p styles="align: left">
-  <img src="../images/WAWD.png" alt="lpw5" width="500">
+  <img src="../images/WAWD.png" alt="WAWD" width="500">
 </p>
 
 ### 4.4.2. Web Applications Mock-ups.
 
 <p styles="align: left">
-  <img src="../images/wam.PNG" alt="lpw5" width="500">
+  <img src="../images/wam.PNG" alt="wam" width="500">
 </p>
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 A continuación, se presenta el User Flow Diagram, diseñado a partir de los objetivos principales de los usuarios. El flujo refleja cada meta funcional dentro de la aplicación y los distintos recorridos que pueden seguir para alcanzarla. Para una mejor comprensión, se incluyen mockups de alta fidelidad que ilustran visualmente cada paso, facilitando la validación de la experiencia y la coherencia del diseño.
 
 <p styles="align: left">
-  <img src="../images/user-goal-1.jpg" alt="lpw5" width="500">
+  <img src="../images/user-goal-1.jpg" alt="goal1" width="500">
 </p>
 
 <p styles="align: left">
-  <img src="../images/user-goal-2.jpg" alt="lpw5" width="500">
+  <img src="../images/user-goal-2.jpg" alt="goal2" width="500">
 </p>
 
 <p styles="align: left">
-  <img src="../images/user-goal-3.jpg" alt="lpw5" width="500">
+  <img src="../images/user-goal-3.jpg" alt="goal3" width="500">
 </p>
 
 <p styles="align: left">
-  <img src="../images/user-goal-4.jpg" alt="lpw5" width="500">
+  <img src="../images/user-goal-4.jpg" alt="goal4" width="500">
 </p>
 
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
-### 4.6.1. Design-Level EventStorming.
-### 4.6.2. Software Architecture Context Diagram.
-### 4.6.3. Software Architecture Container Diagrams.
-### 4.6.4. Software Architecture Components Diagrams.
+
+La arquitectura de Harmonix se plantea bajo el enfoque de Domain-Driven Design (DDD), lo que permite alinear el desarrollo técnico con el modelo de negocio y las reglas que rigen la distribución de gastos en el hogar. El sistema se organiza en dominios principales como la gestión de usuarios (registro, autenticación y roles), gestión de ingresos y aportes (cálculo proporcional y validación de pagos), gestión de notificaciones (recordatorios automáticos y alertas) y reportes (visualización de saldos y exportación de datos).
+
+Este enfoque modular asegura que cada componente evolucione de forma independiente, manteniendo la coherencia del dominio central y garantizando la escalabilidad de la plataforma.
+
+### 4.6.1. Software Architecture Context Diagram.
+
+<p styles="align: left">
+  <img src="../images/Diagram-Context.png" alt="dc" width="500">
+</p>
+
+### 4.6.2. Software Architecture Container Diagrams.
+
+<p styles="align: left">
+  <img src="../images/Diagram-Containers.png" alt="dcnrs" width="500">
+</p>
+
+### 4.6.3. Software Architecture Components Diagrams.
+
+<p styles="align: left">
+  <img src="../images/Diagram-API_Components_BoundedContexts.png" alt="dcpts" width="500">
+</p>
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 ## 4.8. Database Design.
