@@ -1,4 +1,4 @@
-# Capítulo 5: Product Implementation, Validation & Deployment #
+<img width="16" height="15" alt="image" src="https://github.com/user-attachments/assets/3facc186-1593-4ae2-b3f9-6944c0f5b331" /># Capítulo 5: Product Implementation, Validation & Deployment #
 
 ## _5.1. Software Configuration Management_ ##
 
@@ -192,6 +192,14 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+ |Team Member | GitHub Username |  Delegating Responsibilities <br> Leader (L) / Collaborator (C) | Merging Branches <br>Leader (L) /Collaborator (C)| Correcting Mistakes <br> Leader (L) /Collaborator (C)|
+|-------------|--------------|------------|----------|----------|
+| Jose Luis Martinez Validiva | hmongus  |    C   |    L     | C  |
+| Camila Leonor Espinoza Vivas		 | C7leo  |    L   |     C    | C  |
+| Kevin Patrick Panto Chuquipiondo		 | Kevinyin11  |  C     |   C      |  C  |
+| Sebastián Córdova	 | Sevas04  |    C   |    C     |   C   |
+| Martin Gonzales | XdiabloX426  |   C    |    C     |   L   |
+
 #### 5.2.1.3. Sprint Backlog 1
 
 | **User Story Id** | **Title**                                                                  | **Task Id** | **Task Title**              | **Description**                                                                                  | **Estimation (Hours)** | **Assigned To** | **Status (To-do/In-Process/To-Review/Done)** |
@@ -206,8 +214,80 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+|Repository Branch |  Commit Id  |  Commit Message | Commit Message Body | Commited on (Date)|
+|-----------------|--------------|-----------------|---------------------|-------------------|
+|Landing Page - develop   |   4c76760…f3dcfd9     |  chores(landingpage): added some translation words    |           |   16/09/2025 |
+|Landing Page - develop   |    c62b615…4c76760     |  chore(landingpage): add completed landing page       |           |   15/09/2025 |
+|Landing Page - reviews   |   c62b615…3c7fbde      |  feature(reviews): completed landing page-OurSystem - added HTML  |    |12/09/2025|
+|Landing Page - home   |   c62b615…7769d76     |  feat: add section home structure and styling    |           |   11/09/2025 |
+|Landing Page - about us   |   c62b615…3f0f246     |  update landing page about us   |           |   13/09/2025 |
+| Landing Page - pricing |  c62b615…6a35cc4         |  feature(pricing): completed Reviews on an 80%  |    |      10/09/2025     |
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
+A continuación se presentan capturas del landing page implementado en código, con el uso de HTML, CSS y JavaScript.
+Link: ()
+
+- Home:<br>
+
+   ![Alt Text](images/home.png)
+<br>
+- About Us:<br>
+
+   ![Alt Text](images/abputus.png)
+
+  <br>
+  
+- Services: <br>
+
+  ![Alt Text](images/services.png)
+  
+  <br>
+- How does it work?: <br>
+
+  ![Alt Text](images/howitworks.png)
+
+  <br>
+
+- Prices: <br>
+
+  ![Alt Text](images/prices.png)
+
+  <br>
+
+- Contact us: <br>
+
+  ![Alt Text](images/contactus.png)
+
+  <br>
 
 #### 5.2.1.6. Software Deployment Evidence for Sprint Review
 
+Hasta ahora, no hemos utilizado servicios web en el proceso de desarrollo de la página de inicio. Esto significa que no hemos realizado actividades como la creación de cuentas, la configuración de recursos en proveedores de servicios en la nube, la creación de proyectos de desarrollo para la integración o automatización de tareas de implementación, entre otras acciones relacionadas.
+
+En cuanto al despliegue de la página de inicio, lo hemos realizado en la plataforma de Github Pages.
+
+Se puede acceder a la página de inicio a través del siguiente enlace: https://1asi0730-2520-7432-g1-harmonix.github.io/LandingPage/
+
 #### 5.2.1.7. Team Collaboration Insights during Sprint
+
+A continuación, se muestran las capturas de los insights del repositorio de la Landing Page para evidenciar la participación de todos los miembros del grupo:
+
+- feature/chapter-1
+<img src="images/chapter1.png" alt="Trello" width="100%">
+
+- feature/chapter-2
+<img src="images/chapter2.png" alt="Trello" width="100%">
+
+- feature/chapter-3
+<img src="images/chapter3.png" alt="Trello" width="100%">
+
+- feature/chapter-4
+<img src="images/chapter4.png" alt="Trello" width="100%">
+
+- feature/chapter-5
+<img src="images/chapter5.png" alt="Trello" width="100%">
+
+
+
+
