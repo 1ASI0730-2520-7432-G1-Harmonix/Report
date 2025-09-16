@@ -148,7 +148,91 @@ Entrevista 6:
 | [Link](https://acortar.link/q0QWyL)|  **Entrevistador:** Sebastian Cordova Valdivia |  
 | Timing: Minuto 22:19-27:04| **Resumen:**  Renzo Ichibache, de 27 años, es soltero pero vive con su pareja. Él se encarga principalmente de pagar los servicios del hogar y, junto con su pareja, organiza sus gastos a través de hojas de cálculo en Excel. Este método les permite tener cierto control, aunque reconoce que pueden surgir dificultades al momento de gestionar las finanzas debido a que los sueldos de cada uno varían, lo que genera diferencias en la capacidad de aportar de manera constante. Para Renzo, una de las principales necesidades es contar con una herramienta más práctica y sencilla que les ayude a clasificar sus gastos de forma detallada. Considera que una aplicación similar a Excel, pero con una interfaz más amigable y con la posibilidad de implementar subcategorías, sería de gran utilidad para su uso diario. Utiliza como browser Google Chrome y Edge. Como tecnologias utiliza un celular android y una laptop con sistema operativo Windows.|
 
-### 2.2.3. Análisis de entrevistas
+Entrevista 7:  
+  
+| Entrevista | Registro |  
+| ----- | ----- |  
+| <p align="center"><img src="https://imgur.com/FW6PGNi.png"/></p> | **Zona:** Santiago de Surco<br> **Entrevistado:** Ronald Vivas |  
+| [Link](https://acortar.link/q0QWyL)|  **Entrevistador:** Camila Leonor Espinoza Vivas |  
+| Timing: Minuto 28:17-31:08| **Resumen:**  Ronald Vivas, de 36 años, está casado y vive con su familia. Junto con su esposa administra los gastos del hogar, utilizando para ello hojas de cálculo en Excel. Él considera que la distribución de los gastos es equitativa y no enfrenta mayores dificultades al momento de repartirlos. Sin embargo, cree que sería de gran utilidad contar con una aplicación que no solo genere reportes sobre los ingresos, sino que también realice proyecciones de los gastos futuros. Además, considera importante registrar los ingresos de cada miembro de la familia para calcular de forma automática la proporción de gastos que le corresponde a cada uno y poder comparar esos resultados con los cálculos que actualmente realiza manualmente. Ronald señala que una solución de este tipo sería mucho más práctica si estuviera disponible tanto en una página web como en una aplicación móvil, lo que facilitaría su acceso y uso diario. Utiliza como browser Google Chrome y Edge. Como tecnologias utiliza un celular Iphone y una laptop con sistema operativo Windows.|
+
+### 2.2.3. Análisis de entrevistas ###
+
+En primer lugar, con base en las tres entrevistas realizadas al primer segmento objetivo, conformado por los miembros del hogar, se puede concluir lo siguiente:
+
+* La organización de los gastos depende más de la practicidad que de los ingresos. Tanto Harri como Abraham mencionan que no consideran dividir los gastos según lo que gana cada miembro, ya que prefieren métodos más simples y cómodos que les permitan organizarse sin complicaciones.
+    
+* La principal dificultad surge en el control y la claridad de los pagos. María Fernanda y Abraham coinciden en que los mayores problemas aparecen al momento de llevar registros claros y ponerse de acuerdo sobre quién pagó o qué parte le corresponde a cada uno, lo que en algunos casos ha generado desacuerdos.
+    
+* Existe una necesidad común de apoyo digital para gestionar mejor los gastos. Los tres entrevistados consideran que una aplicación amigable, con funciones como registros rápidos, recordatorios de pagos y notificaciones, sería de gran ayuda para evitar confusiones, mejorar la organización y facilitar la convivencia.
+
+A continuación, se presentan los porcentajes destacados en las respuestas de los entrevistados a las preguntas planteadas:
+
+* Division de gastos:  
+    
+  <p align="center"><img src="https://i.imgur.com/nUKYnrB.png"/></p>  
+    
+  	En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que hay una gran mayoría que considera que si se deberia de dividir las gastos segun la ganancia de cada miembro. Pero, hay una pequeña parte que no esta deacuerdo.  
+    
+* Desacuerdo en los pagos:  
+    
+  <p align="center"><img src="https://i.imgur.com/AY208xg.png"/></p>  
+    
+  En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que hay una gran mayoría que si presento desacuerdos a la hora de realizar sus pagos correspondientes. Pero, hay una pequeña parte que no presenta desacuerdos entre los miembros del hogar.
+
+
+* Aplicacion que mejora la organizacion:  
+    
+  <p align="center"><img src="https://imgur.com/3O20Qjl.png"/></p>  
+    
+  En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que todos los entrevistados consideran util e imprensindible una aplicacion que mejore la organizacion de sus gastos.  
+
+* Browser utilizados:
+<p align="center"><img src="https://imgur.com/DkdJEt3.png"/>
+
+ En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que las mayoria de los entrevistados utilizan los navegadores de Google Chrome y Safari.
+ 
+* Tecnologias utilizadas:
+<p align="center"><img src="https://imgur.com/4GVnbux.png"/>
+
+En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que las mayoria de los entrevistados utilizan los dispositivos celular Iphone y laptop con sistema operativos MacOS
+
+Segundo, con base en las cuatro entrevistas realizadas al segundo segmento objetivo, conformado por los representantes del hogar, se puede concluir lo siguiente:
+
+* Uso de métodos previos para gestionar las finanzas. Todos los entrevistados ya emplean algún tipo de organización antes de recurrir a una aplicación digital. Jessica administra los pagos directamente, Frank y Renzo utilizan hojas de cálculo en Excel para presupuestar y clasificar gastos, mientras que Ronald también recurre a Excel junto con su esposa para la administración del hogar. Esto refleja una clara disposición hacia el orden y la planificación financiera.
+* Necesidad de un control más profundo y adaptable. Las principales dificultades giran en torno a factores que desequilibran la organización: Jessica con las compras innecesarias, Frank con los gastos imprevistos, Renzo con la variación de ingresos y Ronald con la falta de proyecciones claras a futuro. Todos coinciden en que requieren herramientas que permitan un seguimiento más detallado, con funciones que automaticen cálculos, generen reportes y se adapten a la realidad de cada hogar.
+* Preferencia por soluciones digitales prácticas y accesibles. Existe un consenso en valorar una aplicación que sea fácil de usar, amigable e intuitiva. Los entrevistados consideran importantes funciones como reportes automáticos, alertas, subcategorías de gastos, proyecciones futuras y cálculos individuales por integrante. Además, Ronald resalta que estas herramientas serían más útiles si se ofrecen tanto en versión web como móvil, lo que refuerza la necesidad de accesibilidad y practicidad en su uso cotidiano.
+
+A continuación, se presentan los porcentajes destacados en las respuestas de los entrevistados a las preguntas planteadas:
+
+* Mantener un control de estructurado de gastos
+
+  <p align="center"><img src="https://imgur.com/NBKCslQ.png"/></p>
+
+  En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que todos los entrevistados requieren un control mas estructurado de sus gastos.
+
+* Necesidad de controlar gastos
+
+  <p align="center"><img src="https://imgur.com/6Wm3qk8.png"/></p>
+
+  En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que todos los entrevistados tienen una necesidad para poder controlar de forma mas detallada y adaptable
+
+* Uso de herramientas digitales
+
+  	<p align="center"><img src="https://imgur.com/Q8wtZKB.png"/></p>
+  	
+  	En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que todos los entrevistados consideran el uso de herramientas digitales para poder mejorar el control de gastos
+
+* Browser utilizados:
+<p align="center"><img src="https://imgur.com/fJ1Kp3I.png"/>
+
+ En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que las mayoria de los entrevistados utilizan los navegadores de Google Chrome y Edge.
+ 
+* Tecnologias utilizadas:
+<p align="center"><img src="https://imgur.com/5fcw7XO.png"/>
+
+En esta imagen, se visualiza una relación de respuestas sobre el tema planteado. Luego del análisis a este gráfico, se concluye que las mayoria de los entrevistados utilizan los dispositivos celular android, iphone y laptop con sistema operativos windows
+
 
 ## 2.3. Needfinding
 En esta sección se detallan las principales necesidades detectadas en los segmentos objetivos de Harmonix. A través del análisis de sus contextos, se identificaron las dificultades que enfrentan al momento de repartir los gastos comunes del hogar, como la falta de equidad, transparencia y control en los pagos. Estas necesidades constituyen la base para orientar el diseño del producto, asegurando que las funcionalidades de Harmonix respondan directamente a los problemas reales de los usuarios y contribuyan a mejorar la convivencia en el hogar.
