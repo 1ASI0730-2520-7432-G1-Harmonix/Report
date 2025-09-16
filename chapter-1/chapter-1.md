@@ -66,7 +66,7 @@
     <td style="text-align: center" align="center">
       <p align="center">
         Jose Luis Martinez Valdivia - u202213989 <br>
-        <img src="images/[nombre_archivo].jpg" alt="Foto Integrante 4" width="50%">
+        <img src="images/foto_Jose.jpg" alt="Foto Integrante 4" width="50%">
       </p>
     </td>
     <td style="text-align: center" align="center">
