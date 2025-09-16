@@ -65,15 +65,15 @@
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
-        [Nombre completo] - [Código]<br>
+        Jose Luis Martinez Valdivia - u202213989 <br>
         <img src="images/[nombre_archivo].jpg" alt="Foto Integrante 4" width="50%">
       </p>
     </td>
     <td style="text-align: center" align="center">
-      [Descripción personal y académica del integrante 4]
+     Soy estudiante de la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el septimo ciclo de la carrera de Ingeniería de Software, tengo 21 años. Me destaco en el trabajo en equipo y en encontrar formas de mejorar la eficiencia del equipo.
     </td>
     <td style="text-align: center" align="center">
-      [Conocimientos técnicos, lenguajes, herramientas, intereses]
+      Tengo un nivel intermedio de conocimiento en C++, Node.js y TypeScript,Java así como habilidades en Angular,vue.js HTML, CSS.Tambien manejo el desarrollo bajo los principios SOLID y DDD
     </td>
   </tr>
 
