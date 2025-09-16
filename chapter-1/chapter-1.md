@@ -17,15 +17,15 @@
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
-        [Nombre completo] - [Código]<br>
-        <img src="images/[nombre_archivo].jpg" alt="Foto Integrante 1" width="50%">
+        Camilla Leonor Espinoza Vivas - u202214572<br>
+        <img src="../images/camilla.png" alt="Foto Integrante 1" width="50%">
       </p>
     </td>
     <td style="text-align: center" align="center">
-      [Descripción personal y académica del integrante 1]
+      Soy estudiante de ingeniería de software, con conocimiento en programación, diseño web y arquitecturas orientadas a servicios. Me caracterizo por ser responsable, disciplinada y colaborativa, aportando siempre soluciones técnicas y creativas. Además, me considero comprometida, constante y proactiva, cualidades que fortalecen mi desarrollo personal y académico.
     </td>
     <td style="text-align: center" align="center">
-      [Conocimientos técnicos, lenguajes, herramientas, intereses]
+      Cuento con conocimientos en desarrollo de software, estructuras de datos, algoritmos y arquitecturas orientadas a servicios. Manejo lenguajes como Java, TypeScript, JavaScript, HTML5 y CSS3, además de frameworks y herramientas como Angular, Spring Boot, Git/GitHub, Swagger y bases de datos relacionales. Me interesan el diseño y desarrollo de aplicaciones web, la experiencia de usuario, la innovación tecnológica y la creación de soluciones que aporten valor real a las personas.
     </td>
   </tr>
 
@@ -50,7 +50,7 @@
     <td style="text-align: center" align="center">
       <p align="center">
         Kevin Patrick Panto Chuquipiondo - 20212162AS<br>
-        <img src="images/kevin.jpg" alt="Foto Kevin" width="50%">
+        <img src="../images/kevin.jpg" alt="Foto Kevin" width="50%">
       </p>
     </td>
     <td style="text-align: center" align="center">
@@ -251,7 +251,7 @@ Tendremos la certeza de que estamos en buen camino cuando se evidencie una dismi
 
 ### 1.2.2.4 Lean UX Canvas
 
-<img src="images/canvax.png" alt="Lean UX Canvas" width="100%">
+<img src="../images/canvax.png" alt="Lean UX Canvas" width="100%">
 
 ---
 
@@ -297,8 +297,3 @@ Tendremos la certeza de que estamos en buen camino cuando se evidencie una dismi
 - Buscan evitar conflictos financieros dentro del hogar mediante claridad y control en los aportes de cada miembro  
 - Están comprometidos con la eficiencia en la gestión de recursos y valoran soluciones que distribuyan gastos de manera proporcional y transparente
 
-# STUDENT OUTCOME
-
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| [Defina el criterio] | [Acciones o evidencias] | [Conclusiones y lecciones] |
