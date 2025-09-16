@@ -183,40 +183,44 @@
 </p>
 
 ## 3.4. Product Backlog
-| **Prioridad** | **User Story ID** | **Título HU**                                              | **Story Points** |
-| ------------- | ----------------- | ---------------------------------------------------------- | ---------------- |
-| 1             | US31              | Visualizar información general desde la landing page       | 2                |
-| 2             | US32              | Conocer funciones principales de los usuarios              | 2                |
-| 3             | US33              | Explorar beneficios del sistema de aportes proporcionales  | 3                |
-| 4             | US34              | Ver ejemplos o simulaciones de cómo funciona la plataforma | 3                |
-| 5             | US35              | Acceder fácilmente al registro o login desde botones       | 1                |
-| 6             | US05              | Configuración de notificaciones personales                 | 3                |
-| 7             | US04              | Cierre de sesión desde todos los dispositivos              | 2                |
-| 8             | US03              | Edición de información personal                            | 2                |
-| 9             | US10              | Configurar métodos de pago aceptados                       | 2                |
-| 10            | US50              | Verificar integración de gastos                            | 3                |
-| 11            | US51              | Conectar notificaciones al backend                         | 2                |
-| 12            | US52              | Validar seguridad de comunicación                          | 3                |
-| 13            | US53              | Probar sistema en producción                               | 3                |
-| 14            | US36              | Implementar autenticación JWT                              | 5                |
-| 15            | US37              | Cifrar contraseñas en base de datos                        | 3                |
-| 16            | US38              | Validar roles de administrador y miembro en backend        | 3                |
-| 17            | US39              | Implementar actualización de perfil a partir de API        | 2                |
-| 18            | US40              | Validar que el gasto tenga adjunto al menos 1 comprobante  | 2                |
-| 19            | US41              | Agregar API para filtrar gastos por rango de fecha         | 3                |
-| 20            | US42              | Implementar actualización y eliminación de gastos          | 5                |
-| 21            | US43              | API para programar recordatorios de pago                   | 2                |
-| 22            | US44              | Integrar cron job para envío de recordatorios              | 3                |
-| 23            | US45              | API para dar seguimiento a reportes de problemas           | 2                |
-| 24            | US46              | Implementar comentarios o respuestas en el foro            | 3                |
-| 25            | US47              | Conectar formularios con endpoints                         | 3                |
-| 26            | US48              | Validar respuestas del backend                             | 2                |
-| 27            | US49              | Manejar errores del servidor                               | 2                |
-| 28            | US50              | Manejo de estados de carga y éxito                         | 2                |
-| 29            | US46              | Chat con soporte técnico                                   | 3                |
-| 30            | US28              | Reportar un problema                                       | 2                |
-| 31            | US29              | Sugerencias de mejora                                      | 1                |
-| 32            | US30              | Foro comunitario                                           | 3                |
-| 33            | US36              | Implementar autenticación JWT                              | 5                |
-| 34            | US37              | Cifrar contraseñas en base de datos                        | 3                |
-| 35            | US38              | Validar roles de administrador y miembro en backend        | 3                |
+
+| Prioridad | User Story ID | Título HU                                                 | Story Points |
+| --------- | ------------- | --------------------------------------------------------- | ------------ |
+| Alta      | US01          | Registro de usuario                                       | 8            |
+| Alta      | US02          | Inicio de sesión seguro                                   | 5            |
+| Alta      | TS01          | Implementar autenticación JWT                             | 8            |
+| Alta      | TS02          | Cifrar contraseñas en base de datos                       | 5            |
+| Alta      | TS03          | Validar roles de administrador y miembro en backend       | 8            |
+| Alta      | TS05          | Conectar formularios con endpoints                        | 5            |
+| Alta      | TS06          | Validar respuestas del backend                            | 3            |
+| Media     | US03          | Edición de información personal                           | 5            |
+| Media     | US04          | Cierre de sesión desde todos los dispositivos             | 5            |
+| Media     | US05          | Configuración de notificaciones personales                | 5            |
+| Media     | TS04          | Implementar actualización de perfil a partir de API       | 5            |
+| Alta      | US06          | Crear hogar                                               | 8            |
+| Alta      | US07          | Aprobar gastos                                            | 5            |
+| Alta      | US08          | Ajustar porcentajes de aportes                            | 8            |
+| Alta      | US09          | Visualizar reportes mensuales                             | 8            |
+| Media     | US10          | Configurar métodos de pago aceptados                      | 5            |
+| Media     | US14          | Ver historial de pagos (representante)                    | 5            |
+| Media     | US36          | Manejar errores del servidor                              | 3            |
+| Alta      | US11          | Ingresar ingresos personales                              | 5            |
+| Alta      | US12          | Ver monto a pagar                                         | 5            |
+| Alta      | US13          | Registrar pagos realizados                                | 5            |
+| Media     | US15          | Ver historial de pagos (miembro)                          | 5            |
+| Media     | US37          | Manejo de estados de carga y éxito                        | 3            |
+| Alta      | US16          | Registrar nuevo gasto                                     | 8            |
+| Media     | US17          | Adjuntar comprobantes de gasto                            | 5            |
+| Media     | US18          | Clasificar gastos por categoría                           | 5            |
+| Media     | US19          | Comentar o justificar un gasto                            | 3            |
+| Media     | US20          | Visualizar gráficos de gastos                             | 8            |
+| Alta      | TS07          | Validar que el gasto tenga adjunto al menos 1 comprobante | 5            |
+| Media     | TS08          | Agregar API para filtrar gastos por rango de fecha        | 5            |
+| Media     | TS09          | Implementar actualización y eliminación de gastos         | 8            |
+| Media     | TS10          | Verificar integración de gastos                           | 5            |
+| Media     | US21          | Recordatorios de pago                                     | 5            |
+| Media     | US22          | Alertas de pagos pendientes                               | 5            |
+| Baja      | US23          | Recordatorio de actualización de ingresos                 | 3            |
+| Baja      | US24          | Confirmación de aportes                                   | 3            |
+| Baja      | US25          | Notificación de cambios en el hogar                       | 3            |
+| Media     | TS11          | API para programar recordatorios de pago                  | 5            |
