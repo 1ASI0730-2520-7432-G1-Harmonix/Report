@@ -269,6 +269,44 @@ html
 </head>
 
 ### 4.2.4. Searching Systems.
+
+En el caso de **Harmonix**, se implementará un sistema de búsqueda y filtros diseñado para que tanto los **miembros** como los **representantes del hogar** puedan acceder de manera rápida y sencilla a la información que necesitan.  
+El sistema estará optimizado según el rol del usuario, garantizando una navegación fluida y eficiente dentro de la aplicación.
+
+#### Filtros de búsqueda por entradas
+
+**Miembros del hogar:**
+- **Buscar por ID de hogar:** Permite unirse a un hogar ya creado ingresando el ID proporcionado por el representante.  
+- **Filtrar por fecha de contribución:** Visualizar el historial de aportes organizados por periodos (semanal, mensual).  
+- **Estado de los aportes:** Filtrar contribuciones por estado: `"Aportado"`, `"Pendiente"`, `"Excedente"`.  
+- **Filtrar por tipo de gasto:** Clasificar los gastos en categorías como `"Alimentos"`, `"Servicios"`, `"Otros"`.  
+
+**Representantes del hogar:**
+- **Filtrar por estado de los aportes:** Consultar las contribuciones según estado o rango de fechas.  
+- **Filtrar por miembros:** Buscar por nombre o ID de miembro para revisar su historial de aportes.  
+- **Balance financiero:** Filtrar el balance general del hogar por periodo o tipo de gasto.  
+
+
+#### Filtros de búsqueda por tabs
+
+Para una mejor experiencia, la aplicación contará con **tabs interactivos** que agrupan la información de forma clara y ordenada.
+
+**Miembros:**
+- **Historial de aportes:** Resumen con filtros por fecha, monto y estado.  
+- **Estado de gastos:** Visualización gráfica de la distribución de los gastos del hogar.  
+- **Unirse a hogar (ID):** Asociación rápida al perfil vinculado mediante el ID del hogar.  
+
+**Representantes:**
+- **Gestión de aportes:** Vista completa de aportes de todos los miembros, filtrable por estado y fecha.  
+- **Balance general:** Resumen financiero global con filtros por categorías y periodos.  
+
+
+#### Flujo de búsqueda y filtros
+
+El flujo será **intuitivo y dinámico**.  
+En cada sección relevante (aportaciones, balances, gastos), se integrarán campos de búsqueda y filtros configurables.  
+Los usuarios podrán aplicar o remover filtros con facilidad, garantizando una experiencia ágil, clara y sin fricciones.
+
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
