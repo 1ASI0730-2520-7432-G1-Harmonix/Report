@@ -388,6 +388,16 @@ Los esquemas se centran en reflejar los bloques fundamentales de la interfaz, co
 </p>
 
 ### 4.3.2. Landing Page Mock-up.
+
+El **mock-up de la Landing Page** representa la materialización visual del wireframe previamente diseñado, incorporando el uso de tipografías, paleta de colores, íconos y demás elementos gráficos definidos en las **Web Style Guidelines**.  
+Este recurso permite evaluar de manera más precisa la apariencia final de la página antes de su desarrollo, asegurando la coherencia entre la propuesta conceptual, la identidad visual de la marca y la experiencia de usuario deseada.  
+
+El mock-up facilita la validación temprana con los interesados (stakeholders), al ofrecer una visión clara y tangible de cómo se presentarán los contenidos, las llamadas a la acción y la navegación en un entorno realista.
+
+<p styles="align: left">
+  <img src="../images/mock-up.png" alt="lpw5" width="500">
+</p>
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 ### 4.4.2. Web Applications Wireflow Diagrams.
