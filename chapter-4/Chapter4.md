@@ -308,6 +308,61 @@ En cada sección relevante (aportaciones, balances, gastos), se integrarán camp
 Los usuarios podrán aplicar o remover filtros con facilidad, garantizando una experiencia ágil, clara y sin fricciones.
 
 ### 4.2.5. Navigation Systems.
+
+En **Harmonix**, la navegación está diseñada para ser **fluida, intuitiva y accesible**, garantizando una experiencia clara tanto en la **Landing Page** como en la **Web Application**.
+
+#### 1. Navegación en la Landing Page
+
+La **página principal** guía a nuevos usuarios de manera sencilla hacia el registro y la información clave del producto, combinando estética y usabilidad.
+
+**Elementos principales de navegación:**
+- **Menú de navegación superior (con iconos):**
+  - *Home*  
+  - *About*  
+  - *Services*  
+  - *How it works*  
+  - *Plans & Pricing*  
+  - *Reviews*  
+  - *Contact us*
+- **Call To Actions (CTAs):**
+  - Ejemplo: *"Sign up now"*, *"Get started"*.
+- **Desplazamiento fluido:**
+  - Scroll natural por secciones sin necesidad de recargar la página. 
+
+#### 2. Navegación en la Web Application
+
+La navegación se adapta al **tipo de usuario** y sus funcionalidades más relevantes.
+
+#### Para Representantes del Hogar:
+
+**Menú lateral fijo con opciones:**
+- Dashboard  
+- Miembros del hogar  
+- Gastos  
+- Aportes  
+- Configuración del hogar  
+
+**Breadcrumbs (migas de pan):**  
+Permiten volver fácilmente a secciones anteriores o más generales.
+
+#### Para Miembros del Hogar:
+
+**Menú superior simplificado con opciones:**
+- Dashboard  
+- Aportes  
+- Estado del hogar  
+- Unirse mediante ID de hogar  
+
+**Accesos rápidos (botones flotantes):**
+- Agregar aporte  
+- Ver detalles del gasto  
+
+#### Interacción con el sistema 
+
+- **Accesibilidad:** Navegación clara, visible y con etiquetas comprensibles para todo tipo de usuarios.  
+- **Navegación de búsqueda:** Accesos rápidos para filtrar por ID de hogar, estado de aportes o categorías de gastos.  
+- **Soporte y ayuda:** Sección de tutoriales y guías interactivas paso a paso, integradas dentro de la aplicación.  
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 ### 4.3.2. Landing Page Mock-up.
