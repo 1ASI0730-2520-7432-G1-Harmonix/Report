@@ -13,7 +13,7 @@
 
 <table border="1" cellspacing="0" cellpadding="8">
 
-  <!-- Ficha vacía 1 -->
+  <!-- Ficha 1 -->
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
@@ -29,7 +29,7 @@
     </td>
   </tr>
 
-  <!-- Ficha vacía 2 -->
+  <!-- Ficha 2 -->
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
@@ -45,7 +45,7 @@
     </td>
   </tr>
 
-  <!-- Ficha de Kevin (posición 3) -->
+  <!-- Ficha 3 -->
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
@@ -61,7 +61,7 @@
     </td>
   </tr>
 
-  <!-- Ficha vacía 4 -->
+  <!-- Ficha 4 -->
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
@@ -77,11 +77,11 @@
     </td>
   </tr>
 
-  <!-- Ficha de Sebastián (posición 5) -->
+  <!-- Ficha 5 -->
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
-        Sebastián Córdova - [Código]<br>
+        Sebastián Córdova Valdivia - U202111041<br>
         <img src="../images/sebastian.png" alt="Foto Integrante 5" width="50%">
       </p>
     </td>
@@ -92,6 +92,9 @@
       A lo largo de mi carrera he logrado obtener experiencia en lenguajes de programación como C++, Python y Java, así como en el desarrollo web utilizando HTML, CSS y JavaScript. He trabajado con los frameworks Angular, .NET y Vue.js, lo que me ha permitido crear aplicaciones dinámicas.
     </td>
   </tr>
+
+</table>
+
 
 
 
