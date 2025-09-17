@@ -54,10 +54,10 @@
       </p>
     </td>
     <td style="text-align: center" align="center">
-      Mi nombre es Kevin Patrick Panto Chuquipiondo y actualmente estudio la carrera de Ingeniería de Software. Me gustaría ser una persona comprometida y con responsabilidad para poder lograr mis metas. Me esfuerzo por mantener el orden en el trabajo grupal y asegurar que todos los integrantes puedan contribuir sin obstáculos.
+      Mi nombre es Kevin Patrick Pardo Chumpitazi y actualmente estudio la carrera de Ingeniería de Software. Soy una persona comprometida y con responsabilidad para poder lograr mis metas. Me esfuerzo por mantener el orden en el trabajo grupal y asegurar que todos los integrantes puedan contribuir sin obstáculos.
     </td>
     <td style="text-align: center" align="center">
-      Tengo conocimientos en C#, Python, Flutter y Dart. Actualmente estoy aprendiendo sobre el desarrollo de aplicaciones móviles, lo cual me ha ayudado en el desarrollo de este trabajo.
+      Tengo conocimientos en C#, Python, C++ y html. Actualmente estoy aprendiendo sobre el desarrollo de aplicaciones móviles en Backed y Fronted, lo cual me ha ayudado en el desarrollo de este trabajo.
     </td>
   </tr>
 
@@ -77,23 +77,22 @@
     </td>
   </tr>
 
-  <!-- Ficha vacía 5 -->
+  <!-- Ficha de Sebastián (posición 5) -->
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
-        [Nombre completo] - [Código]<br>
-        <img src="images/[nombre_archivo].jpg" alt="Foto Integrante 5" width="50%">
+        Sebastián Córdova - [Código]<br>
+        <img src="../images/sebastian.png" alt="Foto Integrante 5" width="50%">
       </p>
     </td>
     <td style="text-align: center" align="center">
-      [Descripción personal y académica del integrante 5]
+      Mi nombre es Sebastián Córdova y estudio la carrera de Ingeniería de Software. Me considero una persona con ganas de aprender, actitud positiva y con disposición para aportar al equipo y crecer profesionalmente.
     </td>
     <td style="text-align: center" align="center">
-      [Conocimientos técnicos, lenguajes, herramientas, intereses]
+      A lo largo de mi carrera he logrado obtener experiencia en lenguajes de programación como C++, Python y Java, así como en el desarrollo web utilizando HTML, CSS y JavaScript. He trabajado con los frameworks Angular, .NET y Vue.js, lo que me ha permitido crear aplicaciones dinámicas.
     </td>
   </tr>
 
-</table>
 
 
 ## 1.2. Solution Profile
