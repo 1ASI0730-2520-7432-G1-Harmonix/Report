@@ -110,7 +110,7 @@ La metodología **5W y 2H** es un recurso empleado para examinar la causa fundam
 
 ---
 
-### 🔍 What – ¿Cuál es la dificultad?
+### What – ¿Cuál es la dificultad?
 
 La cuestión central se encuentra en la ausencia de una repartición equitativa de los gastos en hogares con ingresos desiguales. Esto origina contribuciones desiguales que producen tensiones y posibles disputas entre los miembros, especialmente cuando se intenta repartir los gastos sin tener en cuenta la situación económica de cada individuo.
 
@@ -119,7 +119,7 @@ El sistema tiene como objetivo que cada miembro pueda observar su contribución 
 
 ---
 
-### 🕒 When – ¿Cuándo ocurre el inconveniente?
+### When – ¿Cuándo ocurre el inconveniente?
 
 La dificultad aparece principalmente en los momentos en que se deben pagar las facturas del hogar, las cuales suelen ser mensuales. Al repartir los gastos sin un cálculo justo, las discrepancias en los ingresos se hacen visibles y provocan problemas.
 
@@ -128,7 +128,7 @@ El producto se utiliza cada vez que se incurre en un gasto compartido, como serv
 
 ---
 
-### 📍 Where – ¿Dónde ocurre?
+### Where – ¿Dónde ocurre?
 
 **¿En qué lugar se encuentra el cliente al utilizar el producto?**  
 El cliente suele estar en su casa o en cualquier lugar con conexión a Internet, ya sea mediante un dispositivo móvil o una computadora.
@@ -141,13 +141,13 @@ El conflicto se origina en el hogar, cuando es necesario dividir los gastos comp
 
 ---
 
-### ❓ Why – ¿Por qué ocurre?
+### Why – ¿Por qué ocurre?
 
 La razón principal es la falta de un sistema claro y justo que facilite el cálculo de las contribuciones conforme a los ingresos de cada individuo. La ausencia de proporcionalidad provoca que algunos paguen más de lo que les corresponde y otros menos, generando descontento y disputas.
 
 ---
 
-### 👥 Who – ¿Quiénes están involucrados?
+### Who – ¿Quiénes están involucrados?
 
 **¿Quiénes están involucrados?**  
 Los actores principales son los integrantes del hogar que comparten los costos, así como el encargado de gestionar dichos gastos.
