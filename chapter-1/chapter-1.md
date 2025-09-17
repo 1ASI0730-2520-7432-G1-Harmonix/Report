@@ -2,12 +2,18 @@
 
 ### 1.1.1 Descripción de la Startup
 
-**Harmonix** es una empresa emergente en el sector tecnológico que se enfoca en proporcionar soluciones financieras equitativas para el entorno familiar o de convivencia. Nuestra plataforma facilita la organización y distribución equitativa de los gastos compartidos del hogar, considerando los ingresos de cada miembro. A través de un sistema digital automatizado, claro y accesible, Harmonix promueve la responsabilidad económica, la comunicación eficaz y la adecuada gestión del presupuesto común, minimizando conflictos y reforzando una cultura de colaboración en el hogar.
+**SymmetriQ** es una empresa emergente del sector tecnológico dedicada a desarrollar soluciones innovadoras para la gestión financiera en entornos de convivencia. Su producto principal, **Harmonix**, está diseñado para facilitar la organización y distribución equitativa de los gastos compartidos del hogar, considerando los ingresos de cada miembro.  
 
-- **Título:** Harmonix  
-- **Misión:** Proveer un manejo eficiente de las finanzas en común mediante una aplicación digital que distribuye los gastos de manera proporcional a los ingresos de cada integrante, fomentando la equidad, la claridad y la convivencia armoniosa.  
-- **Visión:** Convertirse en la plataforma top para la gestión financiera compartida en los hogares, siendo reconocidos por capacitar a las personas para que tomen decisiones económicas justas, responsables y colaborativas.  
-- **Principios:** Transparencia, justicia y colaboración.
+A través de un sistema digital automatizado, claro y accesible, Harmonix fomenta la responsabilidad económica, la comunicación eficaz y la adecuada gestión del presupuesto común, reduciendo conflictos y fortaleciendo una cultura de colaboración dentro del hogar.
+
+**Título:** Harmonix  
+
+**Misión:** Brindar un manejo eficiente de las finanzas compartidas mediante una aplicación digital que distribuye los gastos de forma proporcional a los ingresos de cada integrante, fomentando la equidad, la claridad y una convivencia armoniosa.  
+
+**Visión:** Convertirse en la plataforma líder en la gestión financiera compartida en los hogares, reconocida por empoderar a las personas para tomar decisiones económicas justas, responsables y colaborativas.  
+
+**Principios:** Transparencia, justicia y colaboración.  
+
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
@@ -100,15 +106,16 @@
 
 ## 1.2. Solution Profile
 
-**Harmonix** es una aplicación digital diseñada para facilitar la distribución equitativa de los gastos del hogar entre sus miembros, teniendo en cuenta los ingresos personales de cada individuo. La plataforma calcula de forma automática el aporte que debe hacer cada miembro, basándose en su situación económica, asegurando así una distribución justa de gastos compartidos como alquiler, servicios esenciales y alimentos.
+**Harmonix**, producto desarrollado por **SymmetriQ**, es una aplicación digital diseñada para facilitar la distribución equitativa de los gastos del hogar entre sus miembros, considerando los ingresos personales de cada individuo. La plataforma calcula automáticamente el aporte correspondiente de cada integrante, basándose en su situación económica, y garantiza así una distribución justa de los gastos compartidos como alquiler, servicios esenciales y alimentos.  
 
-Los usuarios tienen la posibilidad de anotar sus ingresos, entender cuánto deben contribuir y monitorear sus pagos, mientras que la persona responsable de la gestión del hogar obtiene una perspectiva integral del proceso. Asimismo, Harmonix proporciona monitoreo en tiempo real, informes mensuales comprensibles y alertas sobre pagos por realizar.
+Los usuarios pueden registrar sus ingresos, conocer cuánto deben contribuir y monitorear sus pagos, mientras que la persona responsable de la gestión del hogar obtiene una visión integral del proceso. Además, Harmonix ofrece monitoreo en tiempo real, informes mensuales claros y alertas de pagos pendientes.  
 
-Con una interfaz clara y fácil de usar, la plataforma no solo ayuda a gestionar las finanzas, sino que también promueve la transparencia, la confianza y la cooperación entre los integrantes del hogar, reduciendo posibles desavenencias y garantizando un manejo económico eficaz y equilibrado.
+Con una interfaz intuitiva y accesible, la aplicación no solo simplifica la gestión de las finanzas, sino que también promueve la transparencia, la confianza y la cooperación entre los integrantes del hogar, reduciendo posibles conflictos y asegurando un manejo económico eficaz y equilibrado.  
 
 ### 1.2.1. Antecedentes y Problemática
 
-La metodología **5W y 2H** es un recurso empleado para examinar la causa fundamental de un problema, error o discrepancia en los sistemas. Esta metodología, promovida por Toyota, es un componente fundamental del Sistema de Producción Toyota (TPS). Según Taichii Ohno, permite entender claramente los problemas y facilita la implementación de acciones correctivas o preventivas (Palko et al., 2015). Asimismo, se trata de un enfoque adaptable que puede implementarse en diversas clases de organizaciones, transformándose en una herramienta valiosa para la solución de disputas y la optimización de procesos.
+La metodología **5W y 2H** es un recurso utilizado para analizar la causa fundamental de un problema, error o discrepancia en los sistemas. Esta metodología, promovida por Toyota, constituye un pilar del Sistema de Producción Toyota (TPS). Según Taichii Ohno, permite comprender con claridad los problemas y facilita la implementación de acciones correctivas o preventivas (Palko et al., 2015). Asimismo, es un enfoque adaptable que puede aplicarse en diversos tipos de organizaciones, convirtiéndose en una herramienta valiosa para la resolución de disputas y la optimización de procesos.  
+
 
 ---
 
