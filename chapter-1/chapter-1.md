@@ -49,7 +49,7 @@
   <tr>
     <td style="text-align: center" align="center">
       <p align="center">
-        Kevin Patrick Panto Chuquipiondo - 20212162AS<br>
+        Kevin Patrick Pardo Chumpitazi - 20221A525<br>
         <img src="../images/kevin.jpg" alt="Foto Kevin" width="50%">
       </p>
     </td>
