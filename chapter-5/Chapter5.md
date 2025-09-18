@@ -230,7 +230,7 @@ Link: ()
 
 - Home:<br>
 
-   ![Alt Text](../images/home.png)
+   ![Alt Text](../images/home.PNG)
 <br>
 - About Us:<br>
 
