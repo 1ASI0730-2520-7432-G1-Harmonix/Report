@@ -163,7 +163,7 @@ En esta sección, se especifica la configuración para realizar el despliegue de
   Como paso final, el entorno otorgará un enlace para poder acceder al proyecto desplegado.
   
 <p align="center">
-  <img src="https://i.imgur.com/80T8trF.png" alt="View of the Landing Page">
+  <img src="https://imgur.com/MJt1dLo.png" alt="View of the Landing Page">
 </p>
 
 
@@ -204,7 +204,7 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 | **User Story Id** | **Title**                                                                  | **Task Id** | **Task Title**              | **Description**                                                                                  | **Estimation (Hours)** | **Assigned To** | **Status (To-do/In-Process/To-Review/Done)** |
 | ----------------- | -------------------------------------------------------------------------- | ----------- | --------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------- | --------------- | -------------------------------------------- |
-| US31              | Visualizar información general sobre SplitEasy desde la landing page       | T1          | Información general         | Desarrollo de la sección con información introductoria de SplitEasy                              | 2                      | Jose Luis Martinez Validivia               | Done                                        |
+| US31              | Visualizar información general sobre Harmonix desde la landing page       | T1          | Información general         | Desarrollo de la sección con información introductoria de SplitEasy                              | 2                      | Jose Luis Martinez Validivia               | Done                                        |
 | US32              | Conocer las funciones principales para representantes y miembros del hogar | T1          | Funciones principales       | Diseño y desarrollo de la sección que explica las funciones clave para representantes y miembros | 2                      | Camila Leonor Espinoza Vivas               | Done                                        |
 | US33              | Explorar beneficios del sistema de aportes proporcionales                  | T1          | Beneficios                  | Desarrollo de la sección que muestre los beneficios de usar el sistema de aportes proporcionales | 2                      | Kevin Patrick Panto Chuquipiondo               | Done                                        |
 | US34              | Ver ejemplos o simulaciones de cómo funciona la plataforma                 | T1          | Ejemplos y simulaciones     | Implementación de ejemplos visuales o simulaciones del funcionamiento de la plataforma           | 3                      |  Sebastián Córdova               | Done                                        |
@@ -226,15 +226,18 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 A continuación se presentan capturas del landing page implementado en código, con el uso de HTML, CSS y JavaScript.
-Link: ()
+Link: https://1asi0730-2520-7432-g1-harmonix.github.io/LandingPage/
 
 - Home:<br>
 
    ![Alt Text](../images/home.PNG)
 <br>
+
 - About Us:<br>
 
-   ![Alt Text](../images/aboutus.png)
+   <p align="center">
+  <img src="https://imgur.com/tdh3OY4.png">
+  </p>
 
   <br>
   
