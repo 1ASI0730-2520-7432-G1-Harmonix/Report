@@ -240,24 +240,24 @@ Link: ()
   
 - Services: <br>
 
-  ![Alt Text](../images/services.png)
+  ![Alt Text](../images/services.PNG)
   
   <br>
 - How does it work?: <br>
 
-  ![Alt Text](../images/howitworks.png)
+  ![Alt Text](../images/howitworks.PNG)
 
   <br>
 
 - Prices: <br>
 
-  ![Alt Text](../images/prices.png)
+  ![Alt Text](../images/prices.PNG)
 
   <br>
 
 - Contact us: <br>
 
-  ![Alt Text](../images/contactus.png)
+  ![Alt Text](../images/contactus.PNG)
 
   <br>
 
