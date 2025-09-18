@@ -10,10 +10,10 @@
 **Docente:** Villafuerte Bazán, Óscar Iván  
 
 **Startup:** *SymmetriQ*  
-**Producto:** *Harminox*  
+**Producto:** *Harmonix*  
 
 **Integrantes:**  
-- [Integrante 1]  
+- Gonzales Castillo Angel Martin - U202319724 
 - Martinez Valdivis Jose Luis - U202213989 
 - [Integrante 3]  
 - [Integrante 4]  
