@@ -182,7 +182,7 @@ En el menú principal, ubicado en la parte superior de la landing page, se emple
 - **Contact us** (`bi-envelope-fill`)  
 
 <p styles="align: left">
-  <img src="../images/imagen3.jpg" alt="imagen3" width="500">  
+  <img src="../images/imagen3.png" alt="imagen3" width="500">  
 </p>  
 
 #### Botón principal (CTA)  
@@ -192,7 +192,7 @@ El botón principal de la landing page funciona como la **llamada a la acción (
 - **Register** → etiqueta clara y universal, válida tanto para miembros como para representantes.  
 
 <p styles="align: left">
-  <img src="../images/imagen1.jpg" alt="imagen4" width="500">  
+  <img src="../images/imagen1.png" alt="imagen4" width="500">  
 </p>  
 
 #### Sección *How does it work?* – Representantes  
@@ -205,7 +205,7 @@ Para los **representantes del hogar**, las etiquetas enfatizan acciones de gesti
 - **Control your finances** (`bi-bar-chart-fill`)  
 
 <p styles="align: left">
-  <img src="../images/imagen4.jpg" alt="" width="500">  
+  <img src="../images/imagenrepre.png" alt="" width="500">  
 </p>  
 
 #### Sección *How does it work?* – Miembros  
@@ -218,7 +218,7 @@ Para los **miembros del hogar**, las etiquetas refuerzan su rol de participació
 - **Monitor your contributions** (`bi-graph-up-arrow`)  
 
 <p styles="align: left">
-  <img src="../images/imagen5.jpg" alt="" width="500">  
+  <img src="../images/imagenmiem.png" alt="" width="500">  
 </p>  
 
 
