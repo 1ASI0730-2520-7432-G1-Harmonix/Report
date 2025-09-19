@@ -230,4 +230,20 @@ Thaler, R. H., & Sunstein, C. R. (2009). Nudge: Improving decisions about health
 
 # Anexos
 
+Anexo 1. Figma – Wireframes y mockups del proyecto Harmonix
+Disponible en: https://www.figma.com/design/toqBUIAgoZAPRnVn9sTZuE/App-web?node-id=33-9&t=KTm2CTUABdJ4Uq9e-1
 
+Anexo 2. Organización del proyecto en GitHub
+Repositorio general: https://github.com/1ASI0730-2520-7432-G1-Harmonix
+
+Anexo 3. Repositorio del informe
+Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/Report.git
+
+Anexo 4. Repositorio de la Landing Page
+Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/LandingPage.git
+
+Anexo 5. Landing Page desplegada
+Disponible en: https://1asi0730-2520-7432-g1-harmonix.github.io/LandingPage/
+
+Anexo 6. Tablero en Trello – Product Backlog 1
+Disponible en: https://trello.com/invite/b/647377f527633648e32f8b34/ATTI1d069726cbda63319a0b3f8320f648a2CEFB28D7/product-backlog
