@@ -175,3 +175,21 @@ URL Project Report (Github): https://github.com/1ASI0730-2520-7432-G1-Harmonix/R
 - Con una arquitectura pensada para escalar, Harmonix no solo resuelve los desafíos actuales de la organización financiera doméstica, sino que se prepara para incorporar nuevas funcionalidades que ampliarán su alcance y utilidad en el futuro.
 
 - Al combinar un diseño centrado en el usuario con funcionalidades avanzadas y seguras, Harmonix logra diferenciarse de otras soluciones, posicionándose como una herramienta integral que responde de manera eficaz a las necesidades reales de los hogares.
+
+## Recomendaciones:
+
+- Recomendamos optimizar la experiencia en distintos navegadores y tamaños de pantalla para que la aplicación sea totalmente accesible, especialmente en laptops y tablets, que son los dispositivos más usados en entornos domésticos.
+
+- Sugerimos ampliar las opciones de permisos dentro de los hogares, permitiendo que se creen roles personalizados según las dinámicas de cada familia, lo que aumentaría la adaptabilidad de la plataforma.
+
+- Proponemos que los reportes financieros y gráficos puedan descargarse en formatos como PDF o Excel, para que los usuarios tengan la posibilidad de almacenar y compartir fácilmente la información fuera de la plataforma.
+
+- Creemos que sería útil incluir simulaciones más completas de ahorro y proyecciones de gastos, con el fin de que los hogares puedan planificar no solo sus finanzas actuales, sino también sus metas a futuro.
+
+- Consideramos importante seguir aplicando pruebas con usuarios de diferentes perfiles (visitantes, registrados, miembros y representantes), con el objetivo de identificar mejoras en la navegación, accesibilidad y rendimiento de la aplicación web.
+
+## Video About-the-Team: 
+
+# Bibliografía
+
+
