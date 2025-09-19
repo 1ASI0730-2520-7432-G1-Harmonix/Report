@@ -167,6 +167,38 @@ Afecta a todas las personas que conviven y comparten responsabilidades financier
 **¿Quién hará uso de esto?**  
 Todos los integrantes del hogar, ya que cada uno podrá revisar su aporte proporcional. El representante será responsable de planificar y supervisar la adecuada distribución de los gastos.
 
+---
+
+### How - ¿Cómo ocurre el problema?
+
+#### ¿Cómo ocurre el problema?
+
+La dificultad surge al momento de repartir los gastos compartidos (alquiler, servicios básicos, alimentos, entre otros) sin considerar un criterio proporcional a los ingresos de cada miembro, lo que provoca aportes desiguales.
+
+#### ¿En qué condiciones los clientes usan nuestro producto?
+
+Los usuarios recurrirán al producto cuando deseen calcular su aporte proporcional en los gastos del hogar o revisar cuánto han abonado y qué parte aún tienen pendiente de acuerdo con sus ingresos. Asimismo, podrán emplearlo para llevar un control más ordenado de las finanzas compartidas.
+
+#### ¿Qué llevará a la persona a usar nuestro producto?
+
+La persona recurrirá al producto ante la necesidad de dividir los gastos del hogar de manera justa, la falta de claridad en las aportaciones o el interés por prevenir conflictos financieros dentro de la convivencia. Del mismo modo, si desean consultar los montos pendientes de forma clara y en tiempo real, el sistema funcionará como una herramienta práctica.
+
+<p align="center"><strong>Representación de costo promedio de errores en cálculos manuales - 2020</strong></p>
+<p align="center">
+  <img src="https://imgur.com/x2N1egQ.png" alt="Gráfico de errores manuales" width="500">
+</p>
+<p align="center">Fernando Blanco P. (2020). Gráfico de LDL – ESTADÍSTICA VISUAL (VIII). Gráficos con barras de error: manual de usuario – Lima, 2020</p>
+<p align="center"><em>Figura: Representación visual del costo promedio de errores manuales.</em></p>
+
+---
+
+### How much - ¿Cúanto?
+
+#### ¿Cuánto impacta en la convivencia y las finanzas no dividir equitativamente los gastos?
+
+Genera tensiones, discusiones y desequilibrios económicos dentro del hogar, mientras que con el producto se logra transparencia, justicia en las aportaciones y una mejor organización financiera compartida.
+
+
 
 ## 1.2.2 Lean UX Process
 
