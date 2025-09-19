@@ -102,7 +102,7 @@ Este tono refuerza la **transparencia y cercanía** de la marca, asegurando que 
 Se utilizó la tendencia web de **funcionalismo minimalista** con un esquema de colores oscuros predominante (negro y gris oscuro) como fondo. Esto proporciona una experiencia visual suave, favoreciendo el contraste con elementos interactivos y textos claros.
 
 <p styles="align: left">
-  <img src="../images/imagen1.jpg" alt="imagen1" width="500">
+  <img src="../images/imagen1.png" alt="imagen1" width="500">
 </p>
 
 Para enriquecer la estética y agregar dinamismo:
