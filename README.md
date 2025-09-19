@@ -27,13 +27,13 @@
 
 | Versión | Fecha      | Autor           | Descripción de la modificación                                                                                            |
 |---------|------------|-----------------|---------------------------------------------------------------------------------------------------------------------------|
-| 1.0     | 12-09-2025 |   | Se añadio la sección de Startup Profile para el capítulo 1.                                                               |
-| 1.0     | 12-09-2025 |   | Se añadio la sección de Solution Profile para el capítulo 1.                                                              |
-| 1.0     | 12-09-2025 |   | Se añadio la sección de Lean UX Problem Statements para el capítulo 1.                                                    |
-| 1.0     | 13-09-2025 |   | Se añadio la sección de Lean UX Assumptions para el capítulo 1.                                                           |
-| 1.0     | 13-09-2025 |   | Se añadio la sección de Lean UX Hypotheses para el capítulo 1.                                                            |
-| 1.0     | 13-09-2025 |   | Se añadio la sección de Lean UX Canvas para el capítulo 1.                                                                |
-| 1.0     | 13-09-2025 |   | Se añadio la sección de Target Segments para el capítulo 1.                                                               |
+| 1.0     | 12-09-2025 |Kevin Pardo| Se añadio la sección de Startup Profile para el capítulo 1.                                                               |
+| 1.0     | 12-09-2025 |Kevin Pardo   | Se añadio la sección de Solution Profile para el capítulo 1.                                                              |
+| 1.0     | 12-09-2025 |Kevin Pardo   | Se añadio la sección de Lean UX Problem Statements para el capítulo 1.                                                    |
+| 1.0     | 13-09-2025 |Kevin Pardo   | Se añadio la sección de Lean UX Assumptions para el capítulo 1.                                                           |
+| 1.0     | 13-09-2025 |Kevin Pardo   | Se añadio la sección de Lean UX Hypotheses para el capítulo 1.                                                            |
+| 1.0     | 13-09-2025 |Kevin Pardo   | Se añadio la sección de Lean UX Canvas para el capítulo 1.                                                                |
+| 1.0     | 13-09-2025 |Kevin Pardo   | Se añadio la sección de Target Segments para el capítulo 1.                                                               |
 | 1.0     | 03-09-2025 | Martin Gonzales | Se añadio la sección de Competidores para el capítulo 2.                                                                  |
 | 1.0     | 15-09-2025 | Martin Gonzales | Se añadio la sección de Diseño de Entrevistas para el capítulo 2.                                                         |
 | 1.0     | 15-09-2025 | Martin Gonzales | Se añadio la sección de Registro de Entrevistas para el capítulo 2.                                                       |
