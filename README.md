@@ -10,16 +10,73 @@
 **Docente:** Villafuerte Bazán, Óscar Iván  
 
 **Startup:** *SymmetriQ*  
-**Producto:** *Harminox*  
+**Producto:** *Harmonix*  
 
 **Integrantes:**  
-- [Integrante 1]  
+- Gonzales Castillo Angel Martin - U202319724 
 - Martinez Valdivis Jose Luis - U202213989 
 - Pardo Chumpitazi Kevin Patrick -U20221A525
-- [Integrante 4]  
+- Camilla Leonor Espinoza Vivas - U202214572
 - Córdova Valdivia Sebastián — U202111041  
 
 **Fecha:** Septiembre, 2025  
+
+---
+
+# Registro de Versiones del Informe
+
+| Versión | Fecha      | Autor           | Descripción de la modificación                                                                                            |
+|---------|------------|-----------------|---------------------------------------------------------------------------------------------------------------------------|
+| 1.0     | 12-09-2025 |Kevin Pardo| Se añadio la sección de Startup Profile para el capítulo 1.                                                               |
+| 1.0     | 12-09-2025 |Kevin Pardo   | Se añadio la sección de Solution Profile para el capítulo 1.                                                              |
+| 1.0     | 12-09-2025 |Kevin Pardo   | Se añadio la sección de Lean UX Problem Statements para el capítulo 1.                                                    |
+| 1.0     | 13-09-2025 |Kevin Pardo   | Se añadio la sección de Lean UX Assumptions para el capítulo 1.                                                           |
+| 1.0     | 13-09-2025 |Kevin Pardo   | Se añadio la sección de Lean UX Hypotheses para el capítulo 1.                                                            |
+| 1.0     | 13-09-2025 |Kevin Pardo   | Se añadio la sección de Lean UX Canvas para el capítulo 1.                                                                |
+| 1.0     | 13-09-2025 |Kevin Pardo   | Se añadio la sección de Target Segments para el capítulo 1.                                                               |
+| 1.0     | 03-09-2025 | Martin Gonzales | Se añadio la sección de Competidores para el capítulo 2.                                                                  |
+| 1.0     | 15-09-2025 | Martin Gonzales | Se añadio la sección de Diseño de Entrevistas para el capítulo 2.                                                         |
+| 1.0     | 15-09-2025 | Martin Gonzales | Se añadio la sección de Registro de Entrevistas para el capítulo 2.                                                       |
+| 1.0     | 15-09-2025 | Martin Gonzales | Se añadio la sección de Análisis de Entrevistas para el capítulo 2.                                                       |
+| 1.0     | 03-09-2025 | Sebastián Córdova | Se añadio la sección de User Personas para el capítulo 2.                                                                 |
+| 1.0     | 10-09-2025 | Sebastián Córdova  | Se añadio la sección de Needfinding para el capítulo 2.                                                                   |
+| 1.0     | 04-09-2025 | Camilla Espinoza  | Se añadio la sección de To-Be Scenario Mapping para el capítulo 3.                                                        |
+| 1.0     | 05-09-2025 | Jose Martinez  | Se añadio la sección de User Stories para el capítulo 3.                                                                  |
+| 1.0     | 06-09-2025 | Camilla Espinoza  | Se añadio la sección de Impact Mapping para el capítulo 3.                                                                |
+| 1.0     | 06-09-2025 | Jose Martinez  | Se añadio la sección de Product Backlog para el capítulo 3.                                                               |
+| 1.0     | 14-09-2025 | Camilla Espinoza | Se añadio la sección de Style Guidelines para el capítulo 4.                                                              |
+| 1.0     | 15-09-2025 | Camilla Espinoza | Se añadio la sección de Information Architecture para el capítulo 4.                                                      |
+| 1.0     | 15-09-2025 | Camilla Espinoza | Se añadio la sección de Landing Page Wireframe y Mockup en el capítulo 4.                                                 |
+| 1.0     | 15-09-2025 | Sebastián Córdova | Se añadio la sección de Web Applications Wireframes en el capítulo 4.                                                     |
+| 1.0     | 15-09-2025 | Sebastián Córdova | Se añadio la sección de Wireflow Diagrams en el capítulo 4.                                                               |
+| 1.0     | 15-09-2025 | Sebastián Córdova | Se añadio la sección de Web Applications Mockups en el capítulo 4.                                                        |
+| 1.0     | 16-09-2025 | Sebastián Córdova | Se añadio la sección de Userflow Diagrams en el capítulo 4.                                                               |
+| 1.0     | 16-09-2025 | Camilla Espinoza | Se añadio la sección de Strategic Domain-Driven Design en el capítulo 4.                                                  |
+| 1.0     | 16-09-2025 | Sebastián Córdova | Se añadio la sección de Domain-Driven Software Architecture en el capítulo 4.                                             |
+| 1.0     | 16-09-2025 | Sebastián Córdova | Se añadio la sección de Class Diagram en el capítulo 4.                                                                   |
+| 1.0     | 16-09-2025 | Sebastián Córdova | Se añadio la sección de Database Diagram en el capítulo 4.                                                                |
+| 1.0     | 13-09-2025 | Martin Gonzales | Se añadio la sección de Software Configuration Management en el capítulo 5.                                               |
+| 1.0     | 14-09-2025 | Jose Martinez  | Se añadio la sección de Sprint 1 en el capítulo 5.                                                                        |
+
+# Project Report Collaboration Insights
+
+URL Project Report (Github): https://github.com/1ASI0730-2520-7432-G1-Harmonix/Report.git
+
+
+# STUDENT OUTCOME
+
+| Criterio especifico                                                                                                                      | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                    | Conclusiones                                                                                                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | *Camilla Leonor Espinoza Vivas*<br> **TB1**<br>Asumí un liderazgo compartido al coordinar la división de tareas dentro del equipo, realicé las observaciones del informe para proponer mejoras y asegurar el cumplimiento de los lineamientos, y participé activamente en el desarrollo de las secciones To-Be Scenario Mapping, Impact Mapping, Style Guidelines, Information Architecture y Landing Page UI Design, fomentando la organización, la responsabilidad y el trabajo colaborativo en consenso con mis compañeros.                                                                                                                                       |  La participación activa permitió mantener una organización clara dentro del equipo y cumplir con las entregas de manera eficiente. El liderazgo compartido facilitó que cada integrante asuma responsabilidad sobre su parte y que el informe avance con calidad y coherencia.                                                                                                         |
+|                                                                                                                                          | *Angel Martin Gonzales Castillo*<br> **TB1**<br>Trabajo en equipo asumiendo un liderazgo compartido en cada fase del proyecto. Participo activamente en la investigación de competidores, en el diseño, registro y análisis de entrevistas, y en el Software Configuration Management, fomentando la organización, la responsabilidad y la toma de decisiones en consenso con mis compañeros.                |Haber asumido un liderazgo compartido en las distintas etapas del proyecto me permitió no solo fortalecer mis habilidades de coordinación, sino también aprender a tomar decisiones en conjunto y valorar las aportaciones de mis compañeros. Esta experiencia reafirma la importancia de la colaboración y del liderazgo distribuido para alcanzar resultados más completos y equilibrados.|
+|                                                                                                                                          | *Kevin Patrick Pardo Chumpitazi*<br> **TB1**<br>Desarrollé la introducción del proyecto y la estructuración del informe en el Capítulo 1. Participé activamente en la elaboración de los apartados de Contexto, Lean UX Assumptions y Objetivos, así como en la redacción conjunta de conclusiones. Además, apoyé en la revisión de consistencia del documento, asegurando coherencia entre los apartados elaborados por el equipo.                                                                                                                              |Esta experiencia me permitió fortalecer mis habilidades de comunicación y organización, ya que asumí un rol de apoyo en la integración de contenidos y en la coordinación del avance grupal. Concluí que el liderazgo compartido es clave para mantener orden y claridad en los entregables.         |
+|                                                                                                                                          | *Sebastián Córdova Valdivia*<br> **TB1**<br> Desarrollé las secciones de Needfinding, Ubiquitous Language y los apartados de diseño (UX/UI, Prototyping, DDD, OOD y Database), coordinando con mis compañeros la integración de los entregables para mantener coherencia en el documento.                                                 | Esto me permitió ejercer liderazgo compartido dentro del equipo y aportar a la organización del trabajo en conjunto, logrando un avance ordenado y alineado a los objetivos comunes.                                                                  |
+|                                                                                                                                          | *Jose Luis Martinez Valdivia*<br> **TB1**<br> Elaboré las user stories para definir claramente los requerimientos del sistema, estableciendo las prioridades para el desarrollo de la solución de software.                                                                                                                                                                    | Las user stories nos permiten entender las expectativas de los usuarios, alineando el desarrollo de la solución con sus necesidades reales.                                                                                                          |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.                    | *Camilla Leonor Espinoza Vivas*<br> **TB1**<br>Promoví un entorno colaborativo e inclusivo coordinando la planificación de tareas y la asignación de responsabilidades de manera equitativa, establecí metas claras junto con mis compañeros para asegurar el avance del proyecto, y participé activamente en el cumplimiento de los objetivos a través de la elaboración de las secciones del informe y la revisión de observaciones, fomentando la comunicación y el compromiso dentro del equipo.                                                                 | La organización del trabajo y la definición de metas claras permitieron cumplir con los objetivos establecidos en los plazos acordados. El entorno colaborativo e inclusivo facilitó la comunicación constante y el compromiso de cada integrante, fortaleciendo la coordinación y asegurando la calidad de los entregables del proyecto.  |
+|                                                                                                                                          | *Angel Martin Gonzales Castillo*<br> **TB1**<br>Creo un entorno colaborativo e inclusivo dentro del equipo, donde se valoran las ideas de todos los integrantes. Contribuyo al establecimiento de metas claras, a la planificación de tareas y al cumplimiento de los objetivos en la investigación de competidores, en el desarrollo de entrevistas y en la gestión de la configuración del software, asegurando un trabajo ordenado y eficiente.                                                                                           |El fomentar un entorno colaborativo e inclusivo me permitió trabajar de manera organizada y orientada a objetivos claros. Gracias a la planificación conjunta y al cumplimiento de tareas, comprendí que el éxito del equipo depende tanto de la comunicación y el respeto mutuo como de la disciplina en la gestión de nuestras actividades.|
+|                                                                                                                                          | *Kevin Patrick Pardo Chumpitazi*<br> **TB1**<br>Contribuí a crear un entorno colaborativo mediante la redacción conjunta de secciones y el apoyo a mis compañeros en la organización de tareas, validando avances y proponiendo ajustes para cumplir los plazos establecidos. Participé en la definición de metas iniciales y en la planificación de entregables, asegurando que el Capítulo 1 se completara de forma clara y coherente.   |  Concluí que fomentar la colaboración y el respeto dentro del equipo permite integrar mejor las ideas y cumplir los objetivos de manera más eficiente. La planificación compartida me ayudó a reforzar la importancia de la organización y la comunicación constante en proyectos grupales.                              |
+|                                                                                                                                          | *Sebastián Córdova Valdivia*<br> **TB1**<br> Colaboré en la construcción de diagramas (Journey Mapping, Empathy Mapping, Wireframes, Database Diagram, Class Diagram), trabajando de forma inclusiva con mis compañeros para definir metas, dividir tareas y cumplir plazos establecidos.                                                 | Concluí que fomentar un entorno colaborativo e inclusivo facilita alcanzar los objetivos, fortalece la comunicación del equipo y asegura que todos los aportes se integren en el proyecto final.                                                      |
+|                                                                                                                                          | *Jose Luis Martinez Valdivia*<br> **TB1**<br> Apliqué las metodologías de validación de user stories y pruebas de usabilidad, lo que me permitió mejorar la calidad de las funcionalidades y detectar posibles errores en el desarrollo.                                                                                                                                       | El aprendizaje continuo en la validación de user stories y usabilidad es esencial para entregar soluciones de software que realmente se ajusten a las expectativas de los usuarios finales.                                                          |
 
 ---
 
@@ -107,3 +164,87 @@
       - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)  
 
 
+=======
+# Conclusión
+
+- Harmonix se consolida como una solución práctica para los hogares modernos, ofreciendo simplicidad y eficiencia en la gestión de gastos compartidos, lo que permite a los usuarios enfocarse en lo que realmente importa: disfrutar de la convivencia sin fricciones financieras.
+
+- La plataforma destaca por integrar un enfoque innovador en el manejo de finanzas domésticas, fusionando seguridad, usabilidad y escalabilidad en una misma herramienta, lo que la convierte en un referente dentro del ámbito de las soluciones digitales para el hogar.
+
+- Más allá de lo técnico, Harmonix contribuye al fortalecimiento de las relaciones dentro del hogar, ya que fomenta la confianza, la transparencia y la colaboración, ayudando a reducir tensiones habituales en torno a los gastos compartidos.
+
+- Con una arquitectura pensada para escalar, Harmonix no solo resuelve los desafíos actuales de la organización financiera doméstica, sino que se prepara para incorporar nuevas funcionalidades que ampliarán su alcance y utilidad en el futuro.
+
+- Al combinar un diseño centrado en el usuario con funcionalidades avanzadas y seguras, Harmonix logra diferenciarse de otras soluciones, posicionándose como una herramienta integral que responde de manera eficaz a las necesidades reales de los hogares.
+
+## Recomendaciones:
+
+- Recomendamos optimizar la experiencia en distintos navegadores y tamaños de pantalla para que la aplicación sea totalmente accesible, especialmente en laptops y tablets, que son los dispositivos más usados en entornos domésticos.
+
+- Sugerimos ampliar las opciones de permisos dentro de los hogares, permitiendo que se creen roles personalizados según las dinámicas de cada familia, lo que aumentaría la adaptabilidad de la plataforma.
+
+- Proponemos que los reportes financieros y gráficos puedan descargarse en formatos como PDF o Excel, para que los usuarios tengan la posibilidad de almacenar y compartir fácilmente la información fuera de la plataforma.
+
+- Creemos que sería útil incluir simulaciones más completas de ahorro y proyecciones de gastos, con el fin de que los hogares puedan planificar no solo sus finanzas actuales, sino también sus metas a futuro.
+
+- Consideramos importante seguir aplicando pruebas con usuarios de diferentes perfiles (visitantes, registrados, miembros y representantes), con el objetivo de identificar mejoras en la navegación, accesibilidad y rendimiento de la aplicación web.
+
+## Video About-the-Team: 
+
+# Bibliografía
+
+Goodbudget. (s. f.). Best Home Budget App for Android, iPhone, & Web. https://goodbudget.com/
+
+Sesterce. (s. f.). Track your expenses with your friends. https://sesterce.io/
+
+Honeydue. (s. f.). Outsmart Money, Together. https://www.honeydue.com/
+
+Atlassian. (2025). Trello. https://trello.com/
+
+Figma, Inc. (2025). Figma: The collaborative interface design tool. https://www.figma.com/
+
+GitHub, Inc. (2025). GitHub: Where the world builds software. https://github.com/
+
+Evans, E. (2004). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
+
+Vernon, V. (2013). Implementing Domain-Driven Design. Addison-Wesley. 
+
+Schwaber, K., & Sutherland, J. (2020). The Scrum Guide: The Definitive Guide to Scrum. Scrum.org. https://scrumguides.org
+
+Project Management Institute. (2021). A guide to the project management body of knowledge (PMBOK® Guide) (7th ed.). Project Management Institute.
+
+Nielsen, J., & Budiu, R. (2012). Mobile usability. New Riders.
+
+Norman, D. A. (2013). The design of everyday things (Revised and expanded edition). Basic Books.
+
+Palko, A., Molnár, V., & Bánhidi, A. (2015). The use of the 5W2H method for process improvement. International Journal of Engineering and Management Sciences, 3(1), 61–69.
+
+Ohno, T. (1988). Toyota production system: Beyond large-scale production. Productivity Press.
+
+Gothelf, J., & Seiden, J. (2013). Lean UX: Applying lean principles to improve user experience. O’Reilly Media.
+
+Nielsen, J. (1994). Usability engineering. Morgan Kaufmann.
+
+Lusardi, A., & Mitchell, O. S. (2014). The economic importance of financial literacy: Theory and evidence. Journal of Economic Literature, 52(1), 5–44.
+
+Thaler, R. H., & Sunstein, C. R. (2009). Nudge: Improving decisions about health, wealth, and happiness. Penguin Books.
+
+# Anexos
+
+Anexo 1. Figma – Wireframes y mockups del proyecto Harmonix
+Disponible en: https://www.figma.com/design/toqBUIAgoZAPRnVn9sTZuE/App-web?node-id=33-9&t=KTm2CTUABdJ4Uq9e-1
+
+Anexo 2. Organización del proyecto en GitHub
+Repositorio general: https://github.com/1ASI0730-2520-7432-G1-Harmonix
+
+Anexo 3. Repositorio del informe
+Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/Report.git
+
+Anexo 4. Repositorio de la Landing Page
+Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/LandingPage.git
+
+Anexo 5. Landing Page desplegada
+Disponible en: https://1asi0730-2520-7432-g1-harmonix.github.io/LandingPage/
+
+Anexo 6. Tablero en Trello – Product Backlog 1
+Disponible en: https://trello.com/invite/b/647377f527633648e32f8b34/ATTI1d069726cbda63319a0b3f8320f648a2CEFB28D7/product-backlog
