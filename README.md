@@ -15,8 +15,8 @@
 **Integrantes:**  
 - Gonzales Castillo Angel Martin - U202319724 
 - Martinez Valdivis Jose Luis - U202213989 
+- Pardo Chumpitazi Kevin Patrick -U20221A525
 - Camilla Leonor Espinoza Vivas - U202214572
-- Kevin Patrick Pardo Chumpitazi - U20221A525
 - Córdova Valdivia Sebastián — U202111041  
 
 **Fecha:** Septiembre, 2025  
@@ -87,14 +87,13 @@ URL Project Report (Github): https://github.com/1ASI0730-2520-7432-G1-Harmonix/R
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
   - [1.2. Solution Profile](#12-solution-profile)  
-    - [1.2.1. Nombre del producto](#121-nombre-del-producto)  
-    - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problemática)  
-    - [1.2.3. Lean UX Process](#123-lean-ux-process)  
-      - [1.2.3.1. Lean UX Problem Statements](#1231-lean-ux-problem-statements)  
-      - [1.2.3.2. Lean UX Assumptions](#1232-lean-ux-assumptions)  
-      - [1.2.3.3. Lean UX Hypothesis Statements](#1233-lean-ux-hypothesis-statements)  
-      - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)  
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)  
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problematica)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+     - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+     - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
+     - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+     - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3 Segmentos objetivo](#13-segmentos-objetivo)
 
 - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)  
   - [2.1. Competidores](#21-competidores)  
@@ -164,6 +163,8 @@ URL Project Report (Github): https://github.com/1ASI0730-2520-7432-G1-Harmonix/R
       - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)  
       - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)  
 
+
+=======
 # Conclusión
 
 - Harmonix se consolida como una solución práctica para los hogares modernos, ofreciendo simplicidad y eficiencia en la gestión de gastos compartidos, lo que permite a los usuarios enfocarse en lo que realmente importa: disfrutar de la convivencia sin fricciones financieras.
