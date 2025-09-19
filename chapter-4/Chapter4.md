@@ -423,7 +423,7 @@ En este apartado se define la propuesta de diseño UX/UI para Harmonix, enfocada
 A continuación, se presenta el User Flow Diagram, diseñado a partir de los objetivos principales de los usuarios. El flujo refleja cada meta funcional dentro de la aplicación y los distintos recorridos que pueden seguir para alcanzarla. Para una mejor comprensión, se incluyen mockups de alta fidelidad que ilustran visualmente cada paso, facilitando la validación de la experiencia y la coherencia del diseño.
 
 <p styles="align: left">
-  <img src="../images/user-goal-1.jpg" alt="goal1" width="500">
+  <img src="../images/user-goal.jpg" alt="goal1" width="500">
 </p>
 
 <p styles="align: left">
