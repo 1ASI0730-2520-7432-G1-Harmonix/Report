@@ -58,6 +58,10 @@
 | 1.0     | 13-09-2025 | Martin Gonzales | Se añadio la sección de Software Configuration Management en el capítulo 5.                                               |
 | 1.0     | 14-09-2025 | Jose Martinez  | Se añadio la sección de Sprint 1 en el capítulo 5.                                                                        |
 
+# Project Report Collaboration Insights
+
+URL Project Report (Github): https://github.com/1ASI0730-2520-7432-G1-Harmonix/Report.git
+
 
 # STUDENT OUTCOME
 
