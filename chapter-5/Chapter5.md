@@ -202,9 +202,19 @@ A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidenc
 
 #### 5.2.1.3. Sprint Backlog 1
 
+El Sprint Backlog 1 corresponde a la planificación inicial del desarrollo de la plataforma Harmonix, donde se definieron y priorizaron las primeras funcionalidades clave para la Landing Page y la configuración básica de despliegue. En este sprint, el equipo trabajó en la implementación de secciones informativas que presentan los objetivos, beneficios y funcionalidades de la aplicación, así como en la incorporación de ejemplos visuales y accesos directos para el registro e inicio de sesión de usuarios.
+
+Adicionalmente, se incluyeron tareas técnicas relacionadas con la documentación del despliegue y la configuración de monitoreo básico, asegurando que el proyecto cuente con una base sólida para futuras iteraciones.
+
+El trabajo colaborativo del equipo se gestionó en la herramienta Trello, lo que permitió organizar, priorizar y dar seguimiento a cada tarea de manera eficiente.
+
+Link al tablero de Trello: https://trello.com/invite/b/647377f527633648e32f8b34/ATTId97694eca59f351dc52e5b0eced257d936D70AE8/product-backlog 
+
+<img src="../images/trelloSPRINT1.png" alt="Trello" width="100%">
+
 | **User Story Id** | **Title**                                                                  | **Task Id** | **Task Title**              | **Description**                                                                                  | **Estimation (Hours)** | **Assigned To** | **Status (To-do/In-Process/To-Review/Done)** |
 | ----------------- | -------------------------------------------------------------------------- | ----------- | --------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------- | --------------- | -------------------------------------------- |
-| US31              | Visualizar información general sobre Harmonix desde la landing page       | T1          | Información general         | Desarrollo de la sección con información introductoria de SplitEasy                              | 2                      | Jose Luis Martinez Validivia               | Done                                        |
+| US31              | Visualizar información general sobre Harmonix desde la landing page       | T1          | Información general         | Desarrollo de la sección con información introductoria de Harmonix                              | 2                      | Jose Luis Martinez Validivia               | Done                                        |
 | US32              | Conocer las funciones principales para representantes y miembros del hogar | T1          | Funciones principales       | Diseño y desarrollo de la sección que explica las funciones clave para representantes y miembros | 2                      | Camila Leonor Espinoza Vivas               | Done                                        |
 | US33              | Explorar beneficios del sistema de aportes proporcionales                  | T1          | Beneficios                  | Desarrollo de la sección que muestre los beneficios de usar el sistema de aportes proporcionales | 2                      | Kevin Patrick Panto Chuquipiondo               | Done                                        |
 | US34              | Ver ejemplos o simulaciones de cómo funciona la plataforma                 | T1          | Ejemplos y simulaciones     | Implementación de ejemplos visuales o simulaciones del funcionamiento de la plataforma           | 3                      |  Sebastián Córdova               | Done                                        |
