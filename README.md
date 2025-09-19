@@ -164,3 +164,14 @@ URL Project Report (Github): https://github.com/1ASI0730-2520-7432-G1-Harmonix/R
       - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)  
       - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)  
 
+# Conclusión
+
+- Harmonix se consolida como una solución práctica para los hogares modernos, ofreciendo simplicidad y eficiencia en la gestión de gastos compartidos, lo que permite a los usuarios enfocarse en lo que realmente importa: disfrutar de la convivencia sin fricciones financieras.
+
+- La plataforma destaca por integrar un enfoque innovador en el manejo de finanzas domésticas, fusionando seguridad, usabilidad y escalabilidad en una misma herramienta, lo que la convierte en un referente dentro del ámbito de las soluciones digitales para el hogar.
+
+- Más allá de lo técnico, Harmonix contribuye al fortalecimiento de las relaciones dentro del hogar, ya que fomenta la confianza, la transparencia y la colaboración, ayudando a reducir tensiones habituales en torno a los gastos compartidos.
+
+- Con una arquitectura pensada para escalar, Harmonix no solo resuelve los desafíos actuales de la organización financiera doméstica, sino que se prepara para incorporar nuevas funcionalidades que ampliarán su alcance y utilidad en el futuro.
+
+- Al combinar un diseño centrado en el usuario con funcionalidades avanzadas y seguras, Harmonix logra diferenciarse de otras soluciones, posicionándose como una herramienta integral que responde de manera eficaz a las necesidades reales de los hogares.
