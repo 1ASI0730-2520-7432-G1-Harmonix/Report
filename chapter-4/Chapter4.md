@@ -439,6 +439,19 @@ A continuación, se presenta el User Flow Diagram, diseñado a partir de los obj
 </p>
 
 ## 4.5. Web Applications Prototyping.
+
+Se desarrolló un **prototipo interactivo** orientado a la **navegación web**, con el objetivo de evaluar y optimizar la accesibilidad y la experiencia de usuario antes del lanzamiento final.  
+Este prototipo simula de manera realista el recorrido dentro de la aplicación, permitiendo a los usuarios explorar secciones y flujos tal como lo harían en la versión definitiva.  
+
+El diseño se basó en una **arquitectura clara**, una **jerarquía visual coherente** y en **principios de diseño inclusivo**, asegurando una navegación intuitiva y accesible para todo tipo de usuarios.  
+Gracias a sus **maquetas de alta fidelidad**, el prototipo facilita la validación de decisiones de diseño, la detección temprana de fricciones y la garantía de una experiencia de uso consistente y satisfactoria.  
+
+<p styles="align: left">
+  <img src="../images/prototipo.png" alt="goal4" width="500">
+</p>
+
+**Link al prototipo:** https://www.figma.com/proto/toqBUIAgoZAPRnVn9sTZuE/App-web?node-id=61-17&p=f&t=LoFwY085Rxt0LqeQ-1&scaling=min-zoom&content-scaling=fixed&page-id=33%3A9&starting-point-node-id=61%3A17&show-proto-sidebar=1
+
 ## 4.6. Domain-Driven Software Architecture.
 
 La arquitectura de Harmonix se plantea bajo el enfoque de Domain-Driven Design (DDD), lo que permite alinear el desarrollo técnico con el modelo de negocio y las reglas que rigen la distribución de gastos en el hogar. El sistema se organiza en dominios principales como la gestión de usuarios (registro, autenticación y roles), gestión de ingresos y aportes (cálculo proporcional y validación de pagos), gestión de notificaciones (recordatorios automáticos y alertas) y reportes (visualización de saldos y exportación de datos).
