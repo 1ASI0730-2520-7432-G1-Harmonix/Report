@@ -239,7 +239,7 @@ El pie de página organiza el etiquetado en dos bloques principales:
 Además, se incluyen **íconos de redes sociales** (Facebook, Instagram, Twitter, LinkedIn) que funcionan como accesos rápidos.  
 
 <p styles="align: left">
-  <img src="../images/imagen6.jpg" alt="" width="500">  
+  <img src="../images/imagen6.png" alt="" width="500">  
 </p>  
 
 ### 4.2.3. SEO Tags and Meta Tags
@@ -395,7 +395,7 @@ Este recurso permite evaluar de manera más precisa la apariencia final de la p�
 El mock-up facilita la validación temprana con los interesados (stakeholders), al ofrecer una visión clara y tangible de cómo se presentarán los contenidos, las llamadas a la acción y la navegación en un entorno realista.
 
 <p styles="align: left">
-  <img src="../images/mock-up.png" alt="lpw5" width="500">
+  <img src="../images/App web_page-0001.jpg" alt="lpw5" width="500">
 </p>
 
 ## 4.4. Web Applications UX/UI Design.
