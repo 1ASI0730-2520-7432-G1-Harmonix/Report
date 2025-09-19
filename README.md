@@ -15,7 +15,7 @@
 **Integrantes:**  
 - Gonzales Castillo Angel Martin - U202319724 
 - Martinez Valdivis Jose Luis - U202213989 
-- Camilla Leonor Espinoza Vivas
+- Camilla Leonor Espinoza Vivas - U202214572
 - [Integrante 4]  
 - Córdova Valdivia Sebastián — U202111041  
 
