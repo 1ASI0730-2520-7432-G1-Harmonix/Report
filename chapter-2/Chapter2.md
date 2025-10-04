@@ -160,11 +160,11 @@ Entrevista 7:
 
 En primer lugar, con base en las tres entrevistas realizadas al primer segmento objetivo, conformado por los miembros del hogar, se puede concluir lo siguiente:
 
-* La organización de los gastos depende más de la practicidad que de los ingresos. Tanto Harri como Abraham mencionan que no consideran dividir los gastos según lo que gana cada miembro, ya que prefieren métodos más simples y cómodos que les permitan organizarse sin complicaciones.
+* La organización de los gastos depende más de la practicidad que de los ingresos. En primer lugar, Harri considera que la división de gastos no debería depender estrictamente de los ingresos, sino de la practicidad y comodidad que facilite la convivencia. Abraham, por su parte, comparte en parte esta visión, aunque señala que la falta de un método más formal puede generar confusiones con el tiempo. En cambio, María Fernanda muestra una postura más estructurada: considera importante mantener cierta proporcionalidad según los ingresos, para que la distribución sea más justa y transparente.
     
-* La principal dificultad surge en el control y la claridad de los pagos. María Fernanda y Abraham coinciden en que los mayores problemas aparecen al momento de llevar registros claros y ponerse de acuerdo sobre quién pagó o qué parte le corresponde a cada uno, lo que en algunos casos ha generado desacuerdos.
+* La principal dificultad surge en el control y la claridad de los pagos. María Fernanda y Abraham coinciden en que el mayor reto está en mantener registros claros y actualizados sobre quién pagó qué, lo que en ocasiones genera pequeños desacuerdos. Harri, aunque no ha tenido tantos conflictos, reconoce que la informalidad puede causar olvidos o desbalances en el largo plazo.
     
-* Existe una necesidad común de apoyo digital para gestionar mejor los gastos. Los tres entrevistados consideran que una aplicación amigable, con funciones como registros rápidos, recordatorios de pagos y notificaciones, sería de gran ayuda para evitar confusiones, mejorar la organización y facilitar la convivencia.
+* Existe una necesidad común de apoyo digital para gestionar mejor los gastos. Todos los entrevistados manifiestan una necesidad común de apoyo digital para gestionar los gastos del hogar. Sin embargo, sus prioridades difieren ligeramente: Harri busca una herramienta práctica y rápida; Abraham, una con funciones de recordatorios y reportes; y María Fernanda, una aplicación que permita una división más equitativa y transparente. Estas diferencias muestran que, aunque el interés por una solución digital es compartido, las expectativas y motivaciones varían según la experiencia de cada integrante.
 
 A continuación, se presentan los porcentajes destacados en las respuestas de los entrevistados a las preguntas planteadas:
 
