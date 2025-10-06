@@ -235,36 +235,36 @@ En esta imagen, se visualiza una relación de respuestas sobre el tema planteado
 
 
 ## 2.3. Needfinding
-En esta sección se detallan las principales necesidades detectadas en los segmentos objetivos de Harmonix. A través del análisis de sus contextos, se identificaron las dificultades que enfrentan al momento de repartir los gastos comunes del hogar, como la falta de equidad, transparencia y control en los pagos. Estas necesidades constituyen la base para orientar el diseño del producto, asegurando que las funcionalidades de Harmonix respondan directamente a los problemas reales de los usuarios y contribuyan a mejorar la convivencia en el hogar.
+A partir del análisis de entrevistas y del Lean UX Canvas presentado en el capítulo 1, se identificaron las principales necesidades y motivaciones de los segmentos objetivo. Los hallazgos confirman los problemas detectados en el Canvas: la falta de equidad en la distribución de gastos, la poca transparencia y la ausencia de herramientas colaborativas adaptadas a la realidad económica de cada hogar.
 
 De esta manera, se presentan a continuación los hallazgos clave que guiarán el desarrollo de la solución
   
 ## Segmento #1: Personas del hogar
 
-- **Dividir los gastos comunes** de forma justa y proporcional a los ingresos de cada miembro.  
+- **Dividir los gastos comunes** forma justa y proporcional a los ingresos de cada miembro.  
 - **Contar con visibilidad en tiempo real** sobre pagos realizados y saldos pendientes.  
 - **Garantizar transparencia** para evitar malentendidos y conflictos dentro de la convivencia.  
-- **Usar una aplicación sencilla** que organice los pagos del hogar.  
+- **Usar una aplicación sencilla** que organice los pagos del hogar y reduzca la carga mental.  
 
 ## Segmento #2: Representante del hogar
 
 - **Gestionar y supervisar** todos los aportes desde un panel centralizado.  
 - **Recibir alertas automáticas** y recordatorios de pagos pendientes.  
-- **Asegurar contribuciones equitativas**, basadas en ingresos reales.  
-- **Obtener reportes financieros claros** y automáticos para ahorrar tiempo en la planificación.  
+- **Asegurar que las contribuciones** sean equitativas y basadas en ingresos reales.  
+- **Obtener reportes financieros claros** y automáticos para ahorrar tiempo en la planificación y fortalecer la confianza del grupo.  
 
 ### 2.3.1. User Personas
 
 - Segmento #1: Personas del hogar
 
 <p styles="align: left">
-  <img src="../images/UserPersona1.png" width="1100">
+  <img src="../images/UserP-1-Mejorado.png" width="1100">
 </p>
 
 - Segmento #2: Representante del hogar
 
 <p styles="align: left">
-  <img src="../images/UserPersona2.png" width="1100">
+  <img src="../images/UserP-2-Mejorado.png" width="1100">
 </p>
 
 
@@ -275,11 +275,11 @@ De esta manera, se presentan a continuación los hallazgos clave que guiarán el
 
 | **Persona**                 | **Tarea**                                  | **Importancia** | **Frecuencia** |
 |------------------------------|--------------------------------------------|-----------------|----------------|
-| **Ana (Miembro del hogar)** | Registrar su ingreso mensual                | Alta            | Baja           |
+| **Camila (Miembro del hogar)** | Registrar su ingreso mensual                | Alta            | Baja           |
 |                              | Revisar cuánto debe aportar según su ingreso | Alta            | Alta           |
 |                              | Recibir recordatorios y confirmar pagos    | Media           | Media          |
 |                              | Consultar historial de pagos               | Media           | Baja           |
-| **Luis (Representante del hogar)** | Crear y gestionar gastos compartidos       | Alta            | Alta           |
+| **Walter (Representante del hogar)** | Crear y gestionar gastos compartidos       | Alta            | Alta           |
 |                              | Supervisar pagos realizados y pendientes   | Alta            | Alta           |
 |                              | Enviar recordatorios automáticos           | Media           | Media          |
 |                              | Generar reportes mensuales                 | Alta            | Baja           |
@@ -291,13 +291,13 @@ Aquí se presentan los User Journey Mapping para cada user persona. El recorrido
 - Segmento #1: Personas del hogar
 
 <p styles="align: left">
-  <img src="../images/JourneyMap-1.png" width="1100">
+  <img src="../images/JMP-1-Mejorado.png" width="1100">
 </p>
 
 - Segmento #2: Representante del hogar
 
 <p styles="align: left">
-  <img src="../images/JourneyMap-2.png" width="1100">
+  <img src="../images/JMP-2-Mejorado.png" width="1100">
 </p>
 
 ### 2.3.4. Empathy Mapping.
@@ -307,29 +307,32 @@ El Empathy Mapping permite comprender a fondo qué piensan, sienten, ven, escuch
 - Segmento #1: Personas del hogar
   
 <p styles="align: left">
-  <img src="../images/Empathy Map 1.png" width="1100">
+  <img src="../images/Empathy-Map1-Mejorado.png" width="1100">
 </p>
 
 - Segmento #2: Representante del hogar
 
 <p styles="align: left">
-  <img src="../images/Empathy Map 2.png" width="1100">
+  <img src="../images/Empathy-Map2-Mejorado.png" width="1100">
 </p>
 
 ### 2.3.5. As-is Scenario Mapping.
 
-El As-Is Scenario Mapping describe cómo los usuarios actualmente gestionan sus gastos compartidos sin Harmonix, mostrando sus acciones, pensamientos y emociones en cada paso. Esto ayuda a identificar los principales puntos de dolor que la plataforma busca resolver.
+En esta etapa se representa el flujo actual de actividades que realizan los usuarios antes de la implementación de Harmonix.
+Los escenarios permiten identificar problemas, emociones y oportunidades de mejora a partir de la observación de sus tareas reales relacionadas con la gestión de gastos del hogar.
+
+Los mapas evidencian procesos manuales, repetitivos y poco transparentes, los cuales generan frustración y falta de equidad. A partir de estos hallazgos se define la oportunidad de diseño que Harmonix busca resolver mediante automatización, claridad y colaboración entre los miembros del hogar.
 
 - Segmento #1: Personas del hogar
   
 <p styles="align: left">
-  <img src="../images/As-Is Map 1.png" width="1100">
+  <img src="../images/ScenarioMp-1-Mejorado.png" width="1100">
 </p>
 
 - Segmento #2: Representante del hogar
 
 <p styles="align: left">
-  <img src="../images/As-Is Map 2.png" width="1100">
+  <img src="../images/ScenarioMp-2-Mejorado.png" width="1100">
 </p>
 
 ## 2.4. Ubiquitous Language.
