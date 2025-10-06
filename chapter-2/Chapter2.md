@@ -332,11 +332,11 @@ Los mapas evidencian procesos manuales, repetitivos y poco transparentes, los cu
   <img src="../images/ScenarioMp-1-Mejorado.png" width="1100">
 </p>
 
-Oportunidad de Diseño:
+**Insight / Oportunidad de Diseño:**  
+Este flujo refleja procesos manuales y poca transparencia, generando confusión y conflictos.  
+Harmonix automatiza los cálculos y brinda visibilidad compartida.
 
-El escenario actual muestra procesos manuales y poca transparencia, lo que genera confusión y conflictos entre los miembros del hogar.  
-**Harmonix** automatiza el cálculo proporcional de aportes y provee visibilidad compartida en tiempo real, reduciendo el estrés y fortaleciendo la confianza en la convivencia financiera.
-  
+---
 
 - Segmento #2: Representante del hogar
 
@@ -344,10 +344,11 @@ El escenario actual muestra procesos manuales y poca transparencia, lo que gener
   <img src="../images/ScenarioMp-2-Mejorado.png" width="1100">
 </p>
 
-Oportunidad de Diseño:
+**Insight / Oportunidad de Diseño:**  
+El proceso recae completamente en el representante.  
+Harmonix automatiza los pasos, centraliza información y genera reportes automáticos.
 
-El proceso actual recae completamente en el representante del hogar, quien realiza cálculos y verificaciones manuales.  
-**Harmonix** automatiza estos pasos, centraliza la información y genera reportes automáticos, reduciendo la carga operativa y mejorando la transparencia en el hogar.
+---
 
 ### 2.4 Ubiquitous Language
 
