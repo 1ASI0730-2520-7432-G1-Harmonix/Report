@@ -202,50 +202,36 @@ Genera tensiones, discusiones y desequilibrios económicos dentro del hogar, mie
 
 ## 1.2.2 Lean UX Process
 
-El **Lean UX** se define como un proceso en el que varios colaboradores trabajan juntos de manera continua y repetitiva, centrado en la experimentación y el aprendizaje constante. A diferencia de los métodos convencionales, este enfoque no se centra en la creación de una documentación detallada, sino que enfatiza la elaboración de prototipos y la ejecución de pruebas rápidas. Estas pruebas se realizan con usuarios auténticos y en situaciones específicas, lo que facilita la validación de hipótesis y la realización de cambios en el producto basados en la evidencia recopilada.
-
-Su propósito esencial es minimizar el desperdicio de recursos y optimizar la eficiencia en el ciclo de desarrollo, facilitando que los equipos de diseño y desarrollo puedan adaptarse con mayor agilidad a las demandas y expectativas de los usuarios (Gothelf & Seiden, 2013).
-
+El Lean UX se define como un proceso en el que varios colaboradores trabajan juntos de manera continua y repetitiva, centrado en la experimentación y el aprendizaje constante. A diferencia de los métodos convencionales, este enfoque no se centra en la creación de una documentación detallada, sino que enfatiza la elaboración de prototipos y la ejecución de pruebas rápidas. Estas pruebas se realizan con usuarios auténticos y en situaciones específicas, lo que facilita la validación de hipótesis y la realización de cambios en el producto basados en la evidencia recopilada. Su propósito esencial es minimizar el desperdicio de recursos y optimizar la eficiencia en el ciclo de desarrollo, facilitando que los equipos de diseño y desarrollo puedan adaptarse con mayor agilidad a las demandas y expectativas de los usuarios (Gothelf & Seiden, 2013).
 
 ### 1.2.2.1 Lean UX Problem Statements
 
-**¿Cómo podemos desarrollar una herramienta novedosa que motive a los miembros del hogar a gestionar sus finanzas compartidas de manera equitativa, de modo que los gastos se repartan en relación a los ingresos de cada persona?**  
-En numerosos hogares, repartirse los gastos de forma justa se torna difícil. La falta de un sistema que considere la situación económica de cada individuo genera disputas, rencores y desorganización financiera. Las herramientas disponibles en la actualidad tienden a ser bastante elementales o se restringen a realizar operaciones matemáticas sencillas.
+El producto **Harmonix** busca optimizar la forma en que los hogares administran sus finanzas compartidas, promoviendo una gestión más equitativa, transparente y colaborativa. Su objetivo actual es ofrecer una experiencia digital que fortalezca la convivencia económica y fomente la corresponsabilidad en los gastos del hogar. Además, pretende consolidarse como una alternativa moderna frente a los métodos tradicionales de registro manual, aportando simplicidad y justicia financiera.
 
-**¿Cómo podemos crear una solución que promueva la transparencia, la participación y la responsabilidad compartida en las finanzas del hogar?**  
-Cuando no se lleva un registro preciso de las contribuciones y los pagos, pueden aparecer malentendidos y falta de confianza. La ausencia de una herramienta que asegure una visibilidad común impide una convivencia pacífica en el ámbito económico.
+En la actualidad, los miembros de un mismo hogar enfrentan dificultades constantes al intentar dividir los gastos de manera justa. La mayoría de las herramientas disponibles —como hojas de cálculo o aplicaciones genéricas de finanzas personales— solo realizan divisiones matemáticas simples, sin considerar los ingresos reales de cada integrante. Esto genera tensiones, desconfianza y una sensación de inequidad que afecta la organización económica familiar, y limita el potencial de herramientas existentes para resolver esta problemática.  
+Desde la perspectiva del negocio, esta situación representa una brecha en el mercado, pues existe una alta demanda de soluciones que ofrezcan transparencia y cálculo proporcional adaptado a la realidad de cada usuario.
 
-**¿Qué métodos podríamos implementar para asistir a los usuarios en el cumplimiento de sus contribuciones y, al mismo tiempo, brindar al representante del hogar un control eficiente sobre la condición financiera del grupo?**  
-En numerosas situaciones, una única persona se encarga de la gestión, sin embargo, no dispone de los recursos suficientes para realizar un seguimiento adecuado. Los recordatorios que son informales o se realizan de manera manual tienden a ser ineficaces y producen tensiones que no son necesarias.
+Se requiere una mejora que permita gestionar los gastos compartidos del hogar de forma proporcional a los ingresos de cada integrante, con mecanismos que promuevan la transparencia y la comunicación económica. Esta mejora debe ser intuitiva, accesible y adaptable, de manera que incentive la colaboración y la responsabilidad financiera conjunta sin imponer procesos complejos.  
+La solicitud de mejora se enfoca en alcanzar una experiencia más equitativa, donde cada usuario tenga visibilidad sobre las finanzas del grupo y confianza en la distribución automática de los aportes.
 
-**¿Cómo podríamos proporcionar una herramienta sencilla que resulte útil tanto para individuos con conocimientos elementales en finanzas como para aquellos que desean un control más exhaustivo de sus gastos familiares?**  
-Los usuarios requieren una plataforma que sea simple y adaptable, capaz de presentar información importante y ajustable a sus necesidades. Numerosas soluciones actuales son complejas o no tienen en cuenta la dimensión colectiva y justa.
-
-**¿Cómo podemos fomentar una cultura de ahorro y planificación financiera en el hogar, fundamentada en objetivos comunes y acuerdos cooperativos?**  
-La gran parte de los hogares no tiene metas financieras compartidas ni prácticas de ahorro en conjunto. La carencia de una planificación conjunta limita el desarrollo económico familiar y promueve la desigualdad en las aportaciones.
+La oportunidad radica en un mercado con carencia de herramientas centradas en la equidad doméstica y la planificación financiera colectiva. **Harmonix** busca aprovechar esta brecha al ofrecer un enfoque innovador que combina tecnología, usabilidad y justicia financiera.  
+Entre las principales restricciones se encuentran el nivel de alfabetización digital de los usuarios, la confianza en los cálculos automáticos y el acceso limitado a recursos tecnológicos en determinados hogares.
 
 ### 1.2.2.2 Lean UX Assumptions
 
 **Business Outcomes**
 
-Consideramos que nuestros usuarios requieren una herramienta digital para administrar los gastos del hogar de manera equitativa y proporcional.  
-Esta necesidad se atiende mediante una plataforma que determina de manera automática cuánto debe contribuir cada individuo según sus ingresos.
+Creemos que existe una necesidad significativa en los hogares modernos de contar con una herramienta digital que permita administrar los gastos compartidos de manera justa y transparente.  
+El propósito del proyecto es mejorar la convivencia, la confianza y la organización financiera entre los integrantes del hogar.
 
-Nuestros primeros clientes serán parejas, familias o grupos de convivencia que buscan gestionar sus finanzas de manera justa y equitativa.  
-El aspecto más importante que los usuarios anticipan es la asignación equitativa de los costos de acuerdo a sus ingresos y la transparencia en las transacciones financieras.
+Asumimos que la automatización en el cálculo proporcional de aportes según los ingresos permitirá reducir los conflictos y facilitar la toma de decisiones económicas.  
+Si esta suposición resulta incorrecta, es probable que los usuarios no perciban valor en el producto y abandonen su uso en las primeras semanas.
 
-Otros beneficios importantes son: informes automáticos, alertas de pago, gestión centralizada por el representante del hogar y recomendaciones para ahorro colectivo.
+El modelo de negocio se basará en una versión gratuita con funciones básicas y una versión premium con características avanzadas, como análisis histórico, exportación de datos y personalización de reglas.  
+Consideramos que la propuesta de valor diferencial frente a la competencia (aplicaciones de gestión financiera o hojas de cálculo) radica en su enfoque colaborativo y equitativo, orientado a la justicia financiera y la transparencia.
 
-Obtenemos ingresos mediante la venta de versiones premium que brindan características avanzadas, tales como análisis históricos, exportación de datos y la personalización de las reglas de distribución.
-
-Nuestra competencia principal estará compuesta por aplicaciones de gestión financiera personal y hojas de cálculo compartidas, sin embargo, Harmonix se distingue por su metodología colaborativa y justa.  
-Venceremos a la competencia al proporcionar personalización según los ingresos, visibilidad compartida y recursos para trabajar en conjunto.
-
-Nuestro principal riesgo radica en la desconfianza de los usuarios hacia los cálculos o en su dificultad para adaptarse al uso de una plataforma colaborativa.  
-Nos ocuparemos de ello mediante una interfaz sencilla, algoritmos comprensibles y un servicio de asistencia adaptado a las necesidades individuales.
-
-Consideramos que al automatizar y hacer transparente la distribución de gastos, se mejorarán la convivencia, la confianza y la gestión financiera del hogar.  
-Si esta suposición es equivocada, podríamos experimentar una baja retención de usuarios.
+Nuestro mayor riesgo se encuentra en la desconfianza hacia los cálculos automáticos o en la resistencia al cambio de los usuarios acostumbrados a métodos tradicionales.  
+Para afrontarlo, se priorizará una interfaz sencilla, explicaciones visuales de los cálculos y asistencia personalizada durante el uso inicial.
 
 **User Outcomes**
 
@@ -253,42 +239,50 @@ Si esta suposición es equivocada, podríamos experimentar una baja retención d
 Integrantes de un mismo hogar (parejas, familias, compañeros de vivienda) que desean administrar las finanzas conjuntas de manera justa, clara y cooperativa.
 
 ¿En qué parte de su vida se integra nuestro producto?  
-En la organización y administración de los gastos mensuales que se comparten, particularmente al repartir gastos fundamentales como el alquiler, los servicios públicos, la alimentación o las metas comunes. Harmonix se transforma en un recurso digital habitual para facilitar la toma de decisiones económicas equitativas.
+En la organización y administración de los gastos mensuales compartidos, particularmente al repartir gastos fundamentales como alquiler, servicios, alimentación o metas comunes. Harmonix se convierte en un recurso habitual para facilitar la toma de decisiones económicas equitativas.
 
 ¿Cuáles son los inconvenientes de nuestro producto y de qué manera se pueden solucionar?  
 **Situación:** Ausencia de dedicación o fallos en la anotación de ingresos y gastos.  
-**Solución:** Establecer comprobaciones básicas, alertas automáticas y un sistema de recompensas (por ejemplo, objetivos logrados en colaboración).
+**Solución:** Incorporar comprobaciones básicas, alertas automáticas y un sistema de recompensas por cumplimiento colectivo.
 
 ¿Cómo y en qué momento se utiliza nuestro producto?  
 Se utiliza de manera continua y en cooperación:  
-- Al comienzo y al concluir cada mes, se debe realizar una organización y evaluación de las contribuciones.  
+- Al inicio y cierre de cada mes, para organizar y evaluar las contribuciones.  
 - Durante transacciones significativas (alquiler, servicios, adquisiciones).  
-- En cualquier momento, se puede verificar la situación de las finanzas compartidas.
+- En cualquier momento, para consultar la situación de las finanzas compartidas.
 
 ¿Qué inconvenientes podría tener nuestro producto?  
-Es posible que se presente oposición al cambio en hogares donde ya existen rutinas establecidas. Para abordar esta situación, Harmonix proporcionará:  
-- Transición sencilla de datos anteriores.  
-- Ventajas evidentes desde el primer uso (ahorro de tiempo, claridad y disminución de debates).
+Podría existir resistencia al cambio en hogares con rutinas establecidas. Para abordar esto, Harmonix ofrecerá:  
+- Migración sencilla de datos anteriores.  
+- Beneficios inmediatos desde el primer uso (claridad, ahorro de tiempo y disminución de discusiones).
 
-¿Cuáles son las características que son significativas?  
-- Cálculo automático en proporción a los ingresos  
-- Informes visuales y precisos sobre contribuciones y gastos  
+¿Cuáles son las características más significativas?  
+- Cálculo automático proporcional a los ingresos  
+- Informes visuales y detallados sobre gastos y aportes  
 - Tablero de control para el representante doméstico  
-- Registro de transacciones y aportes  
-- Notificaciones sobre fechas de vencimiento y avisos  
-- Establecimiento de objetivos y metas en común  
-- Protección y confidencialidad de la información  
-- Vivencia sencilla, disponible y cooperativa
+- Registro histórico de transacciones  
+- Notificaciones de vencimiento y alertas  
+- Establecimiento de metas de ahorro y objetivos conjuntos  
+- Protección de datos y confidencialidad  
+- Experiencia accesible, cooperativa y práctica
 
 ### 1.2.2.3 Lean UX Hypothesis Statements
 
-**Hipótesis 1: Proporción equitativa en la asignación de gastos**  
-Consideramos que un instrumento que determine de manera automática las contribuciones según los ingresos de cada integrante del hogar promoverá una convivencia más equitativa, transparente y armoniosa, previniendo discusiones superfluas.  
-Conoceremos que estamos en buen camino cuando, al menos, el 70% de los usuarios señalen haber disminuido problemas relacionados con el dinero y informen un aumento en su satisfacción con la distribución de gastos dentro de los primeros tres meses de uso.
+**Hipótesis 1 – Distribución equitativa de gastos**  
+Creemos que automatizar la asignación de contribuciones según los ingresos individuales aumentará la equidad y reducirá los conflictos financieros.  
+**Consideraremos que hemos alcanzado el éxito cuando** el **70 % de los usuarios** manifieste una **disminución en las discusiones por dinero** y una **mayor satisfacción con la gestión financiera** durante los primeros tres meses.
 
-**Hipótesis 2: Vigilancia por parte del representante del hogar**  
-Consideramos que permitir a un representante tener acceso a una visión general del estado financiero compartido, junto con alertas y reportes automáticos, potenciará la transparencia y el cumplimiento de los pagos.  
-Tendremos la certeza de que estamos en buen camino cuando se evidencie una disminución notable en los pagos pendientes y cuando un mínimo del 60% de los hogares registrados utilice de manera activa el panel de control.
+**Hipótesis 2 – Transparencia y control del representante del hogar**  
+Suponemos que al ofrecer reportes automáticos y alertas visuales, el representante del hogar logrará fortalecer la transparencia y el cumplimiento de pagos.  
+**Consideraremos que hemos alcanzado el éxito cuando** el número de **pagos atrasados se reduzca en un 50 %**, y el **60 % de los hogares** utilice activamente el panel de control.
+
+**Hipótesis 3 – Adopción y facilidad de uso**  
+Creemos que una interfaz intuitiva y adaptable incrementará la adopción del sistema incluso entre usuarios con poca experiencia digital.  
+**Consideraremos que hemos alcanzado el éxito cuando** el **80 % de los usuarios** complete el registro y uso básico sin requerir asistencia técnica.
+
+**Hipótesis 4 – Cultura de ahorro cooperativo**  
+Consideramos que introducir metas de ahorro compartidas fomentará la planificación y cooperación económica familiar.  
+**Consideraremos que hemos alcanzado el éxito cuando** al menos el **50 % de los hogares** cree y mantenga una **meta de ahorro en común** durante los primeros dos meses.
 
 ### 1.2.2.4 Lean UX Canvas
 
