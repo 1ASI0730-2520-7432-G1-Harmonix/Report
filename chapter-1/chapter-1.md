@@ -292,7 +292,7 @@ Tendremos la certeza de que estamos en buen camino cuando se evidencie una dismi
 
 ### 1.2.2.4 Lean UX Canvas
 
-<img src="../images/canvax.png" alt="Lean UX Canvas" width="100%">
+<img src="../images/canvax mejorado4.png" alt="Lean UX Canvas" width="100%">
 
 ---
 
