@@ -301,6 +301,136 @@ A continuación, se muestran las capturas de los insights del repositorio de la 
 - feature/chapter-5
 <img src="../images/chapter5.png" alt="Trello" width="100%">
 
+### 5.2.2. Sprint 2 ###
 
+A continuación, se presenta el Sprint Planning 2, donde se incluyen las evidencias de planificación e implementación del Frontend También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
+
+#### 5.2.2.1. Sprint Planning 2
+| **Campo**                              | **Descripción**                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                           | Sprint 2                                                                                                                                                                                                                                                                                                           |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                    |
+| **Date**                               |                                                                                                                                                                                                                                                                                                                    |
+| **Time**                               |                                                                                                                                                                                                                                                                                                                    |
+| **Location**                           |                                                                                                                                                                                                                                                                                                                    |
+| **Prepared By**                        | Testigos de Harmonix                                                                                                                                                                                                                                                                                              |
+| **Attendees (to planning meeting)**    | Equipo Harmonix                                                                                                                                                                                                                                                            |
+| **Sprint 0 Review Summary**        | Este es el primer sprint, por lo tanto, no hay una revisión de sprint anterior.                                                                                                                                                                                                                                    |
+| **Sprint 0 Retrospective Summary** | Al ser el inicio del proyecto, se identificaron aspectos técnicos por aprender, como el uso de frameworks CSS. Se revisó el diseño del Landing Page en Figma, se discutió el contenido textual a incluir y se definió el objetivo principal: lograr desplegar el Landing Page en GitHub Pages al final del sprint. |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                    |
+| **Sprint 1 Goal**                      | Desplegar un Landing Page funcional con diseño responsive y estructura definida, accesible públicamente desde GitHub Pages.                                                                                                                                                                                        |
+| **Sprint 1 Velocity**                  | 20                                                                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 10                                                                                                                                                                                                                                                                                                                  |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+ |Team Member | GitHub Username |  Delegating Responsibilities <br> Leader (L) / Collaborator (C) | Merging Branches <br>Leader (L) /Collaborator (C)| Correcting Mistakes <br> Leader (L) /Collaborator (C)|
+|-------------|--------------|------------|----------|----------|
+| Jose Luis Martinez Validivia | hmongus  |    C   |    L     | C  |
+| Camila Leonor Espinoza Vivas		 | C7leo  |    L   |     C    | C  |
+| Kevin Patrick Panto Chuquipiondo		 | Kevinyin11  |  C     |   C      |  C  |
+| Sebastián Córdova	 | Sevas04  |    C   |    C     |   C   |
+| Martin Gonzales | XdiabloX426  |   C    |    C     |   L   |
+
+#### 5.2.2.3. Sprint Backlog 1
+
+El Sprint Backlog 1 corresponde a la planificación inicial del desarrollo de la plataforma Harmonix, donde se definieron y priorizaron las primeras funcionalidades clave para la Landing Page y la configuración básica de despliegue. En este sprint, el equipo trabajó en la implementación de secciones informativas que presentan los objetivos, beneficios y funcionalidades de la aplicación, así como en la incorporación de ejemplos visuales y accesos directos para el registro e inicio de sesión de usuarios.
+
+Adicionalmente, se incluyeron tareas técnicas relacionadas con la documentación del despliegue y la configuración de monitoreo básico, asegurando que el proyecto cuente con una base sólida para futuras iteraciones.
+
+El trabajo colaborativo del equipo se gestionó en la herramienta Trello, lo que permitió organizar, priorizar y dar seguimiento a cada tarea de manera eficiente.
+
+Link al tablero de Trello: https://trello.com/invite/b/647377f527633648e32f8b34/ATTId97694eca59f351dc52e5b0eced257d936D70AE8/product-backlog 
+
+<img src="../images/trelloSPRINT1.png" alt="Trello" width="100%">
+
+| **User Story Id** | **Title**                                                                  | **Task Id** | **Task Title**              | **Description**                                                                                  | **Estimation (Hours)** | **Assigned To** | **Status (To-do/In-Process/To-Review/Done)** |
+| ----------------- | -------------------------------------------------------------------------- | ----------- | --------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------- | --------------- | -------------------------------------------- |
+| US31              | Visualizar información general sobre Harmonix desde la landing page       | T1          | Información general         | Desarrollo de la sección con información introductoria de Harmonix                              | 2                      | Jose Luis Martinez Validivia               | Done                                        |
+| US32              | Conocer las funciones principales para representantes y miembros del hogar | T1          | Funciones principales       | Diseño y desarrollo de la sección que explica las funciones clave para representantes y miembros | 2                      | Camila Leonor Espinoza Vivas               | Done                                        |
+| US33              | Explorar beneficios del sistema de aportes proporcionales                  | T1          | Beneficios                  | Desarrollo de la sección que muestre los beneficios de usar el sistema de aportes proporcionales | 2                      | Kevin Patrick Panto Chuquipiondo               | Done                                        |
+| US34              | Ver ejemplos o simulaciones de cómo funciona la plataforma                 | T1          | Ejemplos y simulaciones     | Implementación de ejemplos visuales o simulaciones del funcionamiento de la plataforma           | 3                      |  Sebastián Córdova               | Done                                        |
+| US35              | Acceder fácilmente al registro o login desde botones destacados            | T1          | Botones de acceso           | Diseño e implementación de botones visibles para registro y login                                | 1                      | Martin Gonzales               | Done                                        |
+| TS18              | Documentar los pasos para desplegar nuevas versiones                       | T1          | Documentación de despliegue | Redacción de la guía de pasos necesarios para desplegar nuevas versiones                         | 2                      | Jose Luis Martinez Validivia               | Done                                        |
+| TS19              | Habilitar monitoreo básico del sistema desplegado (logs, uptime)           | T1          | Monitoreo básico            | Configuración inicial para registrar logs y habilitar monitoreo de uptime                        | 3                      | Camila Leonor Espinoza Vivas               | Done                                        |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+|Repository Branch |  Commit Id  |  Commit Message | Commit Message Body | Commited on (Date)|
+|-----------------|--------------|-----------------|---------------------|-------------------|
+|Landing Page - develop   |   4c76760…f3dcfd9     |  chores(landingpage): added some translation words    |           |   16/09/2025 |
+|Landing Page - develop   |    c62b615…4c76760     |  chore(landingpage): add completed landing page       |           |   15/09/2025 |
+|Landing Page - reviews   |   c62b615…3c7fbde      |  feature(reviews): completed landing page-OurSystem - added HTML  |    |12/09/2025|
+|Landing Page - home   |   c62b615…7769d76     |  feat: add section home structure and styling    |           |   11/09/2025 |
+|Landing Page - about us   |   c62b615…3f0f246     |  update landing page about us   |           |   13/09/2025 |
+| Landing Page - pricing |  c62b615…6a35cc4         |  feature(pricing): completed Reviews on an 80%  |    |      10/09/2025     |
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+A continuación se presentan capturas del landing page implementado en código, con el uso de HTML, CSS y JavaScript.
+Link: https://1asi0730-2520-7432-g1-harmonix.github.io/LandingPage/
+
+- Home:<br>
+
+   ![Alt Text](../images/home.PNG)
+<br>
+
+- About Us:<br>
+
+   <p align="center">
+  <img src="https://imgur.com/tdh3OY4.png">
+  </p>
+
+  <br>
+  
+- Services: <br>
+
+  ![Alt Text](../images/services.PNG)
+  
+  <br>
+- How does it work?: <br>
+
+  ![Alt Text](../images/howitworks.PNG)
+
+  <br>
+
+- Prices: <br>
+
+  ![Alt Text](../images/prices.PNG)
+
+  <br>
+
+- Contact us: <br>
+
+  ![Alt Text](../images/contactus.PNG)
+
+  <br>
+
+#### 5.2.2.6. Software Deployment Evidence for Sprint Review
+
+Hasta ahora, no hemos utilizado servicios web en el proceso de desarrollo de la página de inicio. Esto significa que no hemos realizado actividades como la creación de cuentas, la configuración de recursos en proveedores de servicios en la nube, la creación de proyectos de desarrollo para la integración o automatización de tareas de implementación, entre otras acciones relacionadas.
+
+En cuanto al despliegue de la página de inicio, lo hemos realizado en la plataforma de Github Pages.
+
+Se puede acceder a la página de inicio a través del siguiente enlace: https://1asi0730-2520-7432-g1-harmonix.github.io/LandingPage/
+
+#### 5.2.2.7. Team Collaboration Insights during Sprint
+
+A continuación, se muestran las capturas de los insights del repositorio de la Landing Page para evidenciar la participación de todos los miembros del grupo:
+
+- feature/chapter-1
+<img src="../images/chapter1.png" alt="Trello" width="100%">
+
+- feature/chapter-2
+<img src="../images/chapter2.png" alt="Trello" width="100%">
+
+- feature/chapter-3
+<img src="../images/chapter3.png" alt="Trello" width="100%">
+
+- feature/chapter-4
+<img src="../images/chapter4.png" alt="Trello" width="100%">
+
+- feature/chapter-5
+<img src="../images/chapter5.png" alt="Trello" width="100%">
 
 
