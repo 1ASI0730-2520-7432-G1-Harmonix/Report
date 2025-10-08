@@ -57,6 +57,7 @@
 | 1.0     | 16-09-2025 | Sebastián Córdova | Se añadio la sección de Database Diagram en el capítulo 4.                                                                |
 | 1.0     | 13-09-2025 | Martin Gonzales | Se añadio la sección de Software Configuration Management en el capítulo 5.                                               |
 | 1.0     | 14-09-2025 | Jose Martinez  | Se añadio la sección de Sprint 1 en el capítulo 5.                                                                        |
+| 2.0     | 06-10-2025 | Camilla Espinoza  | Se añadio la sección de Sprint Planning 2 en el capítulo 5.                                                                        |
 
 # Project Report Collaboration Insights
 
@@ -68,7 +69,7 @@ A continuación, se detalla el desarrollo de las actividades relacionadas con la
 
 <img width="689" height="804" alt="Image" src="https://github.com/user-attachments/assets/68cb1e02-e662-4b6f-b970-54b788684cc5" />
 
-**TB2**
+**TP**
 
 
 
