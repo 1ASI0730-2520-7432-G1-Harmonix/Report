@@ -62,6 +62,15 @@
 
 URL Project Report (Github): https://github.com/1ASI0730-2520-7432-G1-Harmonix/Report.git
 
+A continuación, se detalla el desarrollo de las actividades relacionadas con la elaboración del informe, incluyendo capturas de los análisis de colaboración y los commits en GitHub. 
+
+**TB1**
+
+<img width="689" height="804" alt="Image" src="https://github.com/user-attachments/assets/68cb1e02-e662-4b6f-b970-54b788684cc5" />
+
+**TB2**
+
+
 
 # STUDENT OUTCOME
 
