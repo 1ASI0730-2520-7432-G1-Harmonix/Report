@@ -199,7 +199,11 @@ A continuación, se detalla el desarrollo de las actividades relacionadas con la
 
 - Consideramos importante seguir aplicando pruebas con usuarios de diferentes perfiles (visitantes, registrados, miembros y representantes), con el objetivo de identificar mejoras en la navegación, accesibilidad y rendimiento de la aplicación web.
 
-## Video About-the-Team: 
+## Video About-the-Team:
+
+**TB1** (Sprint 1): bit.ly/4nEQiRO
+
+**TP** (Sprint 2): 
 
 # Bibliografía
 
