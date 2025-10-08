@@ -1,10 +1,10 @@
 # Capítulo 5: Product Implementation, Validation & Deployment #
 
-## _5.1. Software Configuration Management_ ##
+## 5.1. Software Configuration Management
 
 En esta sección, se detalla la configuración de la tecnología a usar en el ciclo de vida de desarrollo del proyecto del curso.
 
-### 5.1.1. Software Development Environment Configuration ###
+### 5.1.1. Software Development Environment Configuration 
 
 En esta sección, se explica los entornos en donde se decidió llevar a cabo el ciclo de vida de desarrollo de los productos de software relacionados al proyecto del curso.
 
@@ -167,9 +167,9 @@ En esta sección, se especifica la configuración para realizar el despliegue de
 </p>
 
 
-## _5.2. Landing Page, Services & Applications Implementation_ ##
+## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.1. Sprint 1 ###
+### 5.2.1. Sprint 1 
 
 A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
 
@@ -235,7 +235,12 @@ Link al tablero de Trello: https://trello.com/invite/b/647377f527633648e32f8b34/
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
-A continuación se presentan capturas del landing page implementado en código, con el uso de HTML, CSS y JavaScript.
+Como parte de la revisión del sprint, se presentan las evidencias de ejecución relacionadas con el desarrollo del Landing Page de Harmonix. La implementación se realizó empleando HTML, CSS y JavaScript, asegurando una estructura semántica clara, un diseño visual coherente con las guías de estilo y funcionalidades interactivas que mejoran la experiencia de usuario.
+
+Además de las capturas del código implementado, se incluye un video demostrativo donde se explica y evidencia la navegación lograda durante este sprint, así como el flujo de interacción principal que se validó.
+
+Video about the product: bit.ly/4nxTsa6  
+
 Link: https://1asi0730-2520-7432-g1-harmonix.github.io/LandingPage/
 
 - Home:<br>
