@@ -45,6 +45,7 @@ En esta sección, se describen los medios y esquemas de organización para gesti
 A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos y avances de proyecto relacionados al Landing Page, Front-End y Back-End Application.
 
 * **Landing Page: [https://github.com/1ASI0730-2520-7432-G1-Harmonix/LandingPage.git](https://github.com/1ASI0730-2520-7432-G1-Harmonix/LandingPage.git)**
+* **Front End: [https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd.git](https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd.git)**
 
 **5.1.2.2. GitFlow**
 
