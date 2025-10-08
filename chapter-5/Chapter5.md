@@ -344,6 +344,63 @@ A continuación, se presenta el Sprint Planning 2, donde se incluyen las evidenc
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
+En esta sección se registran las evidencias del desarrollo y despliegue del **FrontEnd de Harmonix** durante el **Sprint 2**, correspondientes a los commits realizados en GitHub por el equipo.
+
+---
+
+#### Commits de desarrollo (funcionalidad)
+
+| Autor | Fecha | Commit Message | Commit ID |
+|---|---|---|---|
+| **José Martínez Valdivia (hmongus)** | 07/10/2025 | Merge pull request #1 from develop | bf4afd2 |
+| **José Martínez Valdivia (hmongus)** | 07/10/2025 | add models and services | dae12a5 |
+| **José Martínez Valdivia (hmongus)** | 07/10/2025 | add data to json | 1f066cb |
+| **José Martínez Valdivia (hmongus)** | 07/10/2025 | fix server issue | 4b73ea1 |
+| **José Martínez Valdivia (hmongus)** | 07/10/2025 | add server | 6750dc5 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): add mock database file for local development | 67a0fb2 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): update route configuration and navigation paths | 95d9aed |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | refactor(main): move authentication components to IAM folder | ccbd905 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | chore(main): update English and Spanish translation files | f7c3fc8 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): update authentication components and role handling | 9789e93 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): add home-representative page component | 6f8e924 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): add home-member page component | 20b5a5b |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): add household representative components | 4657bf4 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): add household member components | bab6cdb |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | chore(css): remove deprecated main.css file | 7536740 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | chore(env): update environment configuration for development | ec1f55c |
+| **José Martínez Valdivia (hmongus)** | 06/10/2025 | add locales | 16b5e77 |
+| **José Martínez Valdivia (hmongus)** | 06/10/2025 | add language switcher | 8e3e5b0 |
+| **José Martínez Valdivia (hmongus)** | 06/10/2025 | add router links | 66561ba |
+| **José Martínez Valdivia (hmongus)** | 06/10/2025 | initial setup | 966f6d6 |
+
+**Fuente:** historial de commits en la rama `master` del repositorio [FrontEnd – Harmonix](https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd).
+
+---
+
+#### Commits de documentación y diseño
+
+Las actualizaciones relacionadas con documentación, diagramas y reportes se encuentran registradas en el repositorio **Report – Harmonix**.
+
+| Autor | Fecha | Commit Message | Commit ID |
+|---|---|---|---|
+| **Kevinyin11** | 06/10/2025 | Update chapter-1.md | 36f3264 |
+| **Kevinyin11** | 06/10/2025 | Add files via upload | 75c45be |
+| **Kevinyin11** | 06/10/2025 | Update chapter-1.md | 0be49d3 |
+| **Kevinyin11** | 06/10/2025 | Update chapter-1.md | 52a9317 |
+| **C7leo** | 19/09/2025 | doc(chapter-4): update | 5bada39 |
+| **C7leo** | 19/09/2025 | docs(chapter-5): Add Sprint Backlog 1 details | 969f221 |
+| **XdiabloX426** | 18/09/2025 | fix: fix error in documentation | 45b7770 |
+
+**Fuente:** historial de commits en la rama `master` del repositorio [Report – Harmonix](https://github.com/1ASI0730-2520-7432-G1-Harmonix/Report/commits/master/).
+
+---
+
+##### Observaciones
+
+- Los commits corresponden al periodo de desarrollo y documentación del **Sprint 2 (06–07 de octubre de 2025)**.  
+- Cada commit evidencia un avance técnico o de documentación del proyecto.  
+- La rama `master` concentra los cambios desplegados y validados para revisión en el Sprint Review.
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
