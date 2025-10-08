@@ -405,6 +405,52 @@ Las actualizaciones relacionadas con documentación, diagramas y reportes se enc
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el desarrollo del **Sprint 2**, el equipo de Harmonix implementó y documentó los **servicios simulados (mock API)** utilizados por el FrontEnd para la gestión de usuarios, hogares y contribuciones.  
+Estos servicios se definieron en el archivo `db.json`, empleando **JSON Server** como entorno de desarrollo local.  
+El objetivo fue garantizar la conexión funcional entre las vistas del sistema y las operaciones de lectura, creación y actualización de datos.  
+
+A continuación, se presenta la documentación de los endpoints registrados y utilizados durante este sprint:
+
+---
+
+| **Endpoint** | **Acción implementada** | **Método HTTP** | **Parámetros** | **Ejemplo de Request** | **Ejemplo de Response** | **Documentación (local)** |
+|---------------|--------------------------|------------------|----------------|------------------------|-------------------------|---------------------------|
+| `/api/users` | Listar usuarios registrados | **GET** | — | — | ```json [ { "id": 1759796571919, "name": "Jose", "email": "admin@gmail.com", "role": "representative", "plan": "FREE", "status": "active", "isNewUser": false } ]``` | `http://localhost:3000/users` |
+| `/api/users` | Registrar usuario | **POST** | name, email, password, role, plan | ```json { "name": "Eduardo", "email": "eduardo@example.com", "password": "Ednoru123", "role": "member", "plan": "PREMIUM", "isNewUser": false }``` | ```json { "id": 1759954533800, "name": "Eduardo", "email": "eduardo@example.com", "role": "member", "plan": "PREMIUM", "isNewUser": false }``` | `http://localhost:3000/users` |
+| `/api/settings` | Obtener configuración por usuario | **GET** | userId | `/api/settings?userId=1759796571919` | ```json [ { "id": "STT-124490", "userId": 1759796571919, "language": "ES", "darkMode": true, "notificationEnabled": false } ]``` | `http://localhost:3000/settings` |
+| `/api/settings` | Actualizar configuración | **PATCH/PUT** | id, darkMode, notificationEnabled | ```json { "darkMode": false, "notificationEnabled": true }``` | ```json { "id": "STT-124490", "userId": 1759796571919, "language": "ES", "darkMode": false, "notificationEnabled": true }``` | `http://localhost:3000/settings/STT-124490` |
+| `/api/households` | Crear hogar | **POST** | representativeId, currency, name, description | ```json { "representativeId": 1759954210938, "name": "Gaming House", "description": "Departamento compartido con amigos", "currency": "PEN" }``` | ```json { "id": "HOG-1759954210938", "name": "Gaming House", "description": "Departamento compartido con amigos", "currency": "PEN", "representativeId": 1759954210938 }``` | `http://localhost:3000/households` |
+| `/api/households` | Listar hogares registrados | **GET** | — | — | ```json [ { "id": "HOG-1759796571919", "representativeId": 1759796571919, "currency": 1 }, { "id": "HOG-1759954210938", "name": "Gaming House", "currency": "PEN" } ]``` | `http://localhost:3000/households` |
+| `/api/householdMember` | Listar miembros por hogar | **GET** | householdId | `/api/householdMember?householdId=HOG-1759796571919` | ```json [ { "id": "HM-123393", "userId": "1759798502697", "householdId": "HOG-1759796571919" } ]``` | `http://localhost:3000/householdMember` |
+| `/api/householdMember` | Registrar miembro en hogar | **POST** | userId, householdId | ```json { "userId": "1759801172915", "householdId": "HOG-1759796571919" }``` | ```json { "id": "HM-NEW", "userId": "1759801172915", "householdId": "HOG-1759796571919" }``` | `http://localhost:3000/householdMember` |
+| `/api/bills` | Registrar gasto o factura | **POST** | householdId, description, amount, createdBy, paymentDay | ```json { "householdId": "HOG-1759796571919", "description": "Internet", "amount": "100.00", "createdBy": 1759796571919, "paymentDay": "2026-10-10T00:00:00.000Z" }``` | ```json { "id": "BG-12212222", "description": "Internet", "amount": "100.00", "paymentDay": "2026-10-10T00:00:00.000Z" }``` | `http://localhost:3000/bills` |
+| `/api/contributions` | Crear contribución | **POST** | billId, householdId, description, deadlineForMembers, strategy | ```json { "billId": "BG-12212222", "householdId": "HOG-1759796571919", "description": "Aporte mensual", "deadlineForMembers": "2026-09-09T00:00:00.000Z", "strategy": 1 }``` | ```json { "id": "CN-272818", "billId": "BG-12212222", "householdId": "HOG-1759796571919" }``` | `http://localhost:3000/contributions` |
+| `/api/memberContributions` | Registrar aporte de miembro | **POST** | contributionId, memberId, amount, status | ```json { "contributionId": "CN-272818", "memberId": "HM-123393", "amount": "20.0", "status": 1 }``` | ```json { "id": "MC-152672", "contributionId": "CN-272818", "memberId": "HM-123393", "amount": "20.0", "status": 1 }``` | `http://localhost:3000/memberContributions` |
+| `/api/memberContributions` | Listar aportes por contribución | **GET** | contributionId/memberId | `/api/memberContributions?contributionId=CN-272818` | ```json [ { "id": "MC-152672", "contributionId": "CN-272818", "memberId": "HM-123393", "amount": "20.0", "status": 1 } ]``` | `http://localhost:3000/memberContributions` |
+
+---
+
+#### Evidencias gráficas
+
+Se incluyen capturas del archivo `db.json` que muestran el estado actual de los servicios documentados y sus datos de prueba:
+
+1. **Colección `users`** – evidencia de roles, planes y nuevo campo `isNewUser`.
+
+<p align="center">
+  <img src="../images/Evidencia-2.png" alt="Evidencia-2">
+</p>
+   
+2. **Colección `households`** – evidencia de creación del hogar *Gaming House* con campos extendidos.  
+
+<p align="center">
+  <img src="../images/Evidencia-3.png" alt="Evidencia-3">
+</p>
+
+**Fuente:** archivo `db.json` del repositorio [FrontEnd – Harmonix](https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd).  
+
+
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint
