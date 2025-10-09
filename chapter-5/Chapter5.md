@@ -438,49 +438,49 @@ A continaucion se presenta captura de las pantallas realizadas del FronteEnd en 
 - Representative-Dashboard:
 
 <p align="center">
-  <img src="../images/repDashboard.png" alt="Evidencia-3">
+  <img src="../images/repDashboard.PNG" alt="Evidencia-3">
 </p>
 
 - Representative-Households:
 
   <p align="center">
-  <img src="../images/repHouseHold.png" alt="Evidencia-3">
+  <img src="../images/repHouseHold.PNG" alt="Evidencia-3">
 </p>
 
 - Representative-Members:
 
 <p align="center">
-  <img src="../images/repMembers.png" alt="Evidencia-3">
+  <img src="../images/repMembers.PNG" alt="Evidencia-3">
 </p>
   
 - Representative-Expenses:
 
 <p align="center">
-  <img src="../images/repExpenses.png" alt="Evidencia-3">
+  <img src="../images/repExpenses.PNG" alt="Evidencia-3">
 </p>
   
 - Representative-Contributions:
 
 <p align="center">
-  <img src="../images/repContributions.png" alt="Evidencia-3">
+  <img src="../images/repContributions.PNG" alt="Evidencia-3">
 </p>
 
 - Representative-Configuration:
 - 
 <p align="center">
-  <img src="../images/repConfiguration.png" alt="Evidencia-3">
+  <img src="../images/repConfiguration.PNG" alt="Evidencia-3">
 </p>
   
 - Member-HomeState:
 
 <p align="center">
-  <img src="../images/memberHomeState.png" alt="Evidencia-3">
+  <img src="../images/memberHomeState.PNG" alt="Evidencia-3">
 </p>
 
 - Member-FindHome:
 
   <p align="center">
-  <img src="../images/memberFindHome.png" alt="Evidencia-3">
+  <img src="../images/memberFindHome.PNG" alt="Evidencia-3">
 </p>
 
 
@@ -537,12 +537,12 @@ Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, a
   - FrontEnd (Netlify): https://storied-concha-593faf.netlify.app/
 
      <p align="center">
-  <img src="../images/frontEnd.png" alt="Evidencia-3">
+  <img src="../images/frontEnd.PNG" alt="Evidencia-3">
 </p>
 
   - FakeApi(Render): https://fake-json-api.onrender.com/users
 <p align="center">
-  <img src="../images/fakeApi.png" alt="Evidencia-3">
+  <img src="../images/fakeApi.PNG" alt="Evidencia-3">
 </p> 
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint
