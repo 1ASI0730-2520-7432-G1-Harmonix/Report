@@ -207,7 +207,7 @@ A continuación, se detalla el desarrollo de las actividades relacionadas con la
 
 **TB1** (Sprint 1): bit.ly/4nEQiRO
 
-**TP** (Sprint 2): 
+**TP** (Sprint 2): bit.ly/4ohpyaB
 
 # Bibliografía
 
