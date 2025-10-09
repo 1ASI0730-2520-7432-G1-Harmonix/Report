@@ -342,6 +342,38 @@ A continuación, se presenta el Sprint Planning 2, donde se incluyen las evidenc
 
 #### 5.2.2.3. Sprint Backlog 2
 
+El Sprint Backlog 2 corresponde a la planificación inicial del desarrollo de la plataforma Harmonix, donde se definieron y priorizaron las primeras funcionalidades clave para el FrontEnd y la configuración básica de despliegue. En este sprint, el equipo trabajó en la implementación de secciones informativas que presentan los objetivos, beneficios y funcionalidades de la aplicación, así como en la incorporación de ejemplos visuales y accesos directos para el registro e inicio de sesión de usuarios.
+
+El trabajo colaborativo del equipo se gestionó en la herramienta Trello, lo que permitió organizar, priorizar y dar seguimiento a cada tarea de manera eficiente.
+
+Link al tablero de Trello: https://trello.com/invite/b/68e673a454041fb9f6aa1f29/ATTIb113180968d810d2941119d7342ca45b1214775F/sprint-backlog-2
+
+<img src="https://imgur.com/eNjMGzh.png">
+
+| **User Story Id** | **Title** | **Task Id** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| ----------------- | ---------- | ------------ | --------------- | ---------------- | ---------------------- | --------------- | ----------- |
+| **US01** | Registro de usuario | T1 | Crear formulario de registro | Implementar formulario para registrar nuevos usuarios con validaciones. | 4 | Camilla Espinoza | Done |
+| **US02** | Inicio de sesión seguro | T1 | Implementar autenticación | Añadir login con validación de credenciales y seguridad mediante tokens. | 3 | Camilla Espinoza | Done |
+| **US03** | Edición de información personal | T1 | Actualizar datos del usuario | Permitir que el usuario edite su nombre, correo y contraseña. | 3 | Sebastian Cordova | Done |
+| **US04** | Cierre de sesión desde todos los dispositivos | T1 | Implementar cierre de sesión global | Añadir funcionalidad para cerrar sesión en todos los dispositivos activos. | 2 | Sebastian Cordova | Done |
+| **US05** | Configuración de notificaciones personales | T1 | Diseñar menú de notificaciones | Permitir activar o desactivar tipos de notificaciones del usuario. | 3 | Sebastian Cordova | Done |
+| **US06** | Crear hogar | T1 | Crear formulario de creación de hogar | Desarrollar vista y lógica para registrar un nuevo hogar. | 4 | Camilla Espinoza | Done |
+| **US07** | Aprobar gastos | T1 | Agregar validación y botón de aprobación | Permitir que el dueño del hogar apruebe o rechace gastos. | 3 | Martin Gonzales | Done |
+| **US08** | Ajustar porcentajes de aportes | T1 | Implementar ajuste de porcentajes | Configurar los aportes de los miembros según sus ingresos. | 3 | Jose Martinez | Done |
+| **US09** | Visualizar reportes mensuales | T1 | Mostrar resumen mensual | Crear vista con reportes de ingresos y gastos del mes. | 4 | Kevin Pardo | Done |
+| **US10** | Configurar métodos de pago aceptados | T1 | Agregar opciones de pago | Permitir seleccionar y guardar métodos de pago disponibles. | 3 | Jose Martinez | Done |
+| **US11** | Ingresar ingresos personales | T1 | Crear formulario de ingresos | Habilitar a los miembros para registrar su ingreso mensual. | 3 | Kevin Pardo | Done |
+| **US12** | Ver monto a pagar | T1 | Mostrar detalle del monto | Calcular y mostrar cuánto debe pagar cada miembro. | 3 | Martin Gonzales | Done |
+| **US13** | Registrar pagos realizados | T1 | Crear formulario de pagos | Registrar pagos con validación de montos y fechas. | 4 | Martin Gonzales | Done |
+| **US14** | Ver historial de pagos | T1 | Mostrar historial | Generar listado con todos los pagos realizados por el usuario. | 3 | Martin Gonzales | Done |
+| **US15** | Ver distribución de gastos del hogar | T1 | Crear tabla de distribución | Mostrar en qué se gasta el dinero del hogar, segmentado por categorías. | 3 | Jose Martinez | Done |
+| **US16** | Registrar nuevo gasto | T1 | Crear formulario de gasto | Registrar gastos realizados por los miembros o el dueño. | 4 | Martin Gonzales | Done |
+| **US17** | Adjuntar comprobantes de gasto | T1 | Subir archivo de comprobante | Permitir al usuario subir comprobantes asociados a un gasto. | 2 | Martin Gonzales | Done |
+| **US18** | Clasificar gastos por categoría | T1 | Implementar categorías de gasto | Permitir organizar los gastos según tipo (servicio, alimento, etc.). | 3 | Jose Martinez | Done |
+| **US19** | Comentar o justificar un gasto | T1 | Agregar sección de comentarios | Habilitar justificación o comentario al registrar un gasto. | 2 | Jose Martinez | Done |
+| **US20** | Visualizar gráficos de gastos | T1 | Crear dashboard visual | Mostrar gráficos que representen el comportamiento de gastos. | 4 | Jose Martinez | Done |
+| **US37** | Implementar manejo de estados de carga y éxito en el panel del miembro | T1 | Añadir estados visuales de carga | Mostrar animaciones o mensajes durante carga y éxito en operaciones. | 2 | Sebastian Cordova | Done |
+
 #### 5.2.2.4. Development Evidence for Sprint Review
 
 En esta sección se registran las evidencias del desarrollo y despliegue del **FrontEnd de Harmonix** durante el **Sprint 2**, correspondientes a los commits realizados en GitHub por el equipo.
@@ -404,8 +436,6 @@ Las actualizaciones relacionadas con documentación, diagramas y reportes se enc
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
-
-### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 Durante el desarrollo del **Sprint 2**, el equipo de Harmonix implementó y documentó los **servicios simulados (mock API)** utilizados por el FrontEnd para la gestión de usuarios, hogares y contribuciones.  
 Estos servicios se definieron en el archivo `db.json`, empleando **JSON Server** como entorno de desarrollo local.  
