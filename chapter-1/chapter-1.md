@@ -17,89 +17,14 @@ A través de un sistema digital automatizado, claro y accesible, Harmonix foment
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
-<table border="1" cellspacing="0" cellpadding="8">
+| Integrante | Descripción Personal | Conocimientos Técnicos |
+|-------------|----------------------|-------------------------|
+| **Camilla Leonor Espinoza Vivas - u202214572**<br>![Camilla](../images/camilla.png) | Soy estudiante de ingeniería de software, con conocimiento en programación, diseño web y arquitecturas orientadas a servicios. Me caracterizo por ser responsable, disciplinada y colaborativa, aportando siempre soluciones técnicas y creativas. Además, me considero comprometida, constante y proactiva, cualidades que fortalecen mi desarrollo personal y académico. | Cuento con conocimientos en desarrollo de software, estructuras de datos, algoritmos y arquitecturas orientadas a servicios. Manejo lenguajes como **Java, TypeScript, JavaScript, HTML5 y CSS3**, además de frameworks y herramientas como **Angular, Spring Boot, Git/GitHub, Swagger** y bases de datos relacionales. Me interesan el diseño y desarrollo de aplicaciones web, la experiencia de usuario, la innovación tecnológica y la creación de soluciones que aporten valor real a las personas. |
+| **Angel Martin Gonzales Castillo - u202319724**<br>![Angel](https://i.imgur.com/dfZFyYP.jpg) | Soy estudiante de la carrera de Ingeniería de Software y actualmente me encuentro en el sexto ciclo. Me caracterizo por mi interés en la programación, la tecnología y el aprendizaje continuo. Tengo una actitud analítica y organizada, lo que me permite desarrollar proyectos académicos y prácticos con dedicación, buscando siempre aplicar los conocimientos adquiridos de manera efectiva. | Tengo conocimientos en **Python, C++, Java (básico), HTML y CSS (básico)**, además de frameworks como **Angular** y **Vue**. Apoyo al equipo activamente y trato de aprender cosas nuevas y mejorar los conocimientos que ya poseo. |
+| **Kevin Patrick Pardo Chumpitazi - U20221A525**<br>![Kevin](../images/kevin.jpg) | Mi nombre es Kevin Patrick Pardo Chumpitazi y actualmente estudio la carrera de Ingeniería de Software. Soy una persona comprometida y con responsabilidad para poder lograr mis metas. Me esfuerzo por mantener el orden en el trabajo grupal y asegurar que todos los integrantes puedan contribuir sin obstáculos. | Tengo conocimientos en **C#, Python, C++ y HTML**. Actualmente estoy aprendiendo sobre el desarrollo de aplicaciones móviles en **backend y frontend**, lo cual me ha ayudado en el desarrollo de este trabajo. |
+| **Jose Luis Martinez Valdivia - u202213989**<br>![Jose](../images/foto_Jose.jpg) | Soy estudiante de la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software, tengo 21 años. Me destaco en el trabajo en equipo y en encontrar formas de mejorar la eficiencia del equipo. | Tengo un nivel intermedio de conocimiento en **C++, Node.js, TypeScript y Java**, así como habilidades en **Angular, Vue.js, HTML, CSS**. También manejo el desarrollo bajo los principios **SOLID** y **DDD**. |
+| **Sebastián Córdova Valdivia - U202111041**<br>![Sebastián](../images/sebastian.png) | Mi nombre es Sebastián Córdova y estudio la carrera de Ingeniería de Software. Me considero una persona con ganas de aprender, actitud positiva y con disposición para aportar al equipo y crecer profesionalmente. | A lo largo de mi carrera he logrado obtener experiencia en lenguajes de programación como **C++, Python y Java**, así como en el desarrollo web utilizando **HTML, CSS y JavaScript**. He trabajado con los frameworks **Angular, .NET y Vue.js**, lo que me ha permitido crear aplicaciones dinámicas. |
 
-  <!-- Ficha 1 -->
-  <tr>
-    <td style="text-align: center" align="center">
-      <p align="center">
-        Camilla Leonor Espinoza Vivas - u202214572<br>
-        <img src="../images/camilla.png" alt="Foto Integrante 1" width="50%">
-      </p>
-    </td>
-    <td style="text-align: center" align="center">
-      Soy estudiante de ingeniería de software, con conocimiento en programación, diseño web y arquitecturas orientadas a servicios. Me caracterizo por ser responsable, disciplinada y colaborativa, aportando siempre soluciones técnicas y creativas. Además, me considero comprometida, constante y proactiva, cualidades que fortalecen mi desarrollo personal y académico.
-    </td>
-    <td style="text-align: center" align="center">
-      Cuento con conocimientos en desarrollo de software, estructuras de datos, algoritmos y arquitecturas orientadas a servicios. Manejo lenguajes como Java, TypeScript, JavaScript, HTML5 y CSS3, además de frameworks y herramientas como Angular, Spring Boot, Git/GitHub, Swagger y bases de datos relacionales. Me interesan el diseño y desarrollo de aplicaciones web, la experiencia de usuario, la innovación tecnológica y la creación de soluciones que aporten valor real a las personas.
-    </td>
-  </tr>
-
-  <!-- Ficha 2 -->
-  <tr>
-    <td style="text-align: center" align="center">
-      <p align="center">
-        Angel Martin Gonzales Castillo - u202319724<br>
-        <img src="https://i.imgur.com/dfZFyYP.jpg" alt="Foto Integrante 2" width="50%">
-      </p>
-    </td>
-    <td style="text-align: center" align="center">
-      Soy estudiante de la carrera de Ingeniería de Software y actualmente me encuentro en el sexto ciclo. Me caracterizo por mi interés en la programación, la tecnología y el aprendizaje continuo. Tengo una actitud analítica y organizada, lo que me permite desarrollar proyectos académicos y prácticos con dedicación, buscando siempre aplicar los conocimientos adquiridos de manera efectiva
-    </td>
-    <td style="text-align: center" align="center">
-      Tengo conocimientos en Python y C++, Java Basico, HTML y CSS basico, frameworks conocidos como Angular y Vue. Apoyo al equipo activamente y trato de aprendar cosas nuevas y mejorar los conocimientos que ya poseo.
-    </td>
-  </tr>
-
-  <!-- Ficha 3 -->
-  <tr>
-    <td style="text-align: center" align="center">
-      <p align="center">
-        Kevin Patrick Pardo Chumpitazi - U20221A525<br>
-        <img src="../images/kevin.jpg" alt="Foto Kevin" width="50%">
-      </p>
-    </td>
-    <td style="text-align: center" align="center">
-      Mi nombre es Kevin Patrick Pardo Chumpitazi y actualmente estudio la carrera de Ingeniería de Software. Soy una persona comprometida y con responsabilidad para poder lograr mis metas. Me esfuerzo por mantener el orden en el trabajo grupal y asegurar que todos los integrantes puedan contribuir sin obstáculos.
-    </td>
-    <td style="text-align: center" align="center">
-      Tengo conocimientos en C#, Python, C++ y html. Actualmente estoy aprendiendo sobre el desarrollo de aplicaciones móviles en Backed y Fronted, lo cual me ha ayudado en el desarrollo de este trabajo.
-    </td>
-  </tr>
-
-  <!-- Ficha 4 -->
-  <tr>
-    <td style="text-align: center" align="center">
-      <p align="center">
-        Jose Luis Martinez Valdivia - u202213989 <br>
-        <img src="../images/foto_Jose.jpg" alt="Foto Integrante 4" width="50%">
-      </p>
-    </td>
-    <td style="text-align: center" align="center">
-     Soy estudiante de la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el septimo ciclo de la carrera de Ingeniería de Software, tengo 21 años. Me destaco en el trabajo en equipo y en encontrar formas de mejorar la eficiencia del equipo.
-    </td>
-    <td style="text-align: center" align="center">
-      Tengo un nivel intermedio de conocimiento en C++, Node.js y TypeScript,Java así como habilidades en Angular,vue.js HTML, CSS.Tambien manejo el desarrollo bajo los principios SOLID y DDD
-    </td>
-  </tr>
-
-  <!-- Ficha 5 -->
-  <tr>
-    <td style="text-align: center" align="center">
-      <p align="center">
-        Sebastián Córdova Valdivia - U202111041<br>
-        <img src="../images/sebastian.png" alt="Foto Integrante 5" width="50%">
-      </p>
-    </td>
-    <td style="text-align: center" align="center">
-      Mi nombre es Sebastián Córdova y estudio la carrera de Ingeniería de Software. Me considero una persona con ganas de aprender, actitud positiva y con disposición para aportar al equipo y crecer profesionalmente.
-    </td>
-    <td style="text-align: center" align="center">
-      A lo largo de mi carrera he logrado obtener experiencia en lenguajes de programación como C++, Python y Java, así como en el desarrollo web utilizando HTML, CSS y JavaScript. He trabajado con los frameworks Angular, .NET y Vue.js, lo que me ha permitido crear aplicaciones dinámicas.
-    </td>
-  </tr>
-
-</table>
 
 
 

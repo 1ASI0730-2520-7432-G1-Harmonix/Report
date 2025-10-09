@@ -160,11 +160,11 @@ Entrevista 7:
 
 En primer lugar, con base en las tres entrevistas realizadas al primer segmento objetivo, conformado por los miembros del hogar, se puede concluir lo siguiente:
 
-* La organización de los gastos depende más de la practicidad que de los ingresos. Tanto Harri como Abraham mencionan que no consideran dividir los gastos según lo que gana cada miembro, ya que prefieren métodos más simples y cómodos que les permitan organizarse sin complicaciones.
+* La organización de los gastos depende más de la practicidad que de los ingresos. En primer lugar, Harri considera que la división de gastos no debería depender estrictamente de los ingresos, sino de la practicidad y comodidad que facilite la convivencia. Abraham, por su parte, comparte en parte esta visión, aunque señala que la falta de un método más formal puede generar confusiones con el tiempo. En cambio, María Fernanda muestra una postura más estructurada: considera importante mantener cierta proporcionalidad según los ingresos, para que la distribución sea más justa y transparente.
     
-* La principal dificultad surge en el control y la claridad de los pagos. María Fernanda y Abraham coinciden en que los mayores problemas aparecen al momento de llevar registros claros y ponerse de acuerdo sobre quién pagó o qué parte le corresponde a cada uno, lo que en algunos casos ha generado desacuerdos.
+* La principal dificultad surge en el control y la claridad de los pagos. María Fernanda y Abraham coinciden en que el mayor reto está en mantener registros claros y actualizados sobre quién pagó qué, lo que en ocasiones genera pequeños desacuerdos. Harri, aunque no ha tenido tantos conflictos, reconoce que la informalidad puede causar olvidos o desbalances en el largo plazo.
     
-* Existe una necesidad común de apoyo digital para gestionar mejor los gastos. Los tres entrevistados consideran que una aplicación amigable, con funciones como registros rápidos, recordatorios de pagos y notificaciones, sería de gran ayuda para evitar confusiones, mejorar la organización y facilitar la convivencia.
+* Existe una necesidad común de apoyo digital para gestionar mejor los gastos. Todos los entrevistados manifiestan una necesidad común de apoyo digital para gestionar los gastos del hogar. Sin embargo, sus prioridades difieren ligeramente: Harri busca una herramienta práctica y rápida; Abraham, una con funciones de recordatorios y reportes; y María Fernanda, una aplicación que permita una división más equitativa y transparente. Estas diferencias muestran que, aunque el interés por una solución digital es compartido, las expectativas y motivaciones varían según la experiencia de cada integrante.
 
 A continuación, se presentan los porcentajes destacados en las respuestas de los entrevistados a las preguntas planteadas:
 
@@ -235,54 +235,57 @@ En esta imagen, se visualiza una relación de respuestas sobre el tema planteado
 
 
 ## 2.3. Needfinding
-En esta sección se detallan las principales necesidades detectadas en los segmentos objetivos de Harmonix. A través del análisis de sus contextos, se identificaron las dificultades que enfrentan al momento de repartir los gastos comunes del hogar, como la falta de equidad, transparencia y control en los pagos. Estas necesidades constituyen la base para orientar el diseño del producto, asegurando que las funcionalidades de Harmonix respondan directamente a los problemas reales de los usuarios y contribuyan a mejorar la convivencia en el hogar.
+A partir del análisis de entrevistas y del Lean UX Canvas presentado en el capítulo 1, se identificaron las principales necesidades y motivaciones de los segmentos objetivo. Los hallazgos confirman los problemas detectados en el Canvas: la falta de equidad en la distribución de gastos, la poca transparencia y la ausencia de herramientas colaborativas adaptadas a la realidad económica de cada hogar.
 
 De esta manera, se presentan a continuación los hallazgos clave que guiarán el desarrollo de la solución
   
 ## Segmento #1: Personas del hogar
 
-- **Dividir los gastos comunes** de forma justa y proporcional a los ingresos de cada miembro.  
+- **Dividir los gastos comunes** forma justa y proporcional a los ingresos de cada miembro.  
 - **Contar con visibilidad en tiempo real** sobre pagos realizados y saldos pendientes.  
 - **Garantizar transparencia** para evitar malentendidos y conflictos dentro de la convivencia.  
-- **Usar una aplicación sencilla** que organice los pagos del hogar.  
+- **Usar una aplicación sencilla** que organice los pagos del hogar y reduzca la carga mental.  
 
 ## Segmento #2: Representante del hogar
 
 - **Gestionar y supervisar** todos los aportes desde un panel centralizado.  
 - **Recibir alertas automáticas** y recordatorios de pagos pendientes.  
-- **Asegurar contribuciones equitativas**, basadas en ingresos reales.  
-- **Obtener reportes financieros claros** y automáticos para ahorrar tiempo en la planificación.  
+- **Asegurar que las contribuciones** sean equitativas y basadas en ingresos reales.  
+- **Obtener reportes financieros claros** y automáticos para ahorrar tiempo en la planificación y fortalecer la confianza del grupo.  
 
 ### 2.3.1. User Personas
 
 - Segmento #1: Personas del hogar
 
 <p styles="align: left">
-  <img src="../images/UserPersona1.png" width="1100">
+  <img src="../images/UserP-1-Mejorado.png" width="1100">
 </p>
 
 - Segmento #2: Representante del hogar
 
 <p styles="align: left">
-  <img src="../images/UserPersona2.png" width="1100">
+  <img src="../images/UserP-2-Mejorado.png" width="1100">
 </p>
 
 
 
 ### 2.3.2. User Task Matrix.
 
-- En esta sección se presenta la User Task Matrix, enfocada en los dos segmentos clave de Harmonix: miembros del hogar y representantes del hogar. Permite identificar sus tareas habituales y principales necesidades, facilitando la priorización de funcionalidades en el producto.
+En esta sección se presenta la *User Task Matrix*, enfocada en los dos segmentos clave de **Harmonix**: miembros del hogar y representantes del hogar.  
+Este instrumento permite identificar sus tareas habituales, nivel de importancia y frecuencia, así como los beneficios esperados (*Outcomes*) que el sistema debe ofrecer.  
+Su análisis facilita la priorización de funcionalidades y asegura la coherencia con la propuesta de valor del producto: **automatización, transparencia y colaboración en la gestión financiera compartida.**
 
-| **Persona**                 | **Tarea**                                  | **Importancia** | **Frecuencia** |
-|------------------------------|--------------------------------------------|-----------------|----------------|
-| **Ana (Miembro del hogar)** | Registrar su ingreso mensual                | Alta            | Baja           |
-|                              | Revisar cuánto debe aportar según su ingreso | Alta            | Alta           |
-|                              | Recibir recordatorios y confirmar pagos    | Media           | Media          |
-|                              | Consultar historial de pagos               | Media           | Baja           |
-| **Luis (Representante del hogar)** | Crear y gestionar gastos compartidos       | Alta            | Alta           |
-|                              | Supervisar pagos realizados y pendientes   | Alta            | Alta           |
-|                              | Enviar recordatorios automáticos           | Media           | Media          |
-|                              | Generar reportes mensuales                 | Alta            | Baja           |
+| **Persona** | **Tarea** | **Importancia** | **Frecuencia** | **Beneficio / Outcome** |
+|--------------|------------|------------------|----------------|--------------------------|
+| **Camila (Miembro del hogar)** | Registrar su ingreso mensual | Alta | Baja | Permite que el sistema calcule automáticamente su aporte proporcional. |
+|  | Revisar cuánto debe aportar según su ingreso | Alta | Alta | Aumenta la transparencia y confianza en los pagos. |
+|  | Recibir recordatorios y confirmar pagos | Media | Media | Reduce los olvidos y mejora la convivencia financiera. |
+|  | Consultar historial de pagos | Media | Baja | Brinda control y claridad sobre su participación mensual. |
+| **Walter (Representante del hogar)** | Crear y gestionar gastos compartidos | Alta | Alta | Centraliza la información y simplifica la planificación mensual. |
+|  | Supervisar pagos realizados y pendientes | Alta | Alta | Asegura la equidad y el cumplimiento de las contribuciones. |
+|  | Enviar recordatorios automáticos | Media | Media | Disminuye la carga operativa y los conflictos por pagos atrasados. |
+|  | Generar reportes mensuales | Alta | Baja | Facilita la toma de decisiones y la comunicación con los miembros. |
+
 
 ### 2.3.3. User Journey Mapping.
 
@@ -291,13 +294,13 @@ Aquí se presentan los User Journey Mapping para cada user persona. El recorrido
 - Segmento #1: Personas del hogar
 
 <p styles="align: left">
-  <img src="../images/JourneyMap-1.png" width="1100">
+  <img src="../images/JMP-2-Mejorado.png" width="1100">
 </p>
 
 - Segmento #2: Representante del hogar
 
 <p styles="align: left">
-  <img src="../images/JourneyMap-2.png" width="1100">
+  <img src="../images/JMP-1-Mejorado.png" width="1100">
 </p>
 
 ### 2.3.4. Empathy Mapping.
@@ -307,42 +310,60 @@ El Empathy Mapping permite comprender a fondo qué piensan, sienten, ven, escuch
 - Segmento #1: Personas del hogar
   
 <p styles="align: left">
-  <img src="../images/Empathy Map 1.png" width="1100">
+  <img src="../images/Empathy-Map1-Mejorado.png" width="1100">
 </p>
 
 - Segmento #2: Representante del hogar
 
 <p styles="align: left">
-  <img src="../images/Empathy Map 2.png" width="1100">
+  <img src="../images/Empathy-Map2-Mejorado.png" width="1100">
 </p>
 
 ### 2.3.5. As-is Scenario Mapping.
 
-El As-Is Scenario Mapping describe cómo los usuarios actualmente gestionan sus gastos compartidos sin Harmonix, mostrando sus acciones, pensamientos y emociones en cada paso. Esto ayuda a identificar los principales puntos de dolor que la plataforma busca resolver.
+En esta etapa se representa el flujo actual de actividades que realizan los usuarios antes de la implementación de Harmonix.
+Los escenarios permiten identificar problemas, emociones y oportunidades de mejora a partir de la observación de sus tareas reales relacionadas con la gestión de gastos del hogar.
+
+Los mapas evidencian procesos manuales, repetitivos y poco transparentes, los cuales generan frustración y falta de equidad. A partir de estos hallazgos se define la oportunidad de diseño que Harmonix busca resolver mediante automatización, claridad y colaboración entre los miembros del hogar.
 
 - Segmento #1: Personas del hogar
   
 <p styles="align: left">
-  <img src="../images/As-Is Map 1.png" width="1100">
+  <img src="../images/ScenarioMp-1-Mejorado.png" width="1100">
 </p>
+
+**Insight / Oportunidad de Diseño:**  
+Este flujo refleja procesos manuales y poca transparencia, generando confusión y conflictos.  
+Harmonix automatiza los cálculos y brinda visibilidad compartida.
+
+---
 
 - Segmento #2: Representante del hogar
 
 <p styles="align: left">
-  <img src="../images/As-Is Map 2.png" width="1100">
+  <img src="../images/ScenarioMp-2-Mejorado.png" width="1100">
 </p>
 
-## 2.4. Ubiquitous Language.
+**Insight / Oportunidad de Diseño:**  
+El proceso recae completamente en el representante.  
+Harmonix automatiza los pasos, centraliza información y genera reportes automáticos.
 
-| **Término en Inglés**          | **Término en Español**       | **Definición**                                                                                                                                           |
-|--------------------------------|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Household Representative      | Representante del hogar     | Usuario responsable de administrar el hogar dentro del sistema. Tiene permisos especiales para registrar nuevos miembros, ingresar gastos comunes y visualizar los aportes de todos. |
-| Household Member              | Miembro del hogar           | Usuario que forma parte de un hogar registrado. Aporta según su capacidad económica y puede visualizar su historial de gastos y contribuciones.              |
-| Income-Based Contribution     | Contribución basada en ingresos | Mecanismo mediante el cual se calcula la cantidad que debe aportar cada miembro del hogar, según el ingreso personal declarado. Busca que el reparto sea justo y equitativo. |
-| Shared Expense                | Gasto compartido             | Gasto que afecta a todo el hogar y que debe dividirse proporcionalmente entre sus miembros (por ejemplo, alquiler, servicios, compras comunes).              |
-| Spending Record               | Registro de gastos          | Documento digital o entrada dentro del sistema que detalla la fecha, el monto, la categoría y quién ingresó el gasto.                                       |
-| Contribution Percentage       | Porcentaje de contribución  | Valor en porcentaje que representa la participación proporcional de cada miembro en los gastos comunes del hogar, calculado con base en su ingreso.         |
-| Financial Overview            | Resumen financiero          | Vista general de los ingresos, aportes y gastos de un hogar, accesible para sus miembros y con mayor detalle para el representante.                       |
-| Pending Contribution          | Contribución pendiente      | Monto que un miembro del hogar aún no ha cubierto con respecto a los gastos registrados. Puede generar recordatorios o alertas.                             |
-| Expense Category              | Categoría de gasto          | Clasificación usada para organizar los gastos ingresados (por ejemplo: alimentación, servicios, alquiler, entretenimiento). Facilita el análisis y el seguimiento. |
-| Adjustment Report             | Reporte de ajustes          | Documento generado automáticamente por el sistema cuando hay una variación significativa en los ingresos de un miembro, sugiriendo una nueva distribución de aportes. |
+---
+
+### 2.4 Ubiquitous Language
+
+En esta sección se presenta el *Ubiquitous Language* definido para **Harmonix**, el cual unifica la terminología utilizada por el equipo de desarrollo, los diseñadores y los usuarios.  
+Su propósito es garantizar una comprensión común del dominio, evitando ambigüedades en la comunicación y manteniendo la coherencia entre los artefactos de diseño, los modelos de datos y la experiencia de usuario.
+
+| **Término en Inglés** | **Término en Español** | **Definición** |
+|------------------------|------------------------|----------------|
+| **Household Representative** | **Representante del hogar** | Usuario responsable de administrar el hogar dentro del sistema. Tiene permisos especiales para registrar nuevos miembros, ingresar gastos comunes y visualizar los aportes de todos. |
+| **Household Member** | **Miembro del hogar** | Usuario que forma parte de un hogar registrado. Aporta según su capacidad económica y puede visualizar su historial de gastos y contribuciones. |
+| **Income-Based Contribution** | **Contribución basada en ingresos** | Mecanismo mediante el cual se calcula la cantidad que debe aportar cada miembro del hogar, según el ingreso personal declarado. Busca que el reparto sea justo y equitativo. |
+| **Shared Expense** | **Gasto compartido** | Gasto que afecta a todo el hogar y que debe dividirse proporcionalmente entre sus miembros (por ejemplo, alquiler, servicios o compras comunes). |
+| **Spending Record** | **Registro de gastos** | Entrada digital dentro del sistema que detalla la fecha, el monto, la categoría y quién ingresó el gasto. |
+| **Contribution Percentage** | **Porcentaje de contribución** | Valor en porcentaje que representa la participación proporcional de cada miembro en los gastos comunes, calculado con base en su ingreso. |
+| **Financial Overview** | **Resumen financiero** | Vista general de los ingresos, aportes y gastos de un hogar, accesible para todos los miembros y con mayor detalle para el representante. |
+| **Pending Contribution** | **Contribución pendiente** | Monto que un miembro del hogar aún no ha cubierto con respecto a los gastos registrados. Puede generar recordatorios o alertas automáticas. |
+| **Expense Category** | **Categoría de gasto** | Clasificación usada para organizar los gastos ingresados (por ejemplo: alimentación, servicios, alquiler, entretenimiento). Facilita el análisis y el seguimiento financiero. |
+| **Adjustment Report** | **Reporte de ajustes** | Documento generado automáticamente por el sistema cuando hay variaciones en los ingresos de un miembro, sugiriendo una nueva distribución de aportes. |
