@@ -62,6 +62,7 @@
 | 2.0      | 07-10-2025 | Sebastián Córdova    | Se realizaron correcciones en el Capítulo 2 sobre las secciones de User Persona, Journey Map y Empathy Map según el feedback del profesor. |
 | 2.0      | 07-10-2025 | Sebastián Córdova    | Se añadió la sección correspondiente al Sprint 2 en el Capítulo 5, incluyendo la documentación de servicios y evidencias del FrontEnd. |
 | 2.0      | 07-10-2025 | Sebastián Córdova    | Se implementaron mejoras en el FrontEnd, desarrollando las secciones de búsqueda de hogar y estado de los miembros del hogar. |
+| 2.0      | 07-10-2025 | Kevin Pardo| Se corrigió el capítulo 1 según las indicaciones recibidas, ajustando contenido para mejorar la coherencia con los objetivos del proyecto. |
 
 # Project Report Collaboration Insights
 
