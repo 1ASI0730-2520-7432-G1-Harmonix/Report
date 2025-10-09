@@ -485,5 +485,39 @@ Se incluyen capturas del archivo `db.json` que muestran el estado actual de los 
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint
 
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los dos principales productos: Landing Page y Web Application (Frontend). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
 
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="https://imgur.com/4QkM7I2.png"/>
+</p>
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Martín Gonzales fue responsable de implementar la sección de Members en el Frontend de homeowner, asegurando su correcto funcionamiento e integración con el resto de la aplicación.
+- La integrante Camilla Espinoza implementó Home y CreateHome en el Frontend de homeowner, registrando su correcto funcionamiento
+- El integrante Jose Martinez fue responsable de implementar la seccion de HomeState y Settings en el Frontend de homeowner, se aseguro el correcto funcionamiento.
+- El integrante Sebastias Cordova implementó la seccion de Contributions y Settings en el Frontend de HouseholdMember, dentro de esta seccion agrego las guias de conservacion.
+- El integrante Kevin Prado implementó la seccion de Home y MyContributions en el Frontend de HouseholdMember, asegurandose su correcto funcionamiento.
+
+Commits de los integrantes en el Landing Page:
+<p align="center">
+  <img src="https://imgur.com/YYZO8sT.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el landing page:
+<p align="center">
+  <img src="https://imgur.com/D8rgfxI.png"/>
+</p>
+
+Commits de los integrantes en el Frontend:
+<p align="center">
+  <img src="https://imgur.com/n0AoZqp.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el Frontend: 
+
+<p align="center">
+  <img src="https://imgur.com/owSQXEf.png"/>
+</p>
 
