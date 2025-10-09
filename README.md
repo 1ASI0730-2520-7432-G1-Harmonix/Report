@@ -273,11 +273,20 @@ Disponible en: bit.ly/4nxTsa6
 Anexo 8. Video de exposición TB1
 Disponible en: https://acortar.link/e2zQ2S
 
-Anexo 9. Tablero en Trello – Product Backlog 2
-Disponible en: 
+Anexo 9. Repositorio del Frontend
+Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd
 
-Anexo 10. Repositorio del FrontEnd
-Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd.git
+Anexo 10. Repositorio del FakeAPI
+Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/FakeApi
 
-Anexo 11: FrontEnd desplegado 
-Disponible en: 
+Anexo 11. Repositorio del Backend
+Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/BackEnd
+
+Anexo 12. Frontend desplegado
+Disponible en: https://storied-concha-593faf.netlify.app/
+
+Anexo 13. FakeApi desplegado
+Disponible en: https://fake-json-api.onrender.com/users
+
+Anexo 14. Tablero en Trello - Sprint Backlog 2
+Disponible en: https://trello.com/invite/b/68e673a454041fb9f6aa1f29/ATTIb113180968d810d2941119d7342ca45b1214775F/sprint-backlog-2
