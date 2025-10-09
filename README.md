@@ -193,6 +193,12 @@ A continuación, se detalla el desarrollo de las actividades relacionadas con la
 
 - Al combinar un diseño centrado en el usuario con funcionalidades avanzadas y seguras, Harmonix logra diferenciarse de otras soluciones, posicionándose como una herramienta integral que responde de manera eficaz a las necesidades reales de los hogares.
 
+- Durante el desarrollo del proyecto Harmonix aprendimos a trabajar con una estructura profesional aplicando el enfoque Domain-Driven Design (DDD), lo cual nos ayudó a mantener el orden del proyecto, dividir mejor las responsabilidades y entender cómo se conectan las distintas partes del sistema. Cada integrante cumplió un rol importante dentro del frontend, desarrollando las vistas según el tipo de usuario, ya sea Homeowner o Household Member, y asegurando que la interfaz mantenga coherencia visual y funcional.
+
+- También logramos integrar correctamente los servicios con la lógica de la aplicación, lo que nos permitió manejar datos dinámicos y comprender cómo se comunican las capas en una aplicación web moderna. Durante todo el proceso, el trabajo en equipo fue clave: usamos herramientas como Trello, GitHub y Google Meet para organizarnos, distribuir tareas y apoyarnos mutuamente cuando surgían dificultades técnicas.
+
+- La metodología ágil nos permitió planificar y cumplir los objetivos del Sprint Planning 2, entendiendo la importancia de la coordinación, la responsabilidad y la comunicación dentro del grupo. Finalmente, logramos desplegar la aplicación en Vercel, comprobando su funcionamiento real y el correcto desempeño de las vistas y servicios. Esta experiencia nos permitió fortalecer tanto nuestras habilidades técnicas en Vue 3, PrimeVue y DDD, como nuestras capacidades de trabajo colaborativo, dejándonos satisfechos con los resultados obtenidos y motivados para seguir mejorando en próximos proyectos.
+
 ## Recomendaciones:
 
 - Recomendamos optimizar la experiencia en distintos navegadores y tamaños de pantalla para que la aplicación sea totalmente accesible, especialmente en laptops y tablets, que son los dispositivos más usados en entornos domésticos.
