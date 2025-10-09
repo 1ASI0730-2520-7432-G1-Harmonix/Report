@@ -1,10 +1,10 @@
 # Capítulo 5: Product Implementation, Validation & Deployment #
 
-## _5.1. Software Configuration Management_ ##
+## 5.1. Software Configuration Management
 
 En esta sección, se detalla la configuración de la tecnología a usar en el ciclo de vida de desarrollo del proyecto del curso.
 
-### 5.1.1. Software Development Environment Configuration ###
+### 5.1.1. Software Development Environment Configuration 
 
 En esta sección, se explica los entornos en donde se decidió llevar a cabo el ciclo de vida de desarrollo de los productos de software relacionados al proyecto del curso.
 
@@ -45,6 +45,7 @@ En esta sección, se describen los medios y esquemas de organización para gesti
 A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos y avances de proyecto relacionados al Landing Page, Front-End y Back-End Application.
 
 * **Landing Page: [https://github.com/1ASI0730-2520-7432-G1-Harmonix/LandingPage.git](https://github.com/1ASI0730-2520-7432-G1-Harmonix/LandingPage.git)**
+* **Front End: [https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd.git](https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd.git)**
 
 **5.1.2.2. GitFlow**
 
@@ -167,9 +168,9 @@ En esta sección, se especifica la configuración para realizar el despliegue de
 </p>
 
 
-## _5.2. Landing Page, Services & Applications Implementation_ ##
+## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.1. Sprint 1 ###
+### 5.2.1. Sprint 1 
 
 A continuación, se presenta el Sprint Planning 1, donde se incluyen las evidencias de planificación e implementación del Landing Page. También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
 
@@ -235,7 +236,12 @@ Link al tablero de Trello: https://trello.com/invite/b/647377f527633648e32f8b34/
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
-A continuación se presentan capturas del landing page implementado en código, con el uso de HTML, CSS y JavaScript.
+Como parte de la revisión del sprint, se presentan las evidencias de ejecución relacionadas con el desarrollo del Landing Page de Harmonix. La implementación se realizó empleando HTML, CSS y JavaScript, asegurando una estructura semántica clara, un diseño visual coherente con las guías de estilo y funcionalidades interactivas que mejoran la experiencia de usuario.
+
+Además de las capturas del código implementado, se incluye un video demostrativo donde se explica y evidencia la navegación lograda durante este sprint, así como el flujo de interacción principal que se validó.
+
+Video about the product: bit.ly/4nxTsa6  
+
 Link: https://1asi0730-2520-7432-g1-harmonix.github.io/LandingPage/
 
 - Home:<br>
@@ -301,6 +307,279 @@ A continuación, se muestran las capturas de los insights del repositorio de la 
 - feature/chapter-5
 <img src="../images/chapter5.png" alt="Trello" width="100%">
 
+### 5.2.2. Sprint 2 ###
+
+A continuación, se presenta el Sprint Planning 2, donde se incluyen las evidencias de planificación e implementación del Frontend También se registran los avances del proyecto e insights de colaboración del equipo a través de GitHub.
+
+#### 5.2.2.1. Sprint Planning 2
+
+| **Campo**                              | **Descripción**                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                           | Sprint 2                                                                                                                                                                                                                                                                                                           |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                    |
+| **Date**                               | 2025-10-06                                                                                                                                                                                                                                                                                                         |
+| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                  |
+| **Location**                           | Modalidad remota por Google Meet                                                                                                                                                                                                                                                                                   |
+| **Prepared By**                        | Testigos de Harmonix                                                                                                                                                                                                                                                                                              |
+| **Attendees (to planning meeting)**    | Equipo Harmonix                                                                                                                                                                                                                                                            |
+| **Sprint 1 Review Summary**        | En este primer sprint se desarrolló la Landing Page utilizando el framework de estilos Tailwind CSS. Se revisó y adaptó el contenido textual del landing con base en las propuestas previas realizadas en Figma. Al finalizar el sprint, la Landing Page fue desplegada exitosamente en Github pages y quedó accesible públicamente mediante un enlace funcional.                                                                                                                                                                                                                                    |
+| **Sprint 1 Retrospective Summary** | En este sprint se planea avanzar con el desarrollo del front-end de la aplicación web, incluyendo las vistas para la autenticación de usuario y los dashboards para cada rol de usuario. También se tiene previsto implementar la configuración de idioma utilizando la librería i18n con Vue. Además, se contempla desarrollar la sección de Términos de Servicio, el video sobre el producto y el video del equipo. Las tareas han sido organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se espera contar con una versión actualizada del landing page y una demo funcional del front-end de la aplicación desplegada en Netlify. |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                    |
+| **Sprint 2 Goal**                      | Desplegar un Front End funcional con diseño responsive y estructura definida, accesible públicamente desde Vercel                                                                                                                                                                                          |
+| **Sprint 2 Velocity**                  | 40                                                                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 30                                                                                                                                                                                                                                                                                                                  |
 
 
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+ |Team Member | GitHub Username |  Delegating Responsibilities <br> Leader (L) / Collaborator (C) | Merging Branches <br>Leader (L) /Collaborator (C)| Correcting Mistakes <br> Leader (L) /Collaborator (C)|
+|-------------|--------------|------------|----------|----------|
+| Jose Luis Martinez Validivia | hmongus  |    C   |    L     | C  |
+| Camila Leonor Espinoza Vivas		 | C7leo  |    L   |     C    | C  |
+| Kevin Patrick Panto Chuquipiondo		 | Kevinyin11  |  C     |   C      |  C  |
+| Sebastián Córdova	 | Sevas04  |    C   |    C     |   C   |
+| Martin Gonzales | XdiabloX426  |   C    |    C     |   L   |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 corresponde a la planificación inicial del desarrollo de la plataforma Harmonix, donde se definieron y priorizaron las primeras funcionalidades clave para el FrontEnd y la configuración básica de despliegue. En este sprint, el equipo trabajó en la implementación de secciones informativas que presentan los objetivos, beneficios y funcionalidades de la aplicación, así como en la incorporación de ejemplos visuales y accesos directos para el registro e inicio de sesión de usuarios.
+
+El trabajo colaborativo del equipo se gestionó en la herramienta Trello, lo que permitió organizar, priorizar y dar seguimiento a cada tarea de manera eficiente.
+
+Link al tablero de Trello: https://trello.com/invite/b/68e673a454041fb9f6aa1f29/ATTIb113180968d810d2941119d7342ca45b1214775F/sprint-backlog-2
+
+<img src="https://imgur.com/eNjMGzh.png">
+
+| **User Story Id** | **Title** | **Task Id** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| ----------------- | ---------- | ------------ | --------------- | ---------------- | ---------------------- | --------------- | ----------- |
+| **US01** | Registro de usuario | T1 | Crear formulario de registro | Implementar formulario para registrar nuevos usuarios con validaciones. | 4 | Camilla Espinoza | Done |
+| **US02** | Inicio de sesión seguro | T1 | Implementar autenticación | Añadir login con validación de credenciales y seguridad mediante tokens. | 3 | Camilla Espinoza | Done |
+| **US03** | Edición de información personal | T1 | Actualizar datos del usuario | Permitir que el usuario edite su nombre, correo y contraseña. | 3 | Sebastian Cordova | Done |
+| **US04** | Cierre de sesión desde todos los dispositivos | T1 | Implementar cierre de sesión global | Añadir funcionalidad para cerrar sesión en todos los dispositivos activos. | 2 | Sebastian Cordova | Done |
+| **US05** | Configuración de notificaciones personales | T1 | Diseñar menú de notificaciones | Permitir activar o desactivar tipos de notificaciones del usuario. | 3 | Sebastian Cordova | Done |
+| **US06** | Crear hogar | T1 | Crear formulario de creación de hogar | Desarrollar vista y lógica para registrar un nuevo hogar. | 4 | Camilla Espinoza | Done |
+| **US07** | Aprobar gastos | T1 | Agregar validación y botón de aprobación | Permitir que el dueño del hogar apruebe o rechace gastos. | 3 | Martin Gonzales | Done |
+| **US08** | Ajustar porcentajes de aportes | T1 | Implementar ajuste de porcentajes | Configurar los aportes de los miembros según sus ingresos. | 3 | Jose Martinez | Done |
+| **US09** | Visualizar reportes mensuales | T1 | Mostrar resumen mensual | Crear vista con reportes de ingresos y gastos del mes. | 4 | Kevin Pardo | Done |
+| **US10** | Configurar métodos de pago aceptados | T1 | Agregar opciones de pago | Permitir seleccionar y guardar métodos de pago disponibles. | 3 | Jose Martinez | Done |
+| **US11** | Ingresar ingresos personales | T1 | Crear formulario de ingresos | Habilitar a los miembros para registrar su ingreso mensual. | 3 | Kevin Pardo | Done |
+| **US12** | Ver monto a pagar | T1 | Mostrar detalle del monto | Calcular y mostrar cuánto debe pagar cada miembro. | 3 | Martin Gonzales | Done |
+| **US13** | Registrar pagos realizados | T1 | Crear formulario de pagos | Registrar pagos con validación de montos y fechas. | 4 | Martin Gonzales | Done |
+| **US14** | Ver historial de pagos | T1 | Mostrar historial | Generar listado con todos los pagos realizados por el usuario. | 3 | Martin Gonzales | Done |
+| **US15** | Ver distribución de gastos del hogar | T1 | Crear tabla de distribución | Mostrar en qué se gasta el dinero del hogar, segmentado por categorías. | 3 | Jose Martinez | Done |
+| **US16** | Registrar nuevo gasto | T1 | Crear formulario de gasto | Registrar gastos realizados por los miembros o el dueño. | 4 | Martin Gonzales | Done |
+| **US17** | Adjuntar comprobantes de gasto | T1 | Subir archivo de comprobante | Permitir al usuario subir comprobantes asociados a un gasto. | 2 | Martin Gonzales | Done |
+| **US18** | Clasificar gastos por categoría | T1 | Implementar categorías de gasto | Permitir organizar los gastos según tipo (servicio, alimento, etc.). | 3 | Jose Martinez | Done |
+| **US19** | Comentar o justificar un gasto | T1 | Agregar sección de comentarios | Habilitar justificación o comentario al registrar un gasto. | 2 | Jose Martinez | Done |
+| **US20** | Visualizar gráficos de gastos | T1 | Crear dashboard visual | Mostrar gráficos que representen el comportamiento de gastos. | 4 | Jose Martinez | Done |
+| **US37** | Implementar manejo de estados de carga y éxito en el panel del miembro | T1 | Añadir estados visuales de carga | Mostrar animaciones o mensajes durante carga y éxito en operaciones. | 2 | Sebastian Cordova | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se registran las evidencias del desarrollo y despliegue del **FrontEnd de Harmonix** durante el **Sprint 2**, correspondientes a los commits realizados en GitHub por el equipo.
+
+---
+
+#### Commits de desarrollo (funcionalidad)
+
+| Autor | Fecha | Commit Message | Commit ID |
+|---|---|---|---|
+| **José Martínez Valdivia (hmongus)** | 07/10/2025 | Merge pull request #1 from develop | bf4afd2 |
+| **José Martínez Valdivia (hmongus)** | 07/10/2025 | add models and services | dae12a5 |
+| **José Martínez Valdivia (hmongus)** | 07/10/2025 | add data to json | 1f066cb |
+| **José Martínez Valdivia (hmongus)** | 07/10/2025 | fix server issue | 4b73ea1 |
+| **José Martínez Valdivia (hmongus)** | 07/10/2025 | add server | 6750dc5 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): add mock database file for local development | 67a0fb2 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): update route configuration and navigation paths | 95d9aed |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | refactor(main): move authentication components to IAM folder | ccbd905 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | chore(main): update English and Spanish translation files | f7c3fc8 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): update authentication components and role handling | 9789e93 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): add home-representative page component | 6f8e924 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): add home-member page component | 20b5a5b |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): add household representative components | 4657bf4 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | feat(main): add household member components | bab6cdb |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | chore(css): remove deprecated main.css file | 7536740 |
+| **Camila Leonor Espinoza Vivas (C7leo)** | 07/10/2025 | chore(env): update environment configuration for development | ec1f55c |
+| **José Martínez Valdivia (hmongus)** | 06/10/2025 | add locales | 16b5e77 |
+| **José Martínez Valdivia (hmongus)** | 06/10/2025 | add language switcher | 8e3e5b0 |
+| **José Martínez Valdivia (hmongus)** | 06/10/2025 | add router links | 66561ba |
+| **José Martínez Valdivia (hmongus)** | 06/10/2025 | initial setup | 966f6d6 |
+
+**Fuente:** historial de commits en la rama `master` del repositorio [FrontEnd – Harmonix](https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd).
+
+---
+
+#### Commits de documentación y diseño
+
+Las actualizaciones relacionadas con documentación, diagramas y reportes se encuentran registradas en el repositorio **Report – Harmonix**.
+
+| Autor | Fecha | Commit Message | Commit ID |
+|---|---|---|---|
+| **Kevinyin11** | 06/10/2025 | Update chapter-1.md | 36f3264 |
+| **Kevinyin11** | 06/10/2025 | Add files via upload | 75c45be |
+| **Kevinyin11** | 06/10/2025 | Update chapter-1.md | 0be49d3 |
+| **Kevinyin11** | 06/10/2025 | Update chapter-1.md | 52a9317 |
+| **C7leo** | 19/09/2025 | doc(chapter-4): update | 5bada39 |
+| **C7leo** | 19/09/2025 | docs(chapter-5): Add Sprint Backlog 1 details | 969f221 |
+| **XdiabloX426** | 18/09/2025 | fix: fix error in documentation | 45b7770 |
+
+**Fuente:** historial de commits en la rama `master` del repositorio [Report – Harmonix](https://github.com/1ASI0730-2520-7432-G1-Harmonix/Report/commits/master/).
+
+---
+
+##### Observaciones
+
+- Los commits corresponden al periodo de desarrollo y documentación del **Sprint 2 (06–07 de octubre de 2025)**.  
+- Cada commit evidencia un avance técnico o de documentación del proyecto.  
+- La rama `master` concentra los cambios desplegados y validados para revisión en el Sprint Review.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint:
+- Representative-Dashboard:
+
+<p align="center">
+  <img src="../images/repDashboard.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Households:
+
+  <p align="center">
+  <img src="../images/repHouseHold.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Members:
+
+<p align="center">
+  <img src="../images/repMembers.PNG" alt="Evidencia-3">
+</p>
+  
+- Representative-Expenses:
+
+<p align="center">
+  <img src="../images/repExpenses.PNG" alt="Evidencia-3">
+</p>
+  
+- Representative-Contributions:
+
+<p align="center">
+  <img src="../images/repContributions.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Configuration:
+- 
+<p align="center">
+  <img src="../images/repConfiguration.PNG" alt="Evidencia-3">
+</p>
+  
+- Member-HomeState:
+
+<p align="center">
+  <img src="../images/memberHomeState.PNG" alt="Evidencia-3">
+</p>
+
+- Member-FindHome:
+
+  <p align="center">
+  <img src="../images/memberFindHome.PNG" alt="Evidencia-3">
+</p>
+
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+Durante el desarrollo del **Sprint 2**, el equipo de Harmonix implementó y documentó los **servicios simulados (mock API)** utilizados por el FrontEnd para la gestión de usuarios, hogares y contribuciones.  
+Estos servicios se definieron en el archivo `db.json`, empleando **JSON Server** como entorno de desarrollo local.  
+El objetivo fue garantizar la conexión funcional entre las vistas del sistema y las operaciones de lectura, creación y actualización de datos.  
+
+A continuación, se presenta la documentación de los endpoints registrados y utilizados durante este sprint:
+
+---
+
+| **Endpoint** | **Acción implementada** | **Método HTTP** | **Parámetros** | **Ejemplo de Request** | **Ejemplo de Response** | **Documentación (local)** |
+|---------------|--------------------------|------------------|----------------|------------------------|-------------------------|---------------------------|
+| `/api/users` | Listar usuarios registrados | **GET** | — | — | ```json [ { "id": 1759796571919, "name": "Jose", "email": "admin@gmail.com", "role": "representative", "plan": "FREE", "status": "active", "isNewUser": false } ]``` | `http://localhost:3000/users` |
+| `/api/users` | Registrar usuario | **POST** | name, email, password, role, plan | ```json { "name": "Eduardo", "email": "eduardo@example.com", "password": "Ednoru123", "role": "member", "plan": "PREMIUM", "isNewUser": false }``` | ```json { "id": 1759954533800, "name": "Eduardo", "email": "eduardo@example.com", "role": "member", "plan": "PREMIUM", "isNewUser": false }``` | `http://localhost:3000/users` |
+| `/api/settings` | Obtener configuración por usuario | **GET** | userId | `/api/settings?userId=1759796571919` | ```json [ { "id": "STT-124490", "userId": 1759796571919, "language": "ES", "darkMode": true, "notificationEnabled": false } ]``` | `http://localhost:3000/settings` |
+| `/api/settings` | Actualizar configuración | **PATCH/PUT** | id, darkMode, notificationEnabled | ```json { "darkMode": false, "notificationEnabled": true }``` | ```json { "id": "STT-124490", "userId": 1759796571919, "language": "ES", "darkMode": false, "notificationEnabled": true }``` | `http://localhost:3000/settings/STT-124490` |
+| `/api/households` | Crear hogar | **POST** | representativeId, currency, name, description | ```json { "representativeId": 1759954210938, "name": "Gaming House", "description": "Departamento compartido con amigos", "currency": "PEN" }``` | ```json { "id": "HOG-1759954210938", "name": "Gaming House", "description": "Departamento compartido con amigos", "currency": "PEN", "representativeId": 1759954210938 }``` | `http://localhost:3000/households` |
+| `/api/households` | Listar hogares registrados | **GET** | — | — | ```json [ { "id": "HOG-1759796571919", "representativeId": 1759796571919, "currency": 1 }, { "id": "HOG-1759954210938", "name": "Gaming House", "currency": "PEN" } ]``` | `http://localhost:3000/households` |
+| `/api/householdMember` | Listar miembros por hogar | **GET** | householdId | `/api/householdMember?householdId=HOG-1759796571919` | ```json [ { "id": "HM-123393", "userId": "1759798502697", "householdId": "HOG-1759796571919" } ]``` | `http://localhost:3000/householdMember` |
+| `/api/householdMember` | Registrar miembro en hogar | **POST** | userId, householdId | ```json { "userId": "1759801172915", "householdId": "HOG-1759796571919" }``` | ```json { "id": "HM-NEW", "userId": "1759801172915", "householdId": "HOG-1759796571919" }``` | `http://localhost:3000/householdMember` |
+| `/api/bills` | Registrar gasto o factura | **POST** | householdId, description, amount, createdBy, paymentDay | ```json { "householdId": "HOG-1759796571919", "description": "Internet", "amount": "100.00", "createdBy": 1759796571919, "paymentDay": "2026-10-10T00:00:00.000Z" }``` | ```json { "id": "BG-12212222", "description": "Internet", "amount": "100.00", "paymentDay": "2026-10-10T00:00:00.000Z" }``` | `http://localhost:3000/bills` |
+| `/api/contributions` | Crear contribución | **POST** | billId, householdId, description, deadlineForMembers, strategy | ```json { "billId": "BG-12212222", "householdId": "HOG-1759796571919", "description": "Aporte mensual", "deadlineForMembers": "2026-09-09T00:00:00.000Z", "strategy": 1 }``` | ```json { "id": "CN-272818", "billId": "BG-12212222", "householdId": "HOG-1759796571919" }``` | `http://localhost:3000/contributions` |
+| `/api/memberContributions` | Registrar aporte de miembro | **POST** | contributionId, memberId, amount, status | ```json { "contributionId": "CN-272818", "memberId": "HM-123393", "amount": "20.0", "status": 1 }``` | ```json { "id": "MC-152672", "contributionId": "CN-272818", "memberId": "HM-123393", "amount": "20.0", "status": 1 }``` | `http://localhost:3000/memberContributions` |
+| `/api/memberContributions` | Listar aportes por contribución | **GET** | contributionId/memberId | `/api/memberContributions?contributionId=CN-272818` | ```json [ { "id": "MC-152672", "contributionId": "CN-272818", "memberId": "HM-123393", "amount": "20.0", "status": 1 } ]``` | `http://localhost:3000/memberContributions` |
+
+---
+
+#### Evidencias gráficas
+
+Se incluyen capturas del archivo `db.json` que muestran el estado actual de los servicios documentados y sus datos de prueba:
+
+1. **Colección `users`** – evidencia de roles, planes y nuevo campo `isNewUser`.
+
+<p align="center">
+  <img src="../images/Evidencia-2.png" alt="Evidencia-2">
+</p>
+   
+2. **Colección `households`** – evidencia de creación del hogar *Gaming House* con campos extendidos.  
+
+<p align="center">
+  <img src="../images/Evidencia-3.png" alt="Evidencia-3">
+</p>
+
+**Fuente:** archivo `db.json` del repositorio [FrontEnd – Harmonix](https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd).  
+
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, asimismo se realizo el deploy del FakeApi usando JsonServer
+
+  - FrontEnd (Netlify): https://storied-concha-593faf.netlify.app/
+
+     <p align="center">
+  <img src="../images/frontEnd.PNG" alt="Evidencia-3">
+</p>
+
+  - FakeApi(Render): https://fake-json-api.onrender.com/users
+<p align="center">
+  <img src="../images/fakeApi.PNG" alt="Evidencia-3">
+</p> 
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint
+
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los dos principales productos: Landing Page y Web Application (Frontend). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
+
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="https://imgur.com/4QkM7I2.png"/>
+</p>
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Martín Gonzales fue responsable de implementar la sección de Members en el Frontend de homeowner, asegurando su correcto funcionamiento e integración con el resto de la aplicación.
+- La integrante Camilla Espinoza implementó Home y CreateHome en el Frontend de homeowner, registrando su correcto funcionamiento
+- El integrante Jose Martinez fue responsable de implementar la seccion de HomeState y Settings en el Frontend de homeowner, se aseguro el correcto funcionamiento.
+- El integrante Sebastias Cordova implementó la seccion de Contributions y Settings en el Frontend de HouseholdMember, dentro de esta seccion agrego las guias de conservacion.
+- El integrante Kevin Prado implementó la seccion de Home y MyContributions en el Frontend de HouseholdMember, asegurandose su correcto funcionamiento.
+
+Commits de los integrantes en el Landing Page:
+<p align="center">
+  <img src="https://imgur.com/YYZO8sT.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el landing page:
+<p align="center">
+  <img src="https://imgur.com/D8rgfxI.png"/>
+</p>
+
+Commits de los integrantes en el Frontend:
+<p align="center">
+  <img src="https://imgur.com/n0AoZqp.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el Frontend: 
+
+<p align="center">
+  <img src="https://imgur.com/owSQXEf.png"/>
+</p>
 
