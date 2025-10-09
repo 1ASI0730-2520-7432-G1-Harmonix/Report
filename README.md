@@ -264,5 +264,5 @@ Disponible en: https://storied-concha-593faf.netlify.app/
 Anexo 11. FakeApi desplegado
 Disponible en: https://fake-json-api.onrender.com/users
 
-Anexo 12. Tablero en Trello ' Sprint Backlog 2
+Anexo 12. Tablero en Trello - Sprint Backlog 2
 Disponible en: https://trello.com/invite/b/68e673a454041fb9f6aa1f29/ATTIb113180968d810d2941119d7342ca45b1214775F/sprint-backlog-2
