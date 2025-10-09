@@ -434,6 +434,55 @@ Las actualizaciones relacionadas con documentación, diagramas y reportes se enc
 - La rama `master` concentra los cambios desplegados y validados para revisión en el Sprint Review.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint:
+- Representative-Dashboard:
+
+<p align="center">
+  <img src="../images/repDashboard.png" alt="Evidencia-3">
+</p>
+
+- Representative-Households:
+
+  <p align="center">
+  <img src="../images/repHouseHold.png" alt="Evidencia-3">
+</p>
+
+- Representative-Members:
+
+<p align="center">
+  <img src="../images/repMembers.png" alt="Evidencia-3">
+</p>
+  
+- Representative-Expenses:
+
+<p align="center">
+  <img src="../images/repExpenses.png" alt="Evidencia-3">
+</p>
+  
+- Representative-Contributions:
+
+<p align="center">
+  <img src="../images/repContributions.png" alt="Evidencia-3">
+</p>
+
+- Representative-Configuration:
+- 
+<p align="center">
+  <img src="../images/repConfiguration.png" alt="Evidencia-3">
+</p>
+  
+- Member-HomeState:
+
+<p align="center">
+  <img src="../images/memberHomeState.png" alt="Evidencia-3">
+</p>
+
+- Member-FindHome:
+
+  <p align="center">
+  <img src="../images/memberFindHome.png" alt="Evidencia-3">
+</p>
+
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
@@ -482,6 +531,19 @@ Se incluyen capturas del archivo `db.json` que muestran el estado actual de los 
 
 
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, asimismo se realizo el deploy del FakeApi usando JsonServer
+
+  - FrontEnd (Netlify): https://storied-concha-593faf.netlify.app/
+
+     <p align="center">
+  <img src="../images/frontEnd.png" alt="Evidencia-3">
+</p>
+
+  - FakeApi(Render): https://fake-json-api.onrender.com/users
+<p align="center">
+  <img src="../images/fakeApi.png" alt="Evidencia-3">
+</p> 
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint
 
