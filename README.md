@@ -248,3 +248,21 @@ Disponible en: https://1asi0730-2520-7432-g1-harmonix.github.io/LandingPage/
 
 Anexo 6. Tablero en Trello – Product Backlog 1
 Disponible en: https://trello.com/invite/b/647377f527633648e32f8b34/ATTI1d069726cbda63319a0b3f8320f648a2CEFB28D7/product-backlog
+
+Anexo 7. Repositorio del Frontend
+Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/FrontEnd
+
+Anexo 8. Repositorio del FakeAPI
+Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/FakeApi
+
+Anexo 9. Repositorio del Backend
+Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/BackEnd
+
+Anexo 10. Frontend desplegado
+Disponible en: https://storied-concha-593faf.netlify.app/
+
+Anexo 11. FakeApi desplegado
+Disponible en: https://fake-json-api.onrender.com/users
+
+Anexo 12. Tablero en Trello ' Sprint Backlog 2
+Disponible en: https://trello.com/invite/b/68e673a454041fb9f6aa1f29/ATTIb113180968d810d2941119d7342ca45b1214775F/sprint-backlog-2
