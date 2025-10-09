@@ -63,7 +63,7 @@
 | 2.0      | 07-10-2025 | Sebastián Córdova    | Se añadió la sección correspondiente al Sprint 2 en el Capítulo 5, incluyendo la documentación de servicios y evidencias del FrontEnd. |
 | 2.0      | 07-10-2025 | Sebastián Córdova    | Se implementaron mejoras en el FrontEnd, desarrollando las secciones de búsqueda de hogar y estado de los miembros del hogar. |
 | 2.0      | 07-10-2025 | Kevin Pardo| Se corrigió el capítulo 1 según las indicaciones recibidas, ajustando contenido para mejorar la coherencia con los objetivos del proyecto. |
-| 2.0      | 08-10-2025 | Kevin Pardo | Se documentó la sección de Team Collaboration, herramientas utilizadas, prácticas de commits y organización grupal. |
+| 2.0      | 08-10-2025 | Kevin Pardo | Se documentó la sección de Team Collaboration, herramientas utilizadas, prácticas de commits. |
 
 # Project Report Collaboration Insights
 
