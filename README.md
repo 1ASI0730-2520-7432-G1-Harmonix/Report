@@ -64,6 +64,7 @@
 | 2.0      | 07-10-2025 | Sebastián Córdova    | Se implementaron mejoras en el FrontEnd, desarrollando las secciones de búsqueda de hogar y estado de los miembros del hogar. |
 | 2.0      | 07-10-2025 | Kevin Pardo| Se corrigió el capítulo 1 según las indicaciones recibidas, ajustando contenido para mejorar la coherencia con los objetivos del proyecto. |
 | 2.0      | 08-10-2025 | Kevin Pardo | Se documentó la sección de Team Collaboration, herramientas utilizadas, prácticas de commits. |
+| 2.0      | 08-10-2025 | Jose Martinez | Se realizó el desarrollo del aplicativo y el FakeAPI, incluyendo las vistas y la sección de miembros del aplicativo web. |
 
 # Project Report Collaboration Insights
 
