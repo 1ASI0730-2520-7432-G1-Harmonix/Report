@@ -290,3 +290,6 @@ Disponible en: https://fake-json-api.onrender.com/users
 
 Anexo 14. Tablero en Trello - Sprint Backlog 2
 Disponible en: https://trello.com/invite/b/68e673a454041fb9f6aa1f29/ATTIb113180968d810d2941119d7342ca45b1214775F/sprint-backlog-2
+
+Anexo 15. Video About the Product
+Disponible en: https://url-shortener.me/6PAX
