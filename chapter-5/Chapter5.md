@@ -434,7 +434,10 @@ Las actualizaciones relacionadas con documentación, diagramas y reportes se enc
 - La rama `master` concentra los cambios desplegados y validados para revisión en el Sprint Review.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
-A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint:
+A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint: 
+
+- Link: https://url-shortener.me/6PAX
+  
 - Representative-Dashboard:
 
 <p align="center">
