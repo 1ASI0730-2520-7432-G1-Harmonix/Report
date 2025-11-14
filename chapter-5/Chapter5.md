@@ -592,9 +592,77 @@ Grafico de los push y merge realizados por el equipo en el Frontend:
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 #### 5.2.3.3.Sprint Backlog 3.
 #### 5.2.3.4.Development Evidence for Sprint Review.
+
 #### 5.2.3.5.Execution Evidence for Sprint Review.
+A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint: 
+
+- Link: 
+  
+- Representative-Dashboard:
+
+<p align="center">
+  <img src="../images/repDashboardv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Households:
+
+  <p align="center">
+  <img src="../images/repHouseHoldv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Members:
+
+<p align="center">
+  <img src="../images/repMembersv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Representative-Expenses:
+
+<p align="center">
+  <img src="../images/repExpensesv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Representative-Contributions:
+
+<p align="center">
+  <img src="../images/repContributionsv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Configuration:
+- 
+<p align="center">
+  <img src="../images/repConfigurationv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Member-HomeState:
+
+<p align="center">
+  <img src="../images/memberHomeStatev2.PNG" alt="Evidencia-3">
+</p>
+
+- Member-FindHome:
+
+  <p align="center">
+  <img src="../images/memberFindHomev2.PNG" alt="Evidencia-3">
+</p>
+
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, asimismo se realizo el deploy del FakeApi usando JsonServer
+
+  - FrontEnd (Vercel): 
+
+     <p align="center">
+  <img src="../images/frontEndv2.PNG" alt="Evidencia-3">
+</p>
+
+  - ApiRest (Render): https://backend-harmonix.onrender.com/swagger
+<p align="center">
+  <img src="../images/Api.PNG" alt="Evidencia-3">
+</p> 
+
+
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
 ## 5.3. Validation Interviews.
