@@ -647,6 +647,62 @@ A continaucion se presenta captura de las pantallas realizadas del FronteEnd en 
 </p>
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+ <br> **Authentication:**
+ | **Endpoint**                     | **Acción implementada** | **Método HTTP** | **Parámetros**                    | **Ejemplo Request**                                 | **Ejemplo Response**       |
+| -------------------------------- | ----------------------- | --------------- | --------------------------------- | --------------------------------------------------- | -------------------------- |
+| `/api/v1/authentication/sign-in` | Iniciar sesión          | POST            | body: `{ email, password }`       | `{ "email":"test@gmail.com", "password":"123456" }` | `{ token, user }`          |
+| `/api/v1/authentication/sign-up` | Registrar usuario       | POST            | body: `{ name, email, password }` | `{ "name":"Jose", "email":"x@gmail.com" }`          | `{ id, email, createdAt }` |
+
+ <br> **User:**
+| Endpoint                              | Acción implementada                      | Método HTTP | Parámetros           | Ejemplo Request                              | Ejemplo Response         |
+| ------------------------------------- | ---------------------------------------- | ----------- | -------------------- | -------------------------------------------- | ------------------------ |
+| `/user/{id}`                          | Obtener usuario por ID                   | GET         | `id`                 | `GET /user/1762486245838`                    | `{ id, name, email }`    |
+| `/api/v1/user`                        | Obtener usuario autenticado              | GET         | —                    | `GET /api/v1/user`                           | `{ id, name, email }`    |
+| `/householdid/{mainHouseHoldId}`      | Obtener usuarios por Household principal | GET         | `mainHouseHoldId`    | `GET /householdid/HOG-1762486245838`         | `[ { user }, { user } ]` |
+| `/api/v1/user/byemail/{emailAddress}` | Actualizar usuario por email             | PUT         | `emailAddress`, body | `PUT /api/v1/user/byemail/test@gmail.com`    | `{ updated:true }`       |
+| `/api/v1/user/byemail/{email}`        | Eliminar usuario por email               | DELETE      | `email`              | `DELETE /api/v1/user/byemail/test@gmail.com` | `{ deleted:true }`       |
+
+ <br> **Bills:**
+
+| Endpoint                                      | Acción implementada        | Método HTTP | Parámetros                | Ejemplo Request                              | Ejemplo Response    |
+| --------------------------------------------- | -------------------------- | ----------- | ------------------------- | -------------------------------------------- | ------------------- |
+| `/api/v1/households/{householdId}/bills`      | Listar bills por household | GET         | `householdId`             | `GET /api/v1/households/HOG-123/bills`       | `[ { bill }, ... ]` |
+| `/api/v1/households/{householdId}/bills`      | Crear un bill              | POST        | `householdId`, body       | `{ "description":"agua", "amount":50 }`      | `{ id, createdAt }` |
+| `/api/v1/households/{householdId}/bills/{id}` | Actualizar bill            | PATCH       | `householdId`, `id`, body | `{ "amount":120 }`                           | `{ updated:true }`  |
+| `/api/v1/households/{householdId}/bills/{id}` | Eliminar bill              | DELETE      | `householdId`, `id`       | `DELETE /api/v1/households/HOG-123/bills/55` | `{ deleted:true }`  |
+
+
+ <br> **HouseHolds:**
+
+| Endpoint                  | Acción implementada      | Método HTTP | Parámetros | Ejemplo Request                             | Ejemplo Response         |
+| ------------------------- | ------------------------ | ----------- | ---------- | ------------------------------------------- | ------------------------ |
+| `/api/v1/house_hold/{Id}` | Obtener Household por ID | GET         | `Id`       | `GET /api/v1/house_hold/HOG-123`            | `{ id, name, currency }` |
+| `/api/v1/house_hold`      | Crear Household          | POST        | body       | `{ "name":"Casa", "representativeId":123 }` | `{ id, createdAt }`      |
+
+
+<br> **HouseHold Member:**
+
+| Endpoint                                               | Acción implementada                 | Método HTTP | Parámetros    | Ejemplo Request                                            | Ejemplo Response              |
+| ------------------------------------------------------ | ----------------------------------- | ----------- | ------------- | ---------------------------------------------------------- | ----------------------------- |
+| `/api/v1/household_member`                             | Crear household member              | POST        | body          | `{ userId, householdId }`                                  | `{ id, joinedAt }`            |
+| `/api/v1/household_member`                             | Obtener todos los household members | GET         | —             | `GET /api/v1/household_member`                             | `[ { member }, ... ]`         |
+| `/api/v1/household_member/{id}`                        | Obtener member por ID               | GET         | `id`          | `GET /api/v1/household_member/HM-123`                      | `{ id, userId, householdId }` |
+| `/api/v1/household_member/{id}`                        | Actualizar member                   | PUT         | `id`, body    | `{ "income":500 }`                                         | `{ updated:true }`            |
+| `/api/v1/household_member/{id}`                        | Eliminar member                     | DELETE      | `id`          | `DELETE /api/v1/household_member/HM-123`                   | `{ deleted:true }`            |
+| `/api/v1/household_member/household/{householdId}`     | Obtener members por household       | GET         | `householdId` | `GET /api/v1/household_member/household/HOG-123`           | `[ { member }, ... ]`         |
+| `/api/v1/household_member/user/{userId}`               | Obtener members por user            | GET         | `userId`      | `GET /api/v1/household_member/user/1763005858611`          | `[ { member } ]`              |
+| `/api/v1/household_member/{id}/promote-representative` | Promover a representante            | POST        | `id`          | `POST /api/v1/household_member/123/promote-representative` | `{ promoted:true }`           |
+| `/api/v1/household_member/{id}/demote-representative`  | Degradar representante              | POST        | `id`          | `POST /api/v1/household_member/123/demote-representative`  | `{ demoted:true }`            |
+
+ <br> **Settings:**
+
+ | Endpoint                | Acción implementada          | Método HTTP | Parámetros | Ejemplo Request                     | Ejemplo Response                              |
+| ----------------------- | ---------------------------- | ----------- | ---------- | ----------------------------------- | --------------------------------------------- |
+| `/api/v1/settings`      | Obtener settings del usuario | GET         | —          | `GET /api/v1/settings`              | `{ language, darkMode, notificationEnabled }` |
+| `/api/v1/settings`      | Crear settings               | POST        | body       | `{ "userId":176, "language":"es" }` | `{ id }`                                      |
+| `/api/v1/settings/{id}` | Actualizar settings          | PUT         | `id`, body | `{ "darkMode": true }`              | `{ updated:true }`                            |
+
+
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, asimismo se realizo el deploy del FakeApi usando JsonServer
