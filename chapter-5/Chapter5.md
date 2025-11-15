@@ -729,7 +729,7 @@ En esta sección se detalla cómo se llevaron a cabo las actividades de implemen
 El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
 
 <p align="center">
-  <img src="../images/Collaborators.PNG"/>
+  <img src="../images/Contributors.PNG"/>
 </p>
 
 A continuacion de detallara el trabajo que realizo cada integrante del equipo:
@@ -749,7 +749,7 @@ Commits de los integrantes en el BackEnd:
 Grafico de los push y merge realizados por el equipo en el BackEnd: 
 
 <p align="center">
-  <img src="../images/PushMerge.PNG.png"/>
+  <img src="../images/PushMerge.PNG"/>
 </p>
 
 
