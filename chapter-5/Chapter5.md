@@ -644,16 +644,16 @@ Asi ismo se muestra un tablero general de los commits en la rama main:
 | **hmorgus**     | 2025-11-14 | Merge branch 'develop' into feature/settings                                                       | **0a5f15b**   |
 | **C7leo**     | 2025-11-14 | Merge pull request #9 from 1AS10730-2520-7432-G1-Harmonix/develop                                  | **169fb92**   |
 | **hmorgus**     | 2025-11-14 | chore(): add string connections to production and development db                                   | **278896e**   |
-| **Xdakiab6246** | 2025-11-14 | Merge pull request #7 from 1AS10730-2520-7432-G1-Harmonix/feature/household-members                | **2eea174**   |
+| **XdiabloX426** | 2025-11-14 | Merge pull request #7 from 1AS10730-2520-7432-G1-Harmonix/feature/household-members                | **2eea174**   |
 | **C7leo** | 2025-11-14 | fix: update appsettings.                                                                           | **3543b46**   |
-| **Xdakiab6246** | 2025-11-14 | fix: update appsettings.                                                                           | **19ac9a3**   |
-| **Xdakiab6246** | 2025-11-14 | feat(household-members): enhance dependency injection for Household context services               | **fa67532**   |
-| **Xdakiab6246** | 2025-11-14 | feat(household-members): configure database connection for development and production environments | **badf98f**   |
+| **XdiabloX426*** | 2025-11-14 | fix: update appsettings.                                                                           | **19ac9a3**   |
+| **XdiabloX426*** | 2025-11-14 | feat(household-members): enhance dependency injection for Household context services               | **fa67532**   |
+| **XdiabloX426*** | 2025-11-14 | feat(household-members): configure database connection for development and production environments | **badf98f**   |
 | **C7leo** | 2025-11-14 | Merge branch 'develop' into feature/household-members                                              | **4c828dd**   |
-| **Xdakiab6246** | 2025-11-14 | Merge remote-tracking branch 'origin/feature/household-members' into feature/household-members     | **7ae9974**   |
+| **XdiabloX426*** | 2025-11-14 | Merge remote-tracking branch 'origin/feature/household-members' into feature/household-members     | **7ae9974**   |
 | **C7leo** | 2025-11-14 | Merge pull request #5 from 1AS10730-2520-7432-G1-Harmonix/feature/household-members                | **380cb7b**   |
-| **Xdakiab6246** | 2025-11-14 | Merge branch 'develop' into feature/household-members                                              | **83f4b30**   |
-| **Xdakiab6246** | 2025-11-14 | feat(household-members): update connection string and configure MySQL for development              | **2d24b32**   |
+| **XdiabloX426*** | 2025-11-14 | Merge branch 'develop' into feature/household-members                                              | **83f4b30**   |
+| **XdiabloX426*** | 2025-11-14 | feat(household-members): update connection string and configure MySQL for development              | **2d24b32**   |
 | **C7leo**       | 2025-11-14 | feat(settings): update                                                                             | **55a7126**   |
 
 
