@@ -620,6 +620,12 @@ Grafico de los push y merge realizados por el equipo en el Frontend:
 #### 5.2.3.3.Sprint Backlog 3.
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
+En el Sprint 3 desplegamos el backend y la versión más reciente del frontend, completando la integración entre ambos. Se habilitaron los flujos principales (gastos, aportes, reportes) y se realizaron pruebas funcionales, afinando navegación e interacción. Esto dejó operativa la primera versión funcional del sistema.
+
+Link al tablero de Trello: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/ATTI7ad82ccdf5058e2e7714967dd98a8ab37AD38540/sprint-3 
+
+
+
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint: 
 
