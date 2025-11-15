@@ -709,7 +709,7 @@ Durante el desarrollo del **Sprint 3** se implemento los endpoints principales d
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
-Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, asimismo se realizo el deploy del FakeApi usando JsonServer
+Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, asimismo se realizo el deploy del BackEnd usando Render.
 
   - FrontEnd (Vercel): https://front-end-5cbz.vercel.app/
 
@@ -724,6 +724,35 @@ Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, a
 
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el Sprint 3, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los dos principales productos: Web Application (Frontend/Backend). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
+
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="../images/Collaborators.PNG"/>
+</p>
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Martín Gonzales fue responsable de implementar los endpoints del Bounde Context HouseHold Members.
+- La integrante Camilla Espinoza implementó los endpoints del Bounded Context Settings.
+- El integrante Jose Martinez fue responsable de implementar los endpoints del Bounded Context HouseHolds e IAM.
+- El integrante Sebastias Cordova implementó los endpoints del Bounded Context Bills.
+- El integrante Kevin Prado implementó los endpoints del Bounded Context Collaborations .
+
+
+
+Commits de los integrantes en el BackEnd:
+<p align="center">
+  <img src="../images/Commits.PNG"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el BackEnd: 
+
+<p align="center">
+  <img src="../images/PushMerge.PNG.png"/>
+</p>
+
+
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
