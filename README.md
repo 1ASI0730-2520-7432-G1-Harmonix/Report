@@ -66,6 +66,7 @@
 | 2.0      | 08-10-2025 | Kevin Pardo | Se documentó la sección de Team Collaboration, herramientas utilizadas, prácticas de commits. |
 | 2.0      | 08-10-2025 | Jose Martinez | Se realizó el desarrollo del aplicativo y el FakeAPI, incluyendo las vistas y la sección de miembros del aplicativo web. |
 | 3.0      | 13-11-2025 | Camilla Espinoza | Se realizó el desarrollo del aplicativo, tanto en el Frontend y en el Backend. Se documento la seccion del sprint 3. |
+| 3.0 | 14-11-2025 | Kevin Pardo | Se avanzó con el módulo de Contributions en el Backend, subiendo la rama inicial para revisión. Adicionalmente, se completó la Lección 5 del Frontend,  |
 
 
 # Project Report Collaboration Insights
