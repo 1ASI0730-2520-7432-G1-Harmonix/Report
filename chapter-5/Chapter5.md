@@ -966,6 +966,256 @@ En esta sección se presentan los registros de las entrevistas realizadas para v
 
 
 ### 5.3.3. Evaluaciones según heurísticas.
+
+**UX Heuristics & Principles Evaluation**  
+**Usability – Inclusive Design – Information Architecture**
+
+---
+
+# 1. Datos Generales
+
+### **Carrera:**  
+Ingeniería de Software
+
+### **Curso:**  
+Aplicaciones Web
+
+### **Sección:**  
+6642
+
+### **Profesores:**  
+Oscar Ivan Villafuerte
+
+### **Auditor:**  
+Grupo: Testigos de Harmonix
+
+### **Cliente(s):**  
+Camila Leonor Espinoza  
+Ángel Martín Gonzales  
+Kevin Patrick Pardo  
+José Luis Martínez  
+Sebastián Córdova  
+
+### **Site / App evaluada:**  
+**Harmonix – Plataforma web para gestión equitativa de gastos del hogar**
+
+---
+
+# 2. Alcance de la Evaluación
+
+## 2.1. Tareas Evaluadas
+
+1. Registro de un usuario nuevo  
+2. Inicio de sesión seguro  
+3. Creación de un hogar (representante)  
+4. Unión a un hogar mediante código (miembro)  
+5. Declaración de ingresos personales  
+6. Registro de un gasto compartido  
+7. Visualización del monto proporcional a pagar  
+8. Registro de pago y adjuntar comprobante  
+9. Revisión del historial de gastos  
+10. Gestión de recordatorios y alertas  
+
+## 2.2. Tareas Excluidas
+
+1. Integración con pasarelas de pago reales  
+2. Intercambio de gastos con usuarios externos  
+3. Programas de fidelización o acumulación de puntos  
+4. Alertas automáticas avanzadas de consumo futuro  
+5. Foro comunitario o soporte técnico en vivo  
+
+---
+
+# 3. Marco de Evaluación UX
+
+La evaluación se realizó siguiendo:
+
+- **10 Heurísticas de Usabilidad de Nielsen**
+- **Principios de Diseño Inclusivo**
+- **Buenas prácticas de Arquitectura de Información**
+- **Escala de severidad (Nielsen 0–4):**
+
+| Severidad | Descripción |
+|----------|-------------|
+| **0** | No es problema |
+| **1** | Problema cosmético |
+| **2** | Problema menor |
+| **3** | Problema mayor |
+| **4** | Catastrófico, atender de inmediato |
+
+---
+
+# 4. Matriz de Evaluación Heurística (Nielsen)
+
+---
+
+## 4.1. Visibilidad del estado del sistema
+
+| Observación | Severidad |
+|------------|-----------|
+| Loaders poco visibles al registrar ingresos o gastos. | 2 |
+| Falta de confirmaciones animadas tras acciones importantes. | 1 |
+
+**Recomendación:**  
+Añadir indicadores visuales persistentes y notificaciones de éxito.
+
+---
+
+## 4.2. Relación entre el sistema y el mundo real
+
+| Observación | Severidad |
+|------------|-----------|
+| Términos como “aporte proporcional” pueden ser complejos para usuarios no técnicos. | 2 |
+| No se muestra duración o reglas sobre el código de unión al hogar. | 1 |
+
+**Recomendación:**  
+Usar lenguaje más natural y explicativo.
+
+---
+
+## 4.3. Control y libertad del usuario
+
+| Observación | Severidad |
+|------------|-----------|
+| Falta botón de “volver” en pantallas internas. | 3 |
+| Confirmaciones de eliminación con un solo botón. | 2 |
+
+---
+
+## 4.4. Consistencia y estándares
+
+| Observación | Severidad |
+|------------|-----------|
+| Formularios de ingresos y gastos con estilos distintos. | 2 |
+| Mezcla de Bootstrap Icons con íconos personalizados. | 1 |
+
+---
+
+## 4.5. Prevención de errores
+
+| Observación | Severidad |
+|------------|-----------|
+| Se permiten números negativos en ingresos/gastos. | 3 |
+| Validación débil en tipos de archivo de comprobante. | 2 |
+
+---
+
+## 4.6. Reconocer en lugar de recordar
+
+| Observación | Severidad |
+|------------|-----------|
+| El usuario debe memorizar el código de unión; no se copia automáticamente. | 2 |
+| Algunos botones solo tienen ícono sin texto. | 1 |
+
+---
+
+## 4.7. Flexibilidad y eficiencia
+
+| Observación | Severidad |
+|------------|-----------|
+| No hay atajos de usuario avanzado (filtros, plantillas, etc.) | 2 |
+| No existe autocompletado de categorías. | 2 |
+
+---
+
+## 4.8. Diseño estético y minimalista
+
+| Observación | Severidad |
+|------------|-----------|
+| Algunas pantallas tienen contenido muy agrupado. | 1 |
+
+---
+
+## 4.9. Ayuda al usuario a reconocer y recuperarse de errores
+
+| Observación | Severidad |
+|------------|-----------|
+| Mensajes de error genéricos (“Ocurrió un error”). | 3 |
+| No se explica cómo solucionar entradas duplicadas. | 2 |
+
+---
+
+## 4.10. Ayuda y documentación
+
+| Observación | Severidad |
+|------------|-----------|
+| No existe sección de ayuda o FAQs. | 3 |
+| Falta onboarding para nuevos usuarios. | 2 |
+
+---
+
+# 5. Evaluación de Diseño Inclusivo
+
+| Criterio | Estado | Observación |
+|---------|--------|-------------|
+| Accesibilidad visual | Parcial | Falta modo claro y mejor contraste en algunas áreas. |
+| Accesibilidad motora | Adecuado | Botones suficientemente grandes. |
+| Accesibilidad cognitiva | Parcial | Vocabulario financiero puede confundir. |
+| Lectura de pantalla (ARIA) | Insuficiente | Faltan etiquetas en varios componentes. |
+| Uso sin color | Adecuado | Estructura funcional se mantiene. |
+
+---
+
+# 6. Evaluación de Arquitectura de Información
+
+| Aspecto | Desempeño | Observación |
+|---------|-----------|-------------|
+| Estructura del menú | Buena | Navegación simple y entendible. |
+| Flujo de tareas | Correcto | Flujo claro para representantes y miembros. |
+| Etiquetado | Consistente | Verbos claros y orientados a acción. |
+| Navegación | Mejorable | Falta breadcrumb o navegación secundaria. |
+
+---
+
+# 7. Hallazgos Críticos Prioritarios
+
+### **Prioridad Alta (Severidad 3–4)**
+- Validaciones insuficientes en ingresos y gastos.  
+- Falta de mensajes correctivos y explicativos.  
+- Ausencia de navegación “volver” en flujos internos.
+
+### **Prioridad Media (Severidad 2)**
+- Lenguaje técnico para usuarios no financieros.  
+- Falta de autocompletado y accesos rápidos.  
+- Loaders poco visibles.
+
+### **Prioridad Baja (Severidad 1)**
+- Inconsistencias visuales menores.  
+- Íconos sin textos complementarios.
+
+---
+
+# 8. Recomendaciones Específicas
+
+## 8.1. Usabilidad
+- Agregar loaders animados y mensajes persistentes.  
+- Uniformizar estilos de formularios y pantallas.  
+
+## 8.2. Inclusividad
+- Añadir etiquetas ARIA y roles accesibles.  
+- Simplificar texto y agregar modo claro/oscuro.  
+
+## 8.3. Arquitectura de Información
+- Incorporar breadcrumbs.  
+- Añadir plantillas de categorías de gastos.  
+
+---
+
+# 9. Conclusiones Generales
+
+La aplicación **Harmonix** presenta una propuesta sólida y funcional, centrada en la equidad financiera en hogares. Su estilo visual es moderno y minimalista, aunque aún requiere mejoras en:
+
+- Comunicación de errores  
+- Accesibilidad  
+- Consistencia visual  
+- Prevención de errores  
+- Retroalimentación al usuario  
+
+Los problemas identificados son en su mayoría **moderados** y pueden resolverse sin rediseños completos.  
+Aplicar estas mejoras fortalecera la experiencia del usuario, aumentando claridad, accesibilidad y confianza en el sistema.
+
+
+
 ## 5.4. Video About-the-Product.
 En el siguiente video se muestra una vista detallada del uso y proposito del aplicativo deasarrollado: https://shorturl.at/1Hyl0
 
