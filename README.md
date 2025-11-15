@@ -66,6 +66,7 @@
 | 2.0      | 08-10-2025 | Kevin Pardo | Se documentó la sección de Team Collaboration, herramientas utilizadas, prácticas de commits. |
 | 2.0      | 08-10-2025 | Jose Martinez | Se realizó el desarrollo del aplicativo y el FakeAPI, incluyendo las vistas y la sección de miembros del aplicativo web. |
 
+
 # Project Report Collaboration Insights
 
 URL Project Report (Github): https://github.com/1ASI0730-2520-7432-G1-Harmonix/Report.git
@@ -301,7 +302,7 @@ Anexo 11. Repositorio del Backend
 Disponible en: https://github.com/1ASI0730-2520-7432-G1-Harmonix/BackEnd
 
 Anexo 12. Frontend desplegado
-Disponible en: https://storied-concha-593faf.netlify.app/
+Disponible en: https://front-end-5cbz.vercel.app/ 
 
 Anexo 13. FakeApi desplegado
 Disponible en: https://fake-json-api.onrender.com/users
@@ -311,3 +312,18 @@ Disponible en: https://trello.com/invite/b/68e673a454041fb9f6aa1f29/ATTIb1131809
 
 Anexo 15. Video About the Product
 Disponible en: https://url-shortener.me/6PAX
+
+Anexo 16. Video de exposición TP1
+Disponible en: bit.ly/3IVEcoO
+
+Anexo 17. Video About the Product
+Disponible en: 
+
+Anexo 18. Tablero en Trello - Sprint Backlog 3
+Disponible en:
+
+Anexo 19. Video de exposición TB2
+Disponible en: 
+ 
+Anexo 20. Backend desplegado
+Disponible en:
