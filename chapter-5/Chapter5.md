@@ -589,7 +589,34 @@ Grafico de los push y merge realizados por el equipo en el Frontend:
 
 ### 5.2.3. Sprint 3
 #### 5.2.3.1.Spring Planning 3.
+
+
+| **Campo**                              | **Descripción**                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                           | Sprint 3                                                                                                                                                                                                                                                                                                         |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                    |
+| **Date**                               | 2025-10-28                                                                                                                                                                                                                                                                                                         |
+| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                  |
+| **Location**                           | Modalidad remota por Google Meet                                                                                                                                                                                                                                                                                   |
+| **Prepared By**                        | Testigos de Harmonix                                                                                                                                                                                                                                                                                              |
+| **Attendees (to planning meeting)**    | Equipo Harmonix                                                                                                                                                                                                                                                            |
+  | **Sprint 2 Review Summary**        | En este primer sprint se desarrolló la Web App utilizando el framework VueJs. Se revisó y adaptó el contenido textual de la web app y landing con base en los puntos de mejora del sprint previo . Al finalizar el sprint, la Web App fue desplegada exitosamente en Vercel y quedó accesible públicamente mediante un enlace funcional.                                                                                                                                                                                                                                    |
+| **Sprint 2 Retrospective Summary** | En este sprint se logro avanzar con el desarrollo del front-end de la aplicación web, incluyendo las vistas para la autenticación de usuario y los dashboards para cada rol de usuario. También se implemeno la configuración de idioma utilizando la librería i18n con Vue. Además,se desarrollo el video sobre el producto y el video del equipo. Las tareas fueron organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se espera contar con una versión actualizada del landing page y una demo funcional del front-end de la aplicación desplegada en Netlify. |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                    |
+| **Sprint 2 Goal**                      | Desplegar un BackEnd funcional con endpoints del 80% de los Bounded Contexts, accesible públicamente desde Render                                                                                                                                                                                          |
+| **Sprint 2 Velocity**                  | 30                                                                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 21                                                                                                                                                                                                                                                                                                                 |
+
 #### 5.2.3.2. Aspect Leaders and Collaborators.
+
+ |Team Member | GitHub Username |  Delegating Responsibilities <br> Leader (L) / Collaborator (C) | Merging Branches <br>Leader (L) /Collaborator (C)| Correcting Mistakes <br> Leader (L) /Collaborator (C)|
+|-------------|--------------|------------|----------|----------|
+| Jose Luis Martinez Validivia | hmongus  |    C   |    L     | C  |
+| Camila Leonor Espinoza Vivas		 | C7leo  |    L   |     C    | C  |
+| Kevin Patrick Panto Chuquipiondo		 | Kevinyin11  |  C     |   C      |  C  |
+| Sebastián Córdova	 | Sevas04  |    C   |    C     |   C   |
+| Martin Gonzales | XdiabloX426  |   C    |    C     |   L   |
+
 #### 5.2.3.3.Sprint Backlog 3.
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
