@@ -623,6 +623,10 @@ En el Sprint 3 desplegamos el backend y la versión más reciente del frontend, 
 
 Link al tablero de Trello: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/ATTI7ad82ccdf5058e2e7714967dd98a8ab37AD38540/sprint-3 
 
+<p align="center">
+  <img src="../images/sprint-3.png" alt="Evidencia-3">
+</p>
+
 
 | **User Story Id**            | **Title**                         | **Task Id** | **Task Title**                                    | **Description**                                                                                                                         | **Estimation (Hours)** | **Assigned To** | **Status** |
 | ---------------------------- | --------------------------------- | ----------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
@@ -635,9 +639,47 @@ Link al tablero de Trello: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
+En esta sección se registran las evidencias del desarrollo y despliegue del **FrontEnd de Harmonix** durante el **Sprint 3**, correspondientes a los commits realizados en GitHub por el equipo.
 
+---
 
+#### Commits de desarrollo (funcionalidad)
 
+| Autor | Fecha | Commit Message | Commit ID |
+|---|---|---|---|
+| hmongus | 2025-11-14 | Merge pull request #12 from develop | 5aa710a |
+| hmongus | 2025-11-14 | chore(IAM): modify authorization pipeline | 0bcd7be |
+| hmongus | 2025-11-14 | Merge pull request #11 from develop | c317691 |
+| hmongus | 2025-11-14 | Merge pull request #10 from feature/settings | 8c0dc37 |
+| hmongus | 2025-11-14 | Merge branch 'develop' into feature/settings | 0a51f5b |
+| hmongus | 2025-11-14 | Merge pull request #9 from develop | 1d9ffb2 |
+| hmongus | 2025-11-14 | chore(): add string connections to production and development db | 2788b9c |
+| XdiabloX426 | 2025-11-14 | Merge pull request #7 from feature/household-members | 2cea374 |
+| XdiabloX426 | 2025-11-14 | fix: update appsettings | 35343b6 |
+| XdiabloX426 | 2025-11-14 | fix: update appsettings | 19ac6c3 |
+| XdiabloX426 | 2025-11-14 | feat(household-members): enhance dependency injection | fa67532 |
+| XdiabloX426 | 2025-11-14 | feat(household-members): configure DB connection for dev & prod | ba8f6ff |
+| XdiabloX426 | 2025-11-14 | Merge branch 'develop' into feature/household-members | 4c028dd |
+| XdiabloX426 | 2025-11-14 | Merge remote-tracking branch origin/feature/household-members | 7ae9974 |
+| XdiabloX426 | 2025-11-14 | Merge pull request #5 from feature/household-members | 380b47b |
+| XdiabloX426 | 2025-11-14 | Merge branch 'develop' into feature/household-members | 83f4b30 |
+| XdiabloX426 | 2025-11-14 | feat(household-members): update connection string and MySQL config | 2024b32 |
+| C7leo | 2025-11-14 | feat(settings): update | 55a7126 |
+| hmongus | 2025-11-13 | chore(): add dockerfile | e0ff8a8 |
+| hmongus | 2025-11-13 | Merge pull request #4 from develop | 3d925fc |
+| hmongus | 2025-11-13 | Merge pull request #3 from bills-module | f3b8d35 |
+| hmongus | 2025-11-13 | Merge branch 'develop' into feature/bills-module | c51d90f |
+| hmongus | 2025-11-13 | Merge pull request #2 from bills-module | 6c543e1 |
+| hmongus | 2025-11-13 | Merge pull request #1 from households-iam | 528323c |
+| hmongus | 2025-11-12 | chore(MC): add member contributions controller | 545f487 |
+| hmongus | 2025-11-12 | feat(households): add command and query services | 0331243 |
+| José Martínez Valdivia (hmongus) | 2025-07-10 | Merge pull request #1 from develop | bf4afd2 |
+| José Martínez Valdivia (hmongus) | 2025-07-10 | add models and services | dae12a5 |
+| José Martínez Valdivia (hmongus) | 2025-07-10 | add data to json | 1f066cb |
+| José Martínez Valdivia (hmongus) | 2025-07-10 | fix server issue | 4b732ea |
+| José Martínez Valdivia (hmongus) | 2025-07-10 | add server | 6750d5c |
+
+**Fuente:** historial de commits en la rama `master` del repositorio [Backend – Harmonix](https://github.com/1ASI0730-2520-7432-G1-Harmonix/BackEnd).
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint: 
