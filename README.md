@@ -229,6 +229,8 @@ A continuación, se detalla el desarrollo de las actividades relacionadas con la
 
 **TP** (Sprint 2): bit.ly/4ohpyaB
 
+**TB2** (Sprint 3): 
+
 # Bibliografía
 
 Goodbudget. (s. f.). Best Home Budget App for Android, iPhone, & Web. https://goodbudget.com/
@@ -321,7 +323,7 @@ Anexo 17. Video About the Product Sprint 3
 Disponible en: https://shorturl.at/1Hyl0
 
 Anexo 18. Tablero en Trello - Sprint Backlog 3
-Disponible en:
+Disponible en: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/ATTI7ad82ccdf5058e2e7714967dd98a8ab37AD38540/sprint-3
 
 Anexo 19. Video de exposición TB2
 Disponible en: 
