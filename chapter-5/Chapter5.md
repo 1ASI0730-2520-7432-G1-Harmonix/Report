@@ -596,7 +596,7 @@ Grafico de los push y merge realizados por el equipo en el Frontend:
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint: 
 
-- Link: 
+- Link: https://shorturl.at/1Hyl0
   
 - Representative-Dashboard:
 
@@ -651,7 +651,7 @@ A continaucion se presenta captura de las pantallas realizadas del FronteEnd en 
 
 Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, asimismo se realizo el deploy del FakeApi usando JsonServer
 
-  - FrontEnd (Vercel): 
+  - FrontEnd (Vercel): https://front-end-5cbz.vercel.app/
 
      <p align="center">
   <img src="../images/frontEndv2.PNG" alt="Evidencia-3">
@@ -670,4 +670,5 @@ Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, a
 ### 5.3.2. Registro de Entrevistas.
 ### 5.3.3. Evaluaciones según heurísticas.
 ## 5.4. Video About-the-Product.
+En el siguiente video se muestra una vista detallada del uso y proposito del aplicativo deasarrollado: https://shorturl.at/1Hyl0
 
