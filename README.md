@@ -311,14 +311,14 @@ Disponible en: https://fake-json-api.onrender.com/users
 Anexo 14. Tablero en Trello - Sprint Backlog 2
 Disponible en: https://trello.com/invite/b/68e673a454041fb9f6aa1f29/ATTIb113180968d810d2941119d7342ca45b1214775F/sprint-backlog-2
 
-Anexo 15. Video About the Product
+Anexo 15. Video About the Product Sprint 2
 Disponible en: https://url-shortener.me/6PAX
 
 Anexo 16. Video de exposición TP1
 Disponible en: bit.ly/3IVEcoO
 
-Anexo 17. Video About the Product
-Disponible en: 
+Anexo 17. Video About the Product Sprint 3
+Disponible en: https://shorturl.at/1Hyl0
 
 Anexo 18. Tablero en Trello - Sprint Backlog 3
 Disponible en:
@@ -327,4 +327,4 @@ Anexo 19. Video de exposición TB2
 Disponible en: 
  
 Anexo 20. Backend desplegado
-Disponible en:
+Disponible en: https://backend-harmonix.onrender.com/swagger
