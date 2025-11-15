@@ -647,6 +647,10 @@ A continaucion se presenta captura de las pantallas realizadas del FronteEnd en 
 </p>
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+Durante el desarrollo del **Sprint 3** se implemento los endpoints principales del backend. Asi mismo se realizo el despliegue a base del uso de DockerFiles.
+
+
  <br> **Authentication:**
  | **Endpoint**                     | **Acción implementada** | **Método HTTP** | **Parámetros**                    | **Ejemplo Request**                                 | **Ejemplo Response**       |
 | -------------------------------- | ----------------------- | --------------- | --------------------------------- | --------------------------------------------------- | -------------------------- |
