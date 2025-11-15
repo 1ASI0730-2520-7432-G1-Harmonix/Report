@@ -618,6 +618,16 @@ Grafico de los push y merge realizados por el equipo en el Frontend:
 | Martin Gonzales | XdiabloX426  |   C    |    C     |   L   |
 
 #### 5.2.3.3.Sprint Backlog 3.
+
+| **User Story Id**            | **Title**                         | **Task Id** | **Task Title**                                    | **Description**                                                                                                                         | **Estimation (Hours)** | **Assigned To** | **Status** |
+| ---------------------------- | --------------------------------- | ----------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
+| TS01         | Inicio de sesión seguro           | TS01        | Implementar autenticación JWT                     | Implementar autenticación basada en JWT, generando tokens seguros al iniciar sesión y validando su uso en endpoints protegidos.         |            4            |      Jose Martinez           |     Done       |
+| TS02         | Registro de usuario               | TS02        | Cifrar contraseñas en base de datos               | Implementar cifrado seguro (bcrypt u otro algoritmo) para almacenar contraseñas en la base de datos y validación en login.              |           3             |       Camila Espinoza          |   Done         |
+| TS03       | Inicio de sesión seguro           | TS03        | Validar roles de administrador y miembro          | Añadir validación de roles usando JWT claims para restringir endpoints según permisos (representante / miembro).                        |        5                |     Kevin Panto            |    Done        |
+| TS04         | Edición de información personal   | TS04        | Implementar actualización de perfil desde API     | Implementar endpoint y lógica para actualizar datos del perfil del usuario de forma segura, validando token y permisos.                 |        3               |    Sebastian Cordova              |   Done         |
+| TS09  | Gestión de gastos compartidos     | TS09        | Implementar actualización y eliminación de gastos | Implementar endpoints para actualizar y eliminar gastos, validando existencia, permisos y coherencia de datos.                          |       4                 |     Martin Gonzales            |  Done          |
+| TS16         | Seguridad y comunicación (global) | TS16        | Validar seguridad FE–BE (CORS, HTTPS)             | Configurar seguridad entre frontend y backend: CORS, headers, HTTPS, restricciones de origen, reglas de tokens y sanitización de datos. |          5             |     Jose Martinez             |   Done         |
+
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
