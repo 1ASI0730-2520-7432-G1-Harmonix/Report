@@ -828,6 +828,271 @@ Grafico de los push y merge realizados por el equipo en el BackEnd:
   <img src="../images/PushMerge.PNG"/>
 </p>
 
+### 5.2.4. Sprint 4
+#### 5.2.4.1.Spring Planning 4.
+
+
+| **Campo**                              | **Descripción**                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                           | Sprint 4                                                                                                                                                                                                                                                                                                         |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                    |
+| **Date**                               | 2025-11-20                                                                                                                                                                                                                                                                                                         |
+| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                  |
+| **Location**                           | Modalidad remota por Google Meet                                                                                                                                                                                                                                                                                   |
+| **Prepared By**                        | Testigos de Harmonix                                                                                                                                                                                                                                                                                              |
+| **Attendees (to planning meeting)**    | Equipo Harmonix                                                                                                                                                                                                                                                            |
+  | **Sprint 3 Review Summary**        | En este sprint se desarrolló el BackEnd en .NET junto al despliegue de este usando Dockerfile en Render.                                                                                                                                                                                                                                    |
+| **Sprint 3 Retrospective Summary** | En este sprint se logro avanzar con el desarrollo del backend de la aplicación web, incluyendo los endpoints para la autenticación de usuario. También se implemeno la configuración de idioma. Además,se desarrollo el video sobre el producto y el video del equipo. Las tareas fueron organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se conto con una versión actualizada del backend y una demo funcional del front-end de la aplicación desplegada en Vercel. |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                    |
+| **Sprint 4 Goal**                      | Realizar la conexion del Backend con el FrontEnd a un 100%, a su vez que realizar el despliegue de ambas versiones nuevas del backend y frontend                                                                                                                                                                                          |
+| **Sprint 4 Velocity**                  | 12                                                                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 10                                                                                                                                                                                                                                                                                                                 |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+ |Team Member | GitHub Username |  Delegating Responsibilities <br> Leader (L) / Collaborator (C) | Merging Branches <br>Leader (L) /Collaborator (C)| Correcting Mistakes <br> Leader (L) /Collaborator (C)|
+|-------------|--------------|------------|----------|----------|
+| Jose Luis Martinez Validivia | hmongus  |    C   |    L     | C  |
+| Camila Leonor Espinoza Vivas		 | C7leo  |    L   |     C    | C  |
+| Kevin Patrick Panto Chuquipiondo		 | Kevinyin11  |  C     |   C      |  C  |
+| Sebastián Córdova	 | Sevas04  |    C   |    C     |   C   |
+| Martin Gonzales | XdiabloX426  |   C    |    C     |   L   |
+
+#### 5.2.4.3.Sprint Backlog 4.
+
+En el Sprint 4 se realizo la conexion del backend con el fronten, completando la integración entre ambos. Se habilitaron los flujos principales (gastos, aportes, reportes) y se realizaron pruebas funcionales, afinando navegación e interacción. Esto dejó operativa la primera versión funcional del sistema.
+
+Link al tablero de Trello: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/ATTI7ad82ccdf5058e2e7714967dd98a8ab37AD38540/sprint-3 
+
+<p align="center">
+  <img src="../images/sprint-4.png" alt="Evidencia-4">
+</p>
+
+
+
+#### 5.2.4.4.Development Evidence for Sprint Review.
+
+En esta sección se registran las evidencias del desarrollo de la conexion del **Backend - FrontEnd de Harmonix** durante el **Sprint 4**, correspondientes a los commits realizados en GitHub por el equipo.
+
+Link al tablero de Trello: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/ATTI7ad82ccdf5058e2e7714967dd98a8ab37AD38540/sprint-3 
+
+Asi ismo se muestra un tablero general de los commits en la rama main:
+
+
+
+
+**Fuente:** historial de commits en la rama `master` del repositorio [Backend – Harmonix](https://github.com/1ASI0730-2520-7432-G1-Harmonix/BackEnd).
+
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint: 
+
+- Link: https://shorturl.at/1Hyl0
+  
+- Representative-Dashboard:
+
+<p align="center">
+  <img src="../images/repDashboardv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Households:
+
+  <p align="center">
+  <img src="../images/repHouseHoldv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Members:
+
+<p align="center">
+  <img src="../images/repMembersv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Representative-Expenses:
+
+<p align="center">
+  <img src="../images/repExpensesv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Representative-Contributions:
+
+<p align="center">
+  <img src="../images/repContributionsv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Configuration:
+- 
+<p align="center">
+  <img src="../images/repConfigurationv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Member-HomeState:
+
+<p align="center">
+  <img src="../images/memberHomeStatev2.PNG" alt="Evidencia-3">
+</p>
+
+- Member-FindHome:
+
+  <p align="center">
+  <img src="../images/memberFindHomev2.PNG" alt="Evidencia-3">
+</p>
+
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+
+Durante el desarrollo del **Sprint 4** se implemento los endpoints principales del backend. Asi mismo se realizo el despliegue a base del uso de DockerFiles.
+
+
+ <br> **Authentication:**
+| **Endpoint**                     | **Acción implementada** | **Método HTTP** | **Parámetros**                    | **Ejemplo Request**                                                | **Ejemplo Response**                                                            |
+| -------------------------------- | ----------------------- | --------------- | --------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| `/api/v1/authentication/sign-in` | Iniciar sesión          | POST            | body: `{ email, password }`       | `{ "email": "test@gmail.com", "password": "123456" }`              | `{ "token": "jwt_token", "user": { ... } }`                                     |
+| `/api/v1/authentication/sign-up` | Registrar usuario       | POST            | body: `{ name, email, password }` | `{ "name": "Jose", "email": "x@gmail.com", "password": "123456" }` | `{ "id": "uuid", "email": "x@gmail.com", "createdAt": "2025-12-03T00:00:00Z" }` |
+
+
+ <br> **User:**
+| **Endpoint**                                 | **Acción implementada**                  | **Método HTTP** | **Parámetros**                                               | **Ejemplo Request**                                   | **Ejemplo Response**                                       |
+| -------------------------------------------- | ---------------------------------------- | --------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ---------------------------------------------------------- |
+| `/api/v1/user/user/{id}`                     | Obtener usuario por Id                   | GET             | path: `{ id }`                                               | `GET /api/v1/user/user/1`                             | `{ "id": 1, "name": "Jose", "email": "test@gmail.com" }`   |
+| `/api/v1/user`                               | Listar todos los usuarios                | GET             | —                                                            | `GET /api/v1/user`                                    | `[ { "id": 1, "name": "Jose", "email": "..." }, ... ]`     |
+| `/api/v1/user/householdid/{mainHouseHoldId}` | Obtener usuarios por Household principal | GET             | path: `{ mainHouseHoldId }`                                  | `GET /api/v1/user/householdid/household-123`          | `[ { "id": 1, "mainHouseHoldId": "household-123" }, ... ]` |
+| `/api/v1/user/byemail/{emailAddress}`        | Actualizar usuario por email             | PUT             | path: `{ emailAddress }`, body: parcial `UpdateUserResource` | `PUT /api/v1/user/byemail/test@gmail.com` + body JSON | `{ "id": 1, "email": "test@gmail.com", "updated": true }`  |
+| `/api/v1/user/byemail/{email}`               | Eliminar usuario por email               | DELETE          | path: `{ email }`                                            | `DELETE /api/v1/user/byemail/test@gmail.com`          | `{ "deleted": true }`                                      |
+
+<br> **User Income:**
+| **Endpoint**                            | **Acción implementada**      | **Método HTTP** | **Parámetros**                                           | **Ejemplo Request**                                                           | **Ejemplo Response**                                                        |
+| --------------------------------------- | ---------------------------- | --------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| `/api/v1/user_income`                   | Crear ingreso de usuario     | POST            | body: `{ userId, amount, source, frequency }`            | `{ "userId": 1, "amount": 1500, "source": "Salary", "frequency": "monthly" }` | `{ "id": "income-1", "userId": 1, "amount": 1500 }`                         |
+| `/api/v1/user_income/{id}`              | Obtener ingreso por Id       | GET             | path: `{ id }`                                           | `GET /api/v1/user_income/income-1`                                            | `{ "id": "income-1", "userId": 1, "amount": 1500, "frequency": "monthly" }` |
+| `/api/v1/user_income/byuserid/{userId}` | Obtener ingresos por usuario | GET             | path: `{ userId }`                                       | `GET /api/v1/user_income/byuserid/1`                                          | `[ { "id": "income-1", "userId": 1, "amount": 1500 }, ... ]`                |
+| `/api/v1/user_income/byid/{id}`         | Actualizar ingreso por Id    | PUT             | path: `{ id }`, body: parcial `UpdateUserIncomeResource` | `PUT /api/v1/user_income/byid/income-1` + body JSON                           | `{ "id": "income-1", "updated": true }`                                     |
+
+<br> **Contribution:**
+
+| **Endpoint**                                       | **Acción implementada**              | **Método HTTP** | **Parámetros**                                             | **Ejemplo Request**                                                                  | **Ejemplo Response**                                       |
+| -------------------------------------------------- | ------------------------------------ | --------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| `/api/v1/contribution`                             | Listar todas las contribuciones      | GET             | —                                                          | `GET /api/v1/contribution`                                                           | `[ { "id": "contrib-1", "amount": 100 }, ... ]`            |
+| `/api/v1/contribution`                             | Crear contribución                   | POST            | body: `{ billId, householdId, amount, description }`       | `{ "billId": "bill-1", "householdId": "hh-1", "amount": 100, "description": "Luz" }` | `{ "id": "contrib-1", "billId": "bill-1", "amount": 100 }` |
+| `/api/v1/contribution/{id}`                        | Obtener contribución por Id          | GET             | path: `{ id }`                                             | `GET /api/v1/contribution/contrib-1`                                                 | `{ "id": "contrib-1", "billId": "bill-1", "amount": 100 }` |
+| `/api/v1/contribution/{id}`                        | Eliminar contribución                | DELETE          | path: `{ id }`                                             | `DELETE /api/v1/contribution/contrib-1`                                              | `{ "deleted": true }`                                      |
+| `/api/v1/contribution/bybillid/{billId}`           | Obtener contribuciones por Bill      | GET             | path: `{ billId }`                                         | `GET /api/v1/contribution/bybillid/bill-1`                                           | `[ { "id": "contrib-1", "billId": "bill-1" }, ... ]`       |
+| `/api/v1/contribution/byhouseholdid/{householdId}` | Obtener contribuciones por Household | GET             | path: `{ householdId }`                                    | `GET /api/v1/contribution/byhouseholdid/hh-1`                                        | `[ { "id": "contrib-1", "householdId": "hh-1" }, ... ]`    |
+| `/api/v1/contribution/byid/{id}`                   | Actualizar contribución por Id       | PUT             | path: `{ id }`, body: parcial `UpdateContributionResource` | `PUT /api/v1/contribution/byid/contrib-1` + body JSON                                | `{ "id": "contrib-1", "updated": true }`                   |
+
+
+ <br> **Bills:**
+
+| **Endpoint**                              | **Acción implementada**           | **Método HTTP** | **Parámetros**                                     | **Ejemplo Request**                         | **Ejemplo Response**                                                |
+| ----------------------------------------- | --------------------------------- | --------------- | -------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------- |
+| `/api/v1/bills`                           | Listar todas las facturas (bills) | GET             | —                                                  | `GET /api/v1/bills`                         | `[ { "id": "bill-1", "householdId": "hh-1", "amount": 200 }, ... ]` |
+| `/api/v1/bills/byhousehold/{householdId}` | Obtener Bills por Household       | GET             | path: `{ householdId }`                            | `GET /api/v1/bills/byhousehold/hh-1`        | `[ { "id": "bill-1", "householdId": "hh-1" }, ... ]`                |
+| `/api/v1/bills/byid/{id}`                 | Actualizar Bill por Id            | PUT             | path: `{ id }`, body: parcial `UpdateBillResource` | `PUT /api/v1/bills/byid/bill-1` + body JSON | `{ "id": "bill-1", "updated": true }`                               |
+| `/api/v1/bills/{id}`                      | Eliminar Bill                     | DELETE          | path: `{ id }`                                     | `DELETE /api/v1/bills/bill-1`               | `{ "deleted": true }`                                               |
+
+
+ <br> **HouseHolds:**
+
+| **Endpoint**              | **Acción implementada**  | **Método HTTP** | **Parámetros**                                            | **Ejemplo Request**                                                                                       | **Ejemplo Response**                                           |
+| ------------------------- | ------------------------ | --------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| `/api/v1/house_hold/{Id}` | Obtener Household por Id | GET             | path: `{ Id }`                                            | `GET /api/v1/house_hold/hh-1`                                                                             | `{ "id": "hh-1", "name": "Casa Vallejos", "currency": "PEN" }` |
+| `/api/v1/house_hold`      | Crear Household          | POST            | body: `{ name, description, representativeId, currency }` | `{ "name": "Depto amigos", "description": "Depto Miraflores", "representativeId": 1, "currency": "PEN" }` | `{ "id": "hh-1", "name": "Depto amigos" }`                     |
+
+
+
+<br> **HouseHold Member:**
+
+| **Endpoint**                                           | **Acción implementada**        | **Método HTTP** | **Parámetros**                                                | **Ejemplo Request**                                                 | **Ejemplo Response**                                        |
+| ------------------------------------------------------ | ------------------------------ | --------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- |
+| `/api/v1/household_member`                             | Crear miembro de Household     | POST            | body: `{ householdId, userId, isRepresentative }`             | `{ "householdId": "hh-1", "userId": 1, "isRepresentative": false }` | `{ "id": 10, "householdId": "hh-1", "userId": 1 }`          |
+| `/api/v1/household_member`                             | Listar todos los miembros      | GET             | —                                                             | `GET /api/v1/household_member`                                      | `[ { "id": 10, "householdId": "hh-1", "userId": 1 }, ... ]` |
+| `/api/v1/household_member/{id}`                        | Obtener miembro por Id         | GET             | path: `{ id }`                                                | `GET /api/v1/household_member/10`                                   | `{ "id": 10, "householdId": "hh-1", "userId": 1 }`          |
+| `/api/v1/household_member/{id}`                        | Actualizar miembro por Id      | PUT             | path: `{ id }`, body: parcial `UpdateHouseholdMemberResource` | `PUT /api/v1/household_member/10` + body JSON                       | `{ "id": 10, "updated": true }`                             |
+| `/api/v1/household_member/{id}`                        | Eliminar miembro               | DELETE          | path: `{ id }`                                                | `DELETE /api/v1/household_member/10`                                | `{ "deleted": true }`                                       |
+| `/api/v1/household_member/household/{householdId}`     | Obtener miembros por Household | GET             | path: `{ householdId }`                                       | `GET /api/v1/household_member/household/hh-1`                       | `[ { "id": 10, "householdId": "hh-1" }, ... ]`              |
+| `/api/v1/household_member/user/{userId}`               | Obtener miembros por usuario   | GET             | path: `{ userId }`                                            | `GET /api/v1/household_member/user/1`                               | `[ { "id": 10, "userId": 1, "householdId": "hh-1" }, ... ]` |
+| `/api/v1/household_member/{id}/promote-representative` | Promover a representante       | POST            | path: `{ id }`                                                | `POST /api/v1/household_member/10/promote-representative`           | `{ "id": 10, "isRepresentative": true }`                    |
+| `/api/v1/household_member/{id}/demote-representative`  | Degradar representante         | POST            | path: `{ id }`                                                | `POST /api/v1/household_member/10/demote-representative`            | `{ "id": 10, "isRepresentative": false }`                   |
+
+<br> **Income Allocation:**
+
+| **Endpoint**                                           | **Acción implementada**        | **Método HTTP** | **Parámetros**                                                | **Ejemplo Request**                                                 | **Ejemplo Response**                                        |
+| ------------------------------------------------------ | ------------------------------ | --------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- |
+| `/api/v1/household_member`                             | Crear miembro de Household     | POST            | body: `{ householdId, userId, isRepresentative }`             | `{ "householdId": "hh-1", "userId": 1, "isRepresentative": false }` | `{ "id": 10, "householdId": "hh-1", "userId": 1 }`          |
+| `/api/v1/household_member`                             | Listar todos los miembros      | GET             | —                                                             | `GET /api/v1/household_member`                                      | `[ { "id": 10, "householdId": "hh-1", "userId": 1 }, ... ]` |
+| `/api/v1/household_member/{id}`                        | Obtener miembro por Id         | GET             | path: `{ id }`                                                | `GET /api/v1/household_member/10`                                   | `{ "id": 10, "householdId": "hh-1", "userId": 1 }`          |
+| `/api/v1/household_member/{id}`                        | Actualizar miembro por Id      | PUT             | path: `{ id }`, body: parcial `UpdateHouseholdMemberResource` | `PUT /api/v1/household_member/10` + body JSON                       | `{ "id": 10, "updated": true }`                             |
+| `/api/v1/household_member/{id}`                        | Eliminar miembro               | DELETE          | path: `{ id }`                                                | `DELETE /api/v1/household_member/10`                                | `{ "deleted": true }`                                       |
+| `/api/v1/household_member/household/{householdId}`     | Obtener miembros por Household | GET             | path: `{ householdId }`                                       | `GET /api/v1/household_member/household/hh-1`                       | `[ { "id": 10, "householdId": "hh-1" }, ... ]`              |
+| `/api/v1/household_member/user/{userId}`               | Obtener miembros por usuario   | GET             | path: `{ userId }`                                            | `GET /api/v1/household_member/user/1`                               | `[ { "id": 10, "userId": 1, "householdId": "hh-1" }, ... ]` |
+| `/api/v1/household_member/{id}/promote-representative` | Promover a representante       | POST            | path: `{ id }`                                                | `POST /api/v1/household_member/10/promote-representative`           | `{ "id": 10, "isRepresentative": true }`                    |
+| `/api/v1/household_member/{id}/demote-representative`  | Degradar representante         | POST            | path: `{ id }`                                                | `POST /api/v1/household_member/10/demote-representative`            | `{ "id": 10, "isRepresentative": false }`                   |
+
+
+ <br> **Settings:**
+
+| **Endpoint**            | **Acción implementada**           | **Método HTTP** | **Parámetros**                                        | **Ejemplo Request**                                                           | **Ejemplo Response**                                                  |
+| ----------------------- | --------------------------------- | --------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| `/api/v1/settings`      | Obtener configuración por usuario | GET             | header: `Authorization: Bearer token` (user en token) | `GET /api/v1/settings`                                                        | `{ "id": "set-1", "userId": 1, "language": "es", "currency": "PEN" }` |
+| `/api/v1/settings`      | Crear configuración               | POST            | body: `{ userId, language, currency, notifications }` | `{ "userId": 1, "language": "es", "currency": "PEN", "notifications": true }` | `{ "id": "set-1", "userId": 1 }`                                      |
+| `/api/v1/settings/{id}` | Actualizar configuración          | PUT             | path: `{ id }`, body: parcial `UpdateSettingResource` | `PUT /api/v1/settings/set-1` + body JSON                                      | `{ "id": "set-1", "updated": true }`                                  |
+
+<br> **Member Contribution:**
+
+| **Endpoint**                                                    | **Acción implementada**                       | **Método HTTP** | **Parámetros**             | **Ejemplo Request**                                          | **Ejemplo Response**                                                       |
+| --------------------------------------------------------------- | --------------------------------------------- | --------------- | -------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------- |
+| `/api/v1/member_contribution`                                   | Listar todas las contribuciones de miembros   | GET             | —                          | `GET /api/v1/member_contribution`                            | `[ { "id": "mc-1", "memberId": 10, "contributionId": "contrib-1" }, ... ]` |
+| `/api/v1/member_contribution/bycontributionid/{contributionId}` | Obtener MemberContribution por ContributionId | GET             | path: `{ contributionId }` | `GET /api/v1/member_contribution/bycontributionid/contrib-1` | `[ { "id": "mc-1", "contributionId": "contrib-1", "memberId": 10 }, ... ]` |
+| `/api/v1/member_contribution/bymemberid/{memberId}`             | Obtener MemberContribution por MemberId       | GET             | path: `{ memberId }`       | `GET /api/v1/member_contribution/bymemberid/10`              | `[ { "id": "mc-1", "memberId": 10, "contributionId": "contrib-1" }, ... ]` |
+| `/api/v1/member_contribution/{id}`                              | Eliminar MemberContribution                   | DELETE          | path: `{ id }`             | `DELETE /api/v1/member_contribution/mc-1`                    | `{ "deleted": true }`                                                      |
+
+
+
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+
+Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, asimismo se realizo el deploy del BackEnd usando Render.
+
+  - FrontEnd (Vercel): https://front-end-5cbz.vercel.app/
+
+     <p align="center">
+  <img src="../images/frontEndv2.PNG" alt="Evidencia-3">
+</p>
+
+  - ApiRest (Render): https://backend-harmonix.onrender.com/swagger
+<p align="center">
+  <img src="../images/Api.PNG" alt="Evidencia-3">
+</p> 
+
+
+#### 5.2.4.8.Team Collaboration Insights during Sprint.
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el Sprint 4, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los dos principales productos: Web Application (Frontend/Backend). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
+
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="../images/Contributors2.PNG"/>
+</p>
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Martín Gonzales fue responsable de implementar los endpoints del Bounde Context HouseHold Members.
+- La integrante Camilla Espinoza implementó los endpoints del Bounded Context Settings.
+- El integrante Jose Martinez fue responsable de implementar los endpoints del Bounded Context HouseHolds e IAM.
+- El integrante Sebastias Cordova implementó los endpoints del Bounded Context Bills.
+- El integrante Kevin Prado implementó los endpoints del Bounded Context Collaborations .
+
+
+
+Commits de los integrantes en el BackEnd:
+<p align="center">
+  <img src="../images/Commits2.PNG"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el BackEnd: 
+
+<p align="center">
+  <img src="../images/PushMerge2.PNG"/>
+</p>
+
+
+
+
 
 
 ## 5.3. Validation Interviews.
