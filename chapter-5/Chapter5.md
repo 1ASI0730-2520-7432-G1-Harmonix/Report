@@ -845,8 +845,8 @@ Grafico de los push y merge realizados por el equipo en el BackEnd:
 | **Sprint 3 Retrospective Summary** | En este sprint se logro avanzar con el desarrollo del backend de la aplicación web, incluyendo los endpoints para la autenticación de usuario. También se implemeno la configuración de idioma. Además,se desarrollo el video sobre el producto y el video del equipo. Las tareas fueron organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se conto con una versión actualizada del backend y una demo funcional del front-end de la aplicación desplegada en Vercel. |
 | **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                    |
 | **Sprint 4 Goal**                      | Realizar la conexion del Backend con el FrontEnd a un 100%, a su vez que realizar el despliegue de ambas versiones nuevas del backend y frontend                                                                                                                                                                                          |
-| **Sprint 4 Velocity**                  | 12                                                                                                                                                                                                                                                                                                                  |
-| **Sum of Story Points**                | 10                                                                                                                                                                                                                                                                                                                 |
+| **Sprint 4 Velocity**                  | 21                                                                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 15                                                                                                                                                                                                                                                                                                                 |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
@@ -862,11 +862,23 @@ Grafico de los push y merge realizados por el equipo en el BackEnd:
 
 En el Sprint 4 se realizo la conexion del backend con el fronten, completando la integración entre ambos. Se habilitaron los flujos principales (gastos, aportes, reportes) y se realizaron pruebas funcionales, afinando navegación e interacción. Esto dejó operativa la primera versión funcional del sistema.
 
-Link al tablero de Trello: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/ATTI7ad82ccdf5058e2e7714967dd98a8ab37AD38540/sprint-3 
+Link al tablero de Trello: 
+[https://trello.com/invite/b/693052d5f5d181e4ac620b46/ATTI3ecdfe1335188eb392d631f348585eba389B187A/sprint-4
+](https://trello.com/invite/b/693052d5f5d181e4ac620b46/ATTI3ecdfe1335188eb392d631f348585eba389B187A/sprint-4)
 
 <p align="center">
-  <img src="../images/sprint-4.png" alt="Evidencia-4">
+  <img src="../images/sprint-4.PNG" alt="Evidencia-4">
 </p>
+
+| **User Story Id** | **Title**                                      | **Task Id** | **Task Title**                                           | **Description**                                                                                                                                                       | **Estimation (Hours)** | **Assigned To**                  | **Status** |
+| ----------------- | ---------------------------------------------- | ----------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | -------------------------------- | ---------- |
+| TS05              | Registro y autenticación                       | TS05        | Conectar formularios con endpoints de autenticación      | Conectar los formularios de *sign-up* y *sign-in* del FrontEnd con los endpoints del backend, enviando correctamente los datos y manejando respuestas exitosas.       | 4                      | Jose Luis Martínez Valdivia      | Done       |
+| TS06              | Registro y autenticación                       | TS06        | Validar respuestas del backend                           | Implementar la lógica en el FrontEnd para interpretar códigos de respuesta del backend (200, 400, 401, 500) y mostrar mensajes claros de éxito o error al usuario.    | 3                      | Camila Leonor Espinoza Vivas     | Done       |
+| TS10              | Gestión de gastos compartidos                  | TS10        | Verificar integración gastos FE–BE                       | Probar y ajustar la integración entre los endpoints de gastos y los componentes del FrontEnd, asegurando que creación, edición y eliminación reflejen el estado real. | 4                      | Ángel Martín Gonzales            | Done       |
+| TS11              | Seguimiento y recordatorios                    | TS11        | API para programar recordatorios de pago                 | Implementar en el backend la API para crear y listar recordatorios de pago asociados a contribuciones, persistiendo la información en la base de datos.               | 4                      | Sebastián Córdova                | Done       |
+| US24              | Confirmación de aportes                        | US24        | Implementar confirmación de aportes                      | Añadir lógica para enviar confirmación (in-app o correo) cuando se registra un aporte y mostrar un historial de confirmaciones accesible para el usuario.             | 3                      | Kevin Patrick Panto Chuquipiondo | Done       |
+| US36              | Manejo de errores del servidor (representante) | US36        | Manejar errores del servidor en vistas del representante | Implementar manejo centralizado de errores en el panel del representante (gastos, miembros, reportes), mostrando mensajes como “No se pudieron cargar los datos”.     | 3                      | Jose Luis Martínez Valdivia      | Done       |
+
 
 
 
