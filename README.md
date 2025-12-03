@@ -1,8 +1,6 @@
 # Universidad Peruana de Ciencias Aplicadas
 
-<img src="/images/UPCLogo.png">
-
-
+<img src="./images/UPCLogo.png">
 
 
 **Ciclo:** 2025 - 02  
@@ -82,6 +80,11 @@ A continuación, se detalla el desarrollo de las actividades relacionadas con la
 **TP**
 
 <img width="697" height="886" alt="TB2" src="https://github.com/user-attachments/assets/dc8882f4-4bed-47f6-b73d-aae85e336718" />
+
+**TB2**
+
+<img width="615" height="782" alt="Image" src="./images/image.png" />
+
 
 
 # STUDENT OUTCOME
@@ -230,7 +233,9 @@ A continuación, se detalla el desarrollo de las actividades relacionadas con la
 
 **TP** (Sprint 2): bit.ly/4ohpyaB
 
-**TB2** (Sprint 3): 
+**TB2** (Sprint 3): bit.ly/3K4DxBU
+
+**TF**: 
 
 # Bibliografía
 
@@ -326,8 +331,12 @@ Disponible en: https://shorturl.at/1Hyl0
 Anexo 18. Tablero en Trello - Sprint Backlog 3
 Disponible en: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/ATTI7ad82ccdf5058e2e7714967dd98a8ab37AD38540/sprint-3
 
-Anexo 19. Video de exposición TB2
-Disponible en: 
+Anexo 19. Entrevistas
+Disponible en: https://acortar.link/4R7QWT
  
 Anexo 20. Backend desplegado
 Disponible en: https://backend-harmonix.onrender.com/swagger
+
+Anexo 21. Video de exposición TF
+Disponible en: 
+

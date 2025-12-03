@@ -1014,7 +1014,6 @@ Sebastián Córdova
 7. Visualización del monto proporcional a pagar  
 8. Registro de pago y adjuntar comprobante  
 9. Revisión del historial de gastos  
-10. Gestión de recordatorios y alertas  
 
 ## 2.2. Tareas Excluidas
 
@@ -1023,7 +1022,7 @@ Sebastián Córdova
 3. Programas de fidelización o acumulación de puntos  
 4. Alertas automáticas avanzadas de consumo futuro  
 5. Foro comunitario o soporte técnico en vivo  
-
+6. Gestión de recordatorios y alertas  
 ---
 
 # 3. Marco de Evaluación UX
