@@ -1079,8 +1079,9 @@ En esta sección se detalla cómo se llevaron a cabo las actividades de implemen
 El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
 
 <p align="center">
-  <img src="../images/Contributors2.PNG"/>
+  <img src="../images/Integrantes-G.png" alt="Contributors">
 </p>
+
 
 A continuacion de detallara el trabajo que realizo cada integrante del equipo:
 - El integrante Martín Gonzales fue responsable de integrar los endpoints del Bounde Context HouseHold Members.
@@ -1093,13 +1094,14 @@ A continuacion de detallara el trabajo que realizo cada integrante del equipo:
 
 Commits de los integrantes en el BackEnd:
 <p align="center">
-  <img src="../images/Commits2.PNG"/>
+  <img src="../images/Commits-S4.png" alt="Commits">
 </p>
+
 
 Grafico de los push y merge realizados por el equipo en el BackEnd: 
 
 <p align="center">
-  <img src="../images/PushMerge2.PNG"/>
+  <img src="../images/Grafico.png" alt="Push-Merge">
 </p>
 
 
