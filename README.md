@@ -345,5 +345,5 @@ Anexo 20. Backend desplegado
 Disponible en: https://backend-harmonix.onrender.com/swagger
 
 Anexo 21. Video de exposición TF
-Disponible en: 
+Disponible en: bit.ly/48RkvbO
 
