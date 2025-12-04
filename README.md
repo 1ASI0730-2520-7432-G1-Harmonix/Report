@@ -90,7 +90,8 @@ A continuación, se detalla el desarrollo de las actividades relacionadas con la
 
 
 **TF**
-<img width="615" height="782" alt="Image" src="./images/imageTF.png" />
+
+<img width="615" height="782" alt="Image" src="./images/Integrantes-G.png" />
 
 
 
