@@ -242,7 +242,7 @@ A continuación, se detalla el desarrollo de las actividades relacionadas con la
 
 **TB2** (Sprint 3): bit.ly/3K4DxBU
 
-**TF**: 
+**TF** (Sprint 4): bit.ly/48xbQtB 
 
 # Bibliografía
 
