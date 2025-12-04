@@ -1492,5 +1492,5 @@ Aplicar estas mejoras fortalecera la experiencia del usuario, aumentando clarida
 
 
 ## 5.4. Video About-the-Product.
-En el siguiente video se muestra una vista detallada del uso y proposito del aplicativo deasarrollado: https://shorturl.at/1Hyl0
+En el siguiente video se muestra una vista detallada del uso y proposito del aplicativo deasarrollado: https://shorturl.at/IZXEF
 
