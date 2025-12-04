@@ -586,3 +586,911 @@ Grafico de los push y merge realizados por el equipo en el Frontend:
   <img src="https://imgur.com/owSQXEf.png"/>
 </p>
 
+
+### 5.2.3. Sprint 3
+#### 5.2.3.1.Spring Planning 3.
+
+
+| **Campo**                              | **Descripción**                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                           | Sprint 3                                                                                                                                                                                                                                                                                                         |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                    |
+| **Date**                               | 2025-10-28                                                                                                                                                                                                                                                                                                         |
+| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                  |
+| **Location**                           | Modalidad remota por Google Meet                                                                                                                                                                                                                                                                                   |
+| **Prepared By**                        | Testigos de Harmonix                                                                                                                                                                                                                                                                                              |
+| **Attendees (to planning meeting)**    | Equipo Harmonix                                                                                                                                                                                                                                                            |
+  | **Sprint 2 Review Summary**        | En este primer sprint se desarrolló la Web App utilizando el framework VueJs. Se revisó y adaptó el contenido textual de la web app y landing con base en los puntos de mejora del sprint previo . Al finalizar el sprint, la Web App fue desplegada exitosamente en Vercel y quedó accesible públicamente mediante un enlace funcional.                                                                                                                                                                                                                                    |
+| **Sprint 2 Retrospective Summary** | En este sprint se logro avanzar con el desarrollo del front-end de la aplicación web, incluyendo las vistas para la autenticación de usuario y los dashboards para cada rol de usuario. También se implemeno la configuración de idioma utilizando la librería i18n con Vue. Además,se desarrollo el video sobre el producto y el video del equipo. Las tareas fueron organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se espera contar con una versión actualizada del landing page y una demo funcional del front-end de la aplicación desplegada en Netlify. |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                    |
+| **Sprint 2 Goal**                      | Desplegar un BackEnd funcional con endpoints del 80% de los Bounded Contexts, accesible públicamente desde Render                                                                                                                                                                                          |
+| **Sprint 2 Velocity**                  | 30                                                                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 21                                                                                                                                                                                                                                                                                                                 |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+ |Team Member | GitHub Username |  Delegating Responsibilities <br> Leader (L) / Collaborator (C) | Merging Branches <br>Leader (L) /Collaborator (C)| Correcting Mistakes <br> Leader (L) /Collaborator (C)|
+|-------------|--------------|------------|----------|----------|
+| Jose Luis Martinez Validivia | hmongus  |    C   |    L     | C  |
+| Camila Leonor Espinoza Vivas		 | C7leo  |    L   |     C    | C  |
+| Kevin Patrick Panto Chuquipiondo		 | Kevinyin11  |  C     |   C      |  C  |
+| Sebastián Córdova	 | Sevas04  |    C   |    C     |   C   |
+| Martin Gonzales | XdiabloX426  |   C    |    C     |   L   |
+
+#### 5.2.3.3.Sprint Backlog 3.
+
+En el Sprint 3 desplegamos el backend y la versión más reciente del frontend, completando la integración entre ambos. Se habilitaron los flujos principales (gastos, aportes, reportes) y se realizaron pruebas funcionales, afinando navegación e interacción. Esto dejó operativa la primera versión funcional del sistema.
+
+Link al tablero de Trello: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/ATTI7ad82ccdf5058e2e7714967dd98a8ab37AD38540/sprint-3 
+
+<p align="center">
+  <img src="../images/sprint-3.png" alt="Evidencia-3">
+</p>
+
+
+| **User Story Id**            | **Title**                         | **Task Id** | **Task Title**                                    | **Description**                                                                                                                         | **Estimation (Hours)** | **Assigned To** | **Status** |
+| ---------------------------- | --------------------------------- | ----------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
+| TS01         | Inicio de sesión seguro           | TS01        | Implementar autenticación JWT                     | Implementar autenticación basada en JWT, generando tokens seguros al iniciar sesión y validando su uso en endpoints protegidos.         |            4            |      Jose Martinez           |     Done       |
+| TS02         | Registro de usuario               | TS02        | Cifrar contraseñas en base de datos               | Implementar cifrado seguro (bcrypt u otro algoritmo) para almacenar contraseñas en la base de datos y validación en login.              |           3             |       Camila Espinoza          |   Done         |
+| TS03       | Inicio de sesión seguro           | TS03        | Validar roles de administrador y miembro          | Añadir validación de roles usando JWT claims para restringir endpoints según permisos (representante / miembro).                        |        5                |     Kevin Panto            |    Done        |
+| TS04         | Edición de información personal   | TS04        | Implementar actualización de perfil desde API     | Implementar endpoint y lógica para actualizar datos del perfil del usuario de forma segura, validando token y permisos.                 |        3               |    Sebastian Cordova              |   Done         |
+| TS09  | Gestión de gastos compartidos     | TS09        | Implementar actualización y eliminación de gastos | Implementar endpoints para actualizar y eliminar gastos, validando existencia, permisos y coherencia de datos.                          |       4                 |     Martin Gonzales            |  Done          |
+| TS16         | Seguridad y comunicación (global) | TS16        | Validar seguridad FE–BE (CORS, HTTPS)             | Configurar seguridad entre frontend y backend: CORS, headers, HTTPS, restricciones de origen, reglas de tokens y sanitización de datos. |          5             |     Jose Martinez             |   Done         |
+
+#### 5.2.3.4.Development Evidence for Sprint Review.
+
+En esta sección se registran las evidencias del desarrollo y despliegue del **FrontEnd de Harmonix** durante el **Sprint 3**, correspondientes a los commits realizados en GitHub por el equipo.
+
+Link al tablero de Trello: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/ATTI7ad82ccdf5058e2e7714967dd98a8ab37AD38540/sprint-3 
+
+Asi ismo se muestra un tablero general de los commits en la rama main:
+
+| **Autor**       | **Fecha**  | **Commit Message**                                                                                 | **Commit ID** |
+| --------------- | ---------- | -------------------------------------------------------------------------------------------------- | ------------- |
+| **hmorgus**     | 2025-11-14 | Merge pull request #12 from 1AS10730-2520-7432-G1-Harmonix/develop                                 | **5aa770a**   |
+| **hmorgus**     | 2025-11-14 | chore(IAM): modify authorization pipeline                                                          | **08cd7be**   |
+| **hmorgus**     | 2025-11-14 | Merge pull request #11 from 1AS10730-2520-7432-G1-Harmonix/develop                                 | **c176f91**   |
+| **hmorgus**     | 2025-11-14 | Merge pull request #10 from 1AS10730-2520-7432-G1-Harmonix/feature/settings                        | **8dcbd37**   |
+| **hmorgus**     | 2025-11-14 | Merge branch 'develop' into feature/settings                                                       | **0a5f15b**   |
+| **C7leo**     | 2025-11-14 | Merge pull request #9 from 1AS10730-2520-7432-G1-Harmonix/develop                                  | **169fb92**   |
+| **hmorgus**     | 2025-11-14 | chore(): add string connections to production and development db                                   | **278896e**   |
+| **XdiabloX426** | 2025-11-14 | Merge pull request #7 from 1AS10730-2520-7432-G1-Harmonix/feature/household-members                | **2eea174**   |
+| **C7leo** | 2025-11-14 | fix: update appsettings.                                                                           | **3543b46**   |
+| **XdiabloX426*** | 2025-11-14 | fix: update appsettings.                                                                           | **19ac9a3**   |
+| **XdiabloX426*** | 2025-11-14 | feat(household-members): enhance dependency injection for Household context services               | **fa67532**   |
+| **XdiabloX426*** | 2025-11-14 | feat(household-members): configure database connection for development and production environments | **badf98f**   |
+| **C7leo** | 2025-11-14 | Merge branch 'develop' into feature/household-members                                              | **4c828dd**   |
+| **XdiabloX426*** | 2025-11-14 | Merge remote-tracking branch 'origin/feature/household-members' into feature/household-members     | **7ae9974**   |
+| **C7leo** | 2025-11-14 | Merge pull request #5 from 1AS10730-2520-7432-G1-Harmonix/feature/household-members                | **380cb7b**   |
+| **XdiabloX426*** | 2025-11-14 | Merge branch 'develop' into feature/household-members                                              | **83f4b30**   |
+| **XdiabloX426*** | 2025-11-14 | feat(household-members): update connection string and configure MySQL for development              | **2d24b32**   |
+| **C7leo**       | 2025-11-14 | feat(settings): update                                                                             | **55a7126**   |
+
+
+**Fuente:** historial de commits en la rama `master` del repositorio [Backend – Harmonix](https://github.com/1ASI0730-2520-7432-G1-Harmonix/BackEnd).
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint: 
+
+- Link: https://shorturl.at/1Hyl0
+  
+- Representative-Dashboard:
+
+<p align="center">
+  <img src="../images/repDashboardv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Households:
+
+  <p align="center">
+  <img src="../images/repHouseHoldv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Members:
+
+<p align="center">
+  <img src="../images/repMembersv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Representative-Expenses:
+
+<p align="center">
+  <img src="../images/repExpensesv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Representative-Contributions:
+
+<p align="center">
+  <img src="../images/repContributionsv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Configuration:
+- 
+<p align="center">
+  <img src="../images/repConfigurationv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Member-HomeState:
+
+<p align="center">
+  <img src="../images/memberHomeStatev2.PNG" alt="Evidencia-3">
+</p>
+
+- Member-FindHome:
+
+  <p align="center">
+  <img src="../images/memberFindHomev2.PNG" alt="Evidencia-3">
+</p>
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+Durante el desarrollo del **Sprint 3** se implemento los endpoints principales del backend. Asi mismo se realizo el despliegue a base del uso de DockerFiles.
+
+
+ <br> **Authentication:**
+ | **Endpoint**                     | **Acción implementada** | **Método HTTP** | **Parámetros**                    | **Ejemplo Request**                                 | **Ejemplo Response**       |
+| -------------------------------- | ----------------------- | --------------- | --------------------------------- | --------------------------------------------------- | -------------------------- |
+| `/api/v1/authentication/sign-in` | Iniciar sesión          | POST            | body: `{ email, password }`       | `{ "email":"test@gmail.com", "password":"123456" }` | `{ token, user }`          |
+| `/api/v1/authentication/sign-up` | Registrar usuario       | POST            | body: `{ name, email, password }` | `{ "name":"Jose", "email":"x@gmail.com" }`          | `{ id, email, createdAt }` |
+
+ <br> **User:**
+| Endpoint                              | Acción implementada                      | Método HTTP | Parámetros           | Ejemplo Request                              | Ejemplo Response         |
+| ------------------------------------- | ---------------------------------------- | ----------- | -------------------- | -------------------------------------------- | ------------------------ |
+| `/user/{id}`                          | Obtener usuario por ID                   | GET         | `id`                 | `GET /user/1762486245838`                    | `{ id, name, email }`    |
+| `/api/v1/user`                        | Obtener usuario autenticado              | GET         | —                    | `GET /api/v1/user`                           | `{ id, name, email }`    |
+| `/householdid/{mainHouseHoldId}`      | Obtener usuarios por Household principal | GET         | `mainHouseHoldId`    | `GET /householdid/HOG-1762486245838`         | `[ { user }, { user } ]` |
+| `/api/v1/user/byemail/{emailAddress}` | Actualizar usuario por email             | PUT         | `emailAddress`, body | `PUT /api/v1/user/byemail/test@gmail.com`    | `{ updated:true }`       |
+| `/api/v1/user/byemail/{email}`        | Eliminar usuario por email               | DELETE      | `email`              | `DELETE /api/v1/user/byemail/test@gmail.com` | `{ deleted:true }`       |
+
+ <br> **Bills:**
+
+| Endpoint                                      | Acción implementada        | Método HTTP | Parámetros                | Ejemplo Request                              | Ejemplo Response    |
+| --------------------------------------------- | -------------------------- | ----------- | ------------------------- | -------------------------------------------- | ------------------- |
+| `/api/v1/households/{householdId}/bills`      | Listar bills por household | GET         | `householdId`             | `GET /api/v1/households/HOG-123/bills`       | `[ { bill }, ... ]` |
+| `/api/v1/households/{householdId}/bills`      | Crear un bill              | POST        | `householdId`, body       | `{ "description":"agua", "amount":50 }`      | `{ id, createdAt }` |
+| `/api/v1/households/{householdId}/bills/{id}` | Actualizar bill            | PATCH       | `householdId`, `id`, body | `{ "amount":120 }`                           | `{ updated:true }`  |
+| `/api/v1/households/{householdId}/bills/{id}` | Eliminar bill              | DELETE      | `householdId`, `id`       | `DELETE /api/v1/households/HOG-123/bills/55` | `{ deleted:true }`  |
+
+
+ <br> **HouseHolds:**
+
+| Endpoint                  | Acción implementada      | Método HTTP | Parámetros | Ejemplo Request                             | Ejemplo Response         |
+| ------------------------- | ------------------------ | ----------- | ---------- | ------------------------------------------- | ------------------------ |
+| `/api/v1/house_hold/{Id}` | Obtener Household por ID | GET         | `Id`       | `GET /api/v1/house_hold/HOG-123`            | `{ id, name, currency }` |
+| `/api/v1/house_hold`      | Crear Household          | POST        | body       | `{ "name":"Casa", "representativeId":123 }` | `{ id, createdAt }`      |
+
+
+<br> **HouseHold Member:**
+
+| Endpoint                                               | Acción implementada                 | Método HTTP | Parámetros    | Ejemplo Request                                            | Ejemplo Response              |
+| ------------------------------------------------------ | ----------------------------------- | ----------- | ------------- | ---------------------------------------------------------- | ----------------------------- |
+| `/api/v1/household_member`                             | Crear household member              | POST        | body          | `{ userId, householdId }`                                  | `{ id, joinedAt }`            |
+| `/api/v1/household_member`                             | Obtener todos los household members | GET         | —             | `GET /api/v1/household_member`                             | `[ { member }, ... ]`         |
+| `/api/v1/household_member/{id}`                        | Obtener member por ID               | GET         | `id`          | `GET /api/v1/household_member/HM-123`                      | `{ id, userId, householdId }` |
+| `/api/v1/household_member/{id}`                        | Actualizar member                   | PUT         | `id`, body    | `{ "income":500 }`                                         | `{ updated:true }`            |
+| `/api/v1/household_member/{id}`                        | Eliminar member                     | DELETE      | `id`          | `DELETE /api/v1/household_member/HM-123`                   | `{ deleted:true }`            |
+| `/api/v1/household_member/household/{householdId}`     | Obtener members por household       | GET         | `householdId` | `GET /api/v1/household_member/household/HOG-123`           | `[ { member }, ... ]`         |
+| `/api/v1/household_member/user/{userId}`               | Obtener members por user            | GET         | `userId`      | `GET /api/v1/household_member/user/1763005858611`          | `[ { member } ]`              |
+| `/api/v1/household_member/{id}/promote-representative` | Promover a representante            | POST        | `id`          | `POST /api/v1/household_member/123/promote-representative` | `{ promoted:true }`           |
+| `/api/v1/household_member/{id}/demote-representative`  | Degradar representante              | POST        | `id`          | `POST /api/v1/household_member/123/demote-representative`  | `{ demoted:true }`            |
+
+ <br> **Settings:**
+
+ | Endpoint                | Acción implementada          | Método HTTP | Parámetros | Ejemplo Request                     | Ejemplo Response                              |
+| ----------------------- | ---------------------------- | ----------- | ---------- | ----------------------------------- | --------------------------------------------- |
+| `/api/v1/settings`      | Obtener settings del usuario | GET         | —          | `GET /api/v1/settings`              | `{ language, darkMode, notificationEnabled }` |
+| `/api/v1/settings`      | Crear settings               | POST        | body       | `{ "userId":176, "language":"es" }` | `{ id }`                                      |
+| `/api/v1/settings/{id}` | Actualizar settings          | PUT         | `id`, body | `{ "darkMode": true }`              | `{ updated:true }`                            |
+
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, asimismo se realizo el deploy del BackEnd usando Render.
+
+  - FrontEnd (Vercel): https://front-end-5cbz.vercel.app/
+
+     <p align="center">
+  <img src="../images/frontEndv2.PNG" alt="Evidencia-3">
+</p>
+
+  - ApiRest (Render): https://backend-harmonix.onrender.com/swagger
+<p align="center">
+  <img src="../images/Api.PNG" alt="Evidencia-3">
+</p> 
+
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el Sprint 3, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los dos principales productos: Web Application (Frontend/Backend). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
+
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="../images/Contributors.PNG"/>
+</p>
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Martín Gonzales fue responsable de implementar los endpoints del Bounde Context HouseHold Members.
+- La integrante Camilla Espinoza implementó los endpoints del Bounded Context Settings.
+- El integrante Jose Martinez fue responsable de implementar los endpoints del Bounded Context HouseHolds e IAM.
+- El integrante Sebastias Cordova implementó los endpoints del Bounded Context Bills.
+- El integrante Kevin Prado implementó los endpoints del Bounded Context Collaborations .
+
+
+
+Commits de los integrantes en el BackEnd:
+<p align="center">
+  <img src="../images/Commits.PNG"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el BackEnd: 
+
+<p align="center">
+  <img src="../images/PushMerge.PNG"/>
+</p>
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1.Spring Planning 4.
+
+
+| **Campo**                              | **Descripción**                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint #**                           | Sprint 4                                                                                                                                                                                                                                                                                                         |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                    |
+| **Date**                               | 2025-11-20                                                                                                                                                                                                                                                                                                         |
+| **Time**                               | 05:00 PM (GMT -5)                                                                                                                                                                                                                                                                                                  |
+| **Location**                           | Modalidad remota por Google Meet                                                                                                                                                                                                                                                                                   |
+| **Prepared By**                        | Testigos de Harmonix                                                                                                                                                                                                                                                                                              |
+| **Attendees (to planning meeting)**    | Equipo Harmonix                                                                                                                                                                                                                                                            |
+  | **Sprint 3 Review Summary**        | En este sprint se desarrolló el BackEnd en .NET junto al despliegue de este usando Dockerfile en Render.                                                                                                                                                                                                                                    |
+| **Sprint 3 Retrospective Summary** | En este sprint se logro avanzar con el desarrollo del backend de la aplicación web, incluyendo los endpoints para la autenticación de usuario. También se implemeno la configuración de idioma. Además,se desarrollo el video sobre el producto y el video del equipo. Las tareas fueron organizadas y gestionadas a través de la plataforma Trello. Al finalizar el sprint, se conto con una versión actualizada del backend y una demo funcional del front-end de la aplicación desplegada en Vercel. |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                    |
+| **Sprint 4 Goal**                      | Realizar la conexion del Backend con el FrontEnd a un 100%, a su vez que realizar el despliegue de ambas versiones nuevas del backend y frontend                                                                                                                                                                                          |
+| **Sprint 4 Velocity**                  | 21                                                                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 15                                                                                                                                                                                                                                                                                                                 |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+ |Team Member | GitHub Username |  Delegating Responsibilities <br> Leader (L) / Collaborator (C) | Merging Branches <br>Leader (L) /Collaborator (C)| Correcting Mistakes <br> Leader (L) /Collaborator (C)|
+|-------------|--------------|------------|----------|----------|
+| Jose Luis Martinez Validivia | hmongus  |    C   |    L     | C  |
+| Camila Leonor Espinoza Vivas		 | C7leo  |    L   |     C    | C  |
+| Kevin Patrick Panto Chuquipiondo		 | Kevinyin11  |  C     |   C      |  C  |
+| Sebastián Córdova	 | Sevas04  |    C   |    C     |   C   |
+| Martin Gonzales | XdiabloX426  |   C    |    C     |   L   |
+
+#### 5.2.4.3.Sprint Backlog 4.
+
+En el Sprint 4 se realizo la conexion del backend con el fronten, completando la integración entre ambos. Se habilitaron los flujos principales (gastos, aportes, reportes) y se realizaron pruebas funcionales, afinando navegación e interacción. Esto dejó operativa la primera versión funcional del sistema.
+
+Link al tablero de Trello: 
+[https://trello.com/invite/b/693052d5f5d181e4ac620b46/ATTI3ecdfe1335188eb392d631f348585eba389B187A/sprint-4
+](https://trello.com/invite/b/693052d5f5d181e4ac620b46/ATTI3ecdfe1335188eb392d631f348585eba389B187A/sprint-4)
+
+<p align="center">
+  <img src="../images/sprint-4.png" alt="Evidencia-4">
+</p>
+
+| **User Story Id** | **Title**                                      | **Task Id** | **Task Title**                                           | **Description**                                                                                                                                                       | **Estimation (Hours)** | **Assigned To**                  | **Status** |
+| ----------------- | ---------------------------------------------- | ----------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | -------------------------------- | ---------- |
+| TS05              | Registro y autenticación                       | TS05        | Conectar formularios con endpoints de autenticación      | Conectar los formularios de *sign-up* y *sign-in* del FrontEnd con los endpoints del backend, enviando correctamente los datos y manejando respuestas exitosas.       | 4                      | Jose Luis Martínez Valdivia      | Done       |
+| TS06              | Registro y autenticación                       | TS06        | Validar respuestas del backend                           | Implementar la lógica en el FrontEnd para interpretar códigos de respuesta del backend (200, 400, 401, 500) y mostrar mensajes claros de éxito o error al usuario.    | 3                      | Camila Leonor Espinoza Vivas     | Done       |
+| TS10              | Gestión de gastos compartidos                  | TS10        | Verificar integración gastos FE–BE                       | Probar y ajustar la integración entre los endpoints de gastos y los componentes del FrontEnd, asegurando que creación, edición y eliminación reflejen el estado real. | 4                      | Ángel Martín Gonzales            | Done       |
+| TS11              | Seguimiento y recordatorios                    | TS11        | API para programar recordatorios de pago                 | Implementar en el backend la API para crear y listar recordatorios de pago asociados a contribuciones, persistiendo la información en la base de datos.               | 4                      | Sebastián Córdova                | Done       |
+| US24              | Confirmación de aportes                        | US24        | Implementar confirmación de aportes                      | Añadir lógica para enviar confirmación (in-app o correo) cuando se registra un aporte y mostrar un historial de confirmaciones accesible para el usuario.             | 3                      | Kevin Patrick Panto Chuquipiondo | Done       |
+| US36              | Manejo de errores del servidor (representante) | US36        | Manejar errores del servidor en vistas del representante | Implementar manejo centralizado de errores en el panel del representante (gastos, miembros, reportes), mostrando mensajes como “No se pudieron cargar los datos”.     | 3                      | Jose Luis Martínez Valdivia      | Done       |
+
+
+
+
+#### 5.2.4.4.Development Evidence for Sprint Review.
+
+En esta sección se registran las evidencias del desarrollo de la conexion del **Backend - FrontEnd de Harmonix** durante el **Sprint 4**, correspondientes a los commits realizados en GitHub por el equipo.
+
+Link al tablero de Trello: https://trello.com/invite/b/6917d7d6a76f5231c22a8949/ATTI7ad82ccdf5058e2e7714967dd98a8ab37AD38540/sprint-3 
+
+Asi ismo se muestra un tablero general de los commits en la rama main:
+
+
+
+
+**Fuente:** historial de commits en la rama `master` del repositorio [Backend – Harmonix](https://github.com/1ASI0730-2520-7432-G1-Harmonix/BackEnd).
+
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+A continaucion se presenta captura de las pantallas realizadas del FronteEnd en el desarrollo del Sprint: 
+
+- Link: https://shorturl.at/1Hyl0
+  
+- Representative-Dashboard:
+
+<p align="center">
+  <img src="../images/repDashboardv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Households:
+
+  <p align="center">
+  <img src="../images/repHouseHoldv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Members:
+
+<p align="center">
+  <img src="../images/repMembersv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Representative-Expenses:
+
+<p align="center">
+  <img src="../images/repExpensesv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Representative-Contributions:
+
+<p align="center">
+  <img src="../images/repContributionsv2.PNG" alt="Evidencia-3">
+</p>
+
+- Representative-Configuration:
+- 
+<p align="center">
+  <img src="../images/repConfigurationv2.PNG" alt="Evidencia-3">
+</p>
+  
+- Member-HomeState:
+
+<p align="center">
+  <img src="../images/memberHomeStatev2.PNG" alt="Evidencia-3">
+</p>
+
+- Member-FindHome:
+
+  <p align="center">
+  <img src="../images/memberFindHomev2.PNG" alt="Evidencia-3">
+</p>
+
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+
+Durante el desarrollo del **Sprint 4** se implemento los endpoints principales del backend. Asi mismo se realizo el despliegue a base del uso de DockerFiles.
+
+
+ <br> **Authentication:**
+| **Endpoint**                     | **Acción implementada** | **Método HTTP** | **Parámetros**                    | **Ejemplo Request**                                                | **Ejemplo Response**                                                            |
+| -------------------------------- | ----------------------- | --------------- | --------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| `/api/v1/authentication/sign-in` | Iniciar sesión          | POST            | body: `{ email, password }`       | `{ "email": "test@gmail.com", "password": "123456" }`              | `{ "token": "jwt_token", "user": { ... } }`                                     |
+| `/api/v1/authentication/sign-up` | Registrar usuario       | POST            | body: `{ name, email, password }` | `{ "name": "Jose", "email": "x@gmail.com", "password": "123456" }` | `{ "id": "uuid", "email": "x@gmail.com", "createdAt": "2025-12-03T00:00:00Z" }` |
+
+
+ <br> **User:**
+| **Endpoint**                                 | **Acción implementada**                  | **Método HTTP** | **Parámetros**                                               | **Ejemplo Request**                                   | **Ejemplo Response**                                       |
+| -------------------------------------------- | ---------------------------------------- | --------------- | ------------------------------------------------------------ | ----------------------------------------------------- | ---------------------------------------------------------- |
+| `/api/v1/user/user/{id}`                     | Obtener usuario por Id                   | GET             | path: `{ id }`                                               | `GET /api/v1/user/user/1`                             | `{ "id": 1, "name": "Jose", "email": "test@gmail.com" }`   |
+| `/api/v1/user`                               | Listar todos los usuarios                | GET             | —                                                            | `GET /api/v1/user`                                    | `[ { "id": 1, "name": "Jose", "email": "..." }, ... ]`     |
+| `/api/v1/user/householdid/{mainHouseHoldId}` | Obtener usuarios por Household principal | GET             | path: `{ mainHouseHoldId }`                                  | `GET /api/v1/user/householdid/household-123`          | `[ { "id": 1, "mainHouseHoldId": "household-123" }, ... ]` |
+| `/api/v1/user/byemail/{emailAddress}`        | Actualizar usuario por email             | PUT             | path: `{ emailAddress }`, body: parcial `UpdateUserResource` | `PUT /api/v1/user/byemail/test@gmail.com` + body JSON | `{ "id": 1, "email": "test@gmail.com", "updated": true }`  |
+| `/api/v1/user/byemail/{email}`               | Eliminar usuario por email               | DELETE          | path: `{ email }`                                            | `DELETE /api/v1/user/byemail/test@gmail.com`          | `{ "deleted": true }`                                      |
+
+<br> **User Income:**
+| **Endpoint**                            | **Acción implementada**      | **Método HTTP** | **Parámetros**                                           | **Ejemplo Request**                                                           | **Ejemplo Response**                                                        |
+| --------------------------------------- | ---------------------------- | --------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| `/api/v1/user_income`                   | Crear ingreso de usuario     | POST            | body: `{ userId, amount, source, frequency }`            | `{ "userId": 1, "amount": 1500, "source": "Salary", "frequency": "monthly" }` | `{ "id": "income-1", "userId": 1, "amount": 1500 }`                         |
+| `/api/v1/user_income/{id}`              | Obtener ingreso por Id       | GET             | path: `{ id }`                                           | `GET /api/v1/user_income/income-1`                                            | `{ "id": "income-1", "userId": 1, "amount": 1500, "frequency": "monthly" }` |
+| `/api/v1/user_income/byuserid/{userId}` | Obtener ingresos por usuario | GET             | path: `{ userId }`                                       | `GET /api/v1/user_income/byuserid/1`                                          | `[ { "id": "income-1", "userId": 1, "amount": 1500 }, ... ]`                |
+| `/api/v1/user_income/byid/{id}`         | Actualizar ingreso por Id    | PUT             | path: `{ id }`, body: parcial `UpdateUserIncomeResource` | `PUT /api/v1/user_income/byid/income-1` + body JSON                           | `{ "id": "income-1", "updated": true }`                                     |
+
+<br> **Contribution:**
+
+| **Endpoint**                                       | **Acción implementada**              | **Método HTTP** | **Parámetros**                                             | **Ejemplo Request**                                                                  | **Ejemplo Response**                                       |
+| -------------------------------------------------- | ------------------------------------ | --------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| `/api/v1/contribution`                             | Listar todas las contribuciones      | GET             | —                                                          | `GET /api/v1/contribution`                                                           | `[ { "id": "contrib-1", "amount": 100 }, ... ]`            |
+| `/api/v1/contribution`                             | Crear contribución                   | POST            | body: `{ billId, householdId, amount, description }`       | `{ "billId": "bill-1", "householdId": "hh-1", "amount": 100, "description": "Luz" }` | `{ "id": "contrib-1", "billId": "bill-1", "amount": 100 }` |
+| `/api/v1/contribution/{id}`                        | Obtener contribución por Id          | GET             | path: `{ id }`                                             | `GET /api/v1/contribution/contrib-1`                                                 | `{ "id": "contrib-1", "billId": "bill-1", "amount": 100 }` |
+| `/api/v1/contribution/{id}`                        | Eliminar contribución                | DELETE          | path: `{ id }`                                             | `DELETE /api/v1/contribution/contrib-1`                                              | `{ "deleted": true }`                                      |
+| `/api/v1/contribution/bybillid/{billId}`           | Obtener contribuciones por Bill      | GET             | path: `{ billId }`                                         | `GET /api/v1/contribution/bybillid/bill-1`                                           | `[ { "id": "contrib-1", "billId": "bill-1" }, ... ]`       |
+| `/api/v1/contribution/byhouseholdid/{householdId}` | Obtener contribuciones por Household | GET             | path: `{ householdId }`                                    | `GET /api/v1/contribution/byhouseholdid/hh-1`                                        | `[ { "id": "contrib-1", "householdId": "hh-1" }, ... ]`    |
+| `/api/v1/contribution/byid/{id}`                   | Actualizar contribución por Id       | PUT             | path: `{ id }`, body: parcial `UpdateContributionResource` | `PUT /api/v1/contribution/byid/contrib-1` + body JSON                                | `{ "id": "contrib-1", "updated": true }`                   |
+
+
+ <br> **Bills:**
+
+| **Endpoint**                              | **Acción implementada**           | **Método HTTP** | **Parámetros**                                     | **Ejemplo Request**                         | **Ejemplo Response**                                                |
+| ----------------------------------------- | --------------------------------- | --------------- | -------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------- |
+| `/api/v1/bills`                           | Listar todas las facturas (bills) | GET             | —                                                  | `GET /api/v1/bills`                         | `[ { "id": "bill-1", "householdId": "hh-1", "amount": 200 }, ... ]` |
+| `/api/v1/bills/byhousehold/{householdId}` | Obtener Bills por Household       | GET             | path: `{ householdId }`                            | `GET /api/v1/bills/byhousehold/hh-1`        | `[ { "id": "bill-1", "householdId": "hh-1" }, ... ]`                |
+| `/api/v1/bills/byid/{id}`                 | Actualizar Bill por Id            | PUT             | path: `{ id }`, body: parcial `UpdateBillResource` | `PUT /api/v1/bills/byid/bill-1` + body JSON | `{ "id": "bill-1", "updated": true }`                               |
+| `/api/v1/bills/{id}`                      | Eliminar Bill                     | DELETE          | path: `{ id }`                                     | `DELETE /api/v1/bills/bill-1`               | `{ "deleted": true }`                                               |
+
+
+ <br> **HouseHolds:**
+
+| **Endpoint**              | **Acción implementada**  | **Método HTTP** | **Parámetros**                                            | **Ejemplo Request**                                                                                       | **Ejemplo Response**                                           |
+| ------------------------- | ------------------------ | --------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| `/api/v1/house_hold/{Id}` | Obtener Household por Id | GET             | path: `{ Id }`                                            | `GET /api/v1/house_hold/hh-1`                                                                             | `{ "id": "hh-1", "name": "Casa Vallejos", "currency": "PEN" }` |
+| `/api/v1/house_hold`      | Crear Household          | POST            | body: `{ name, description, representativeId, currency }` | `{ "name": "Depto amigos", "description": "Depto Miraflores", "representativeId": 1, "currency": "PEN" }` | `{ "id": "hh-1", "name": "Depto amigos" }`                     |
+
+
+
+<br> **HouseHold Member:**
+
+| **Endpoint**                                           | **Acción implementada**        | **Método HTTP** | **Parámetros**                                                | **Ejemplo Request**                                                 | **Ejemplo Response**                                        |
+| ------------------------------------------------------ | ------------------------------ | --------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- |
+| `/api/v1/household_member`                             | Crear miembro de Household     | POST            | body: `{ householdId, userId, isRepresentative }`             | `{ "householdId": "hh-1", "userId": 1, "isRepresentative": false }` | `{ "id": 10, "householdId": "hh-1", "userId": 1 }`          |
+| `/api/v1/household_member`                             | Listar todos los miembros      | GET             | —                                                             | `GET /api/v1/household_member`                                      | `[ { "id": 10, "householdId": "hh-1", "userId": 1 }, ... ]` |
+| `/api/v1/household_member/{id}`                        | Obtener miembro por Id         | GET             | path: `{ id }`                                                | `GET /api/v1/household_member/10`                                   | `{ "id": 10, "householdId": "hh-1", "userId": 1 }`          |
+| `/api/v1/household_member/{id}`                        | Actualizar miembro por Id      | PUT             | path: `{ id }`, body: parcial `UpdateHouseholdMemberResource` | `PUT /api/v1/household_member/10` + body JSON                       | `{ "id": 10, "updated": true }`                             |
+| `/api/v1/household_member/{id}`                        | Eliminar miembro               | DELETE          | path: `{ id }`                                                | `DELETE /api/v1/household_member/10`                                | `{ "deleted": true }`                                       |
+| `/api/v1/household_member/household/{householdId}`     | Obtener miembros por Household | GET             | path: `{ householdId }`                                       | `GET /api/v1/household_member/household/hh-1`                       | `[ { "id": 10, "householdId": "hh-1" }, ... ]`              |
+| `/api/v1/household_member/user/{userId}`               | Obtener miembros por usuario   | GET             | path: `{ userId }`                                            | `GET /api/v1/household_member/user/1`                               | `[ { "id": 10, "userId": 1, "householdId": "hh-1" }, ... ]` |
+| `/api/v1/household_member/{id}/promote-representative` | Promover a representante       | POST            | path: `{ id }`                                                | `POST /api/v1/household_member/10/promote-representative`           | `{ "id": 10, "isRepresentative": true }`                    |
+| `/api/v1/household_member/{id}/demote-representative`  | Degradar representante         | POST            | path: `{ id }`                                                | `POST /api/v1/household_member/10/demote-representative`            | `{ "id": 10, "isRepresentative": false }`                   |
+
+<br> **Income Allocation:**
+
+| **Endpoint**                                           | **Acción implementada**        | **Método HTTP** | **Parámetros**                                                | **Ejemplo Request**                                                 | **Ejemplo Response**                                        |
+| ------------------------------------------------------ | ------------------------------ | --------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- |
+| `/api/v1/household_member`                             | Crear miembro de Household     | POST            | body: `{ householdId, userId, isRepresentative }`             | `{ "householdId": "hh-1", "userId": 1, "isRepresentative": false }` | `{ "id": 10, "householdId": "hh-1", "userId": 1 }`          |
+| `/api/v1/household_member`                             | Listar todos los miembros      | GET             | —                                                             | `GET /api/v1/household_member`                                      | `[ { "id": 10, "householdId": "hh-1", "userId": 1 }, ... ]` |
+| `/api/v1/household_member/{id}`                        | Obtener miembro por Id         | GET             | path: `{ id }`                                                | `GET /api/v1/household_member/10`                                   | `{ "id": 10, "householdId": "hh-1", "userId": 1 }`          |
+| `/api/v1/household_member/{id}`                        | Actualizar miembro por Id      | PUT             | path: `{ id }`, body: parcial `UpdateHouseholdMemberResource` | `PUT /api/v1/household_member/10` + body JSON                       | `{ "id": 10, "updated": true }`                             |
+| `/api/v1/household_member/{id}`                        | Eliminar miembro               | DELETE          | path: `{ id }`                                                | `DELETE /api/v1/household_member/10`                                | `{ "deleted": true }`                                       |
+| `/api/v1/household_member/household/{householdId}`     | Obtener miembros por Household | GET             | path: `{ householdId }`                                       | `GET /api/v1/household_member/household/hh-1`                       | `[ { "id": 10, "householdId": "hh-1" }, ... ]`              |
+| `/api/v1/household_member/user/{userId}`               | Obtener miembros por usuario   | GET             | path: `{ userId }`                                            | `GET /api/v1/household_member/user/1`                               | `[ { "id": 10, "userId": 1, "householdId": "hh-1" }, ... ]` |
+| `/api/v1/household_member/{id}/promote-representative` | Promover a representante       | POST            | path: `{ id }`                                                | `POST /api/v1/household_member/10/promote-representative`           | `{ "id": 10, "isRepresentative": true }`                    |
+| `/api/v1/household_member/{id}/demote-representative`  | Degradar representante         | POST            | path: `{ id }`                                                | `POST /api/v1/household_member/10/demote-representative`            | `{ "id": 10, "isRepresentative": false }`                   |
+
+
+ <br> **Settings:**
+
+| **Endpoint**            | **Acción implementada**           | **Método HTTP** | **Parámetros**                                        | **Ejemplo Request**                                                           | **Ejemplo Response**                                                  |
+| ----------------------- | --------------------------------- | --------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| `/api/v1/settings`      | Obtener configuración por usuario | GET             | header: `Authorization: Bearer token` (user en token) | `GET /api/v1/settings`                                                        | `{ "id": "set-1", "userId": 1, "language": "es", "currency": "PEN" }` |
+| `/api/v1/settings`      | Crear configuración               | POST            | body: `{ userId, language, currency, notifications }` | `{ "userId": 1, "language": "es", "currency": "PEN", "notifications": true }` | `{ "id": "set-1", "userId": 1 }`                                      |
+| `/api/v1/settings/{id}` | Actualizar configuración          | PUT             | path: `{ id }`, body: parcial `UpdateSettingResource` | `PUT /api/v1/settings/set-1` + body JSON                                      | `{ "id": "set-1", "updated": true }`                                  |
+
+<br> **Member Contribution:**
+
+| **Endpoint**                                                    | **Acción implementada**                       | **Método HTTP** | **Parámetros**             | **Ejemplo Request**                                          | **Ejemplo Response**                                                       |
+| --------------------------------------------------------------- | --------------------------------------------- | --------------- | -------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------- |
+| `/api/v1/member_contribution`                                   | Listar todas las contribuciones de miembros   | GET             | —                          | `GET /api/v1/member_contribution`                            | `[ { "id": "mc-1", "memberId": 10, "contributionId": "contrib-1" }, ... ]` |
+| `/api/v1/member_contribution/bycontributionid/{contributionId}` | Obtener MemberContribution por ContributionId | GET             | path: `{ contributionId }` | `GET /api/v1/member_contribution/bycontributionid/contrib-1` | `[ { "id": "mc-1", "contributionId": "contrib-1", "memberId": 10 }, ... ]` |
+| `/api/v1/member_contribution/bymemberid/{memberId}`             | Obtener MemberContribution por MemberId       | GET             | path: `{ memberId }`       | `GET /api/v1/member_contribution/bymemberid/10`              | `[ { "id": "mc-1", "memberId": 10, "contributionId": "contrib-1" }, ... ]` |
+| `/api/v1/member_contribution/{id}`                              | Eliminar MemberContribution                   | DELETE          | path: `{ id }`             | `DELETE /api/v1/member_contribution/mc-1`                    | `{ "deleted": true }`                                                      |
+
+
+
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+
+Durante el desarrollo se relaizo el deploy del FrontEnd desarrollado en VueJS, asimismo se realizo el deploy del BackEnd usando Render.
+
+  - FrontEnd (Vercel): https://front-end-5cbz.vercel.app/
+
+     <p align="center">
+  <img src="../images/frontEndv2.PNG" alt="Evidencia-3">
+</p>
+
+  - ApiRest (Render): https://backend-harmonix.onrender.com/swagger
+<p align="center">
+  <img src="../images/Api.PNG" alt="Evidencia-3">
+</p> 
+
+
+#### 5.2.4.8.Team Collaboration Insights during Sprint.
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el Sprint 4, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los dos principales productos: Web Application (Frontend/Backend). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
+
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="../images/Integrantes-G.png" alt="Contributors">
+</p>
+
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Martín Gonzales fue responsable de integrar los endpoints del Bounde Context HouseHold Members.
+- La integrante Camilla Espinoza integro los endpoints del Bounded Context Settings.
+- El integrante Jose Martinez fue responsable de integrar los endpoints del Bounded Context HouseHolds e IAM.
+- El integrante Sebastias Cordova integro los endpoints del Bounded Context Bills.
+- El integrante Kevin Prado integro los endpoints del Bounded Context Collaborations .
+
+
+
+Commits de los integrantes en el BackEnd:
+<p align="center">
+  <img src="../images/Commits-S4.png" alt="Commits">
+</p>
+
+
+Grafico de los push y merge realizados por el equipo en el BackEnd: 
+
+<p align="center">
+  <img src="../images/Grafico.png" alt="Push-Merge">
+</p>
+
+
+
+
+
+
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+
+Durante el proceso de entrevistas con los usuarios finales, se identificaron diversos requerimientos relevantes para la experiencia en base a las siguientes preguntas:
+
+**Para el Segmento 1: Miembros del hogar**
+
+1. Primera impresión sobre la interfaz:
+
+- ¿Qué opinas del diseño de la página? ¿Te resulta fácil de entender?
+
+- ¿Hay algún elemento visual que te llame la atención o que encuentres confuso?
+
+2. Facilidad de uso:
+
+- ¿Fue fácil encontrar dónde se registran los gastos o contribuciones?
+
+- ¿Hubo algún momento en el que te sentiste perdido o no supieras qué hacer en la página?
+
+3. Navegación y funcionalidades:
+
+- ¿La navegación entre secciones (como ver tus aportes, revisar los gastos) fue clara?
+
+- ¿Te resultó sencillo agregar un gasto o una contribución? ¿Qué mejoras sugerirías?
+
+4. Transparencia y confianza:
+
+- ¿Qué piensas sobre la transparencia de la herramienta? ¿Te resultó útil ver las contribuciones de los demás miembros del hogar?
+
+- ¿Sientes que el sistema te ayuda a comprender mejor la distribución de los gastos en el hogar?
+
+5. Gráficos y reportes:
+
+- ¿Qué opinas de los gráficos o reportes que muestra la página? ¿Son claros y fáciles de entender?
+
+- ¿Te gustaría tener más detalles en los reportes, o consideras que la información mostrada es suficiente?
+
+6. Experiencia general:
+
+- ¿Te parece que esta herramienta puede ayudarte a gestionar los gastos del hogar de manera más equitativa?
+
+- ¿Usarías esta página de manera regular? ¿Qué haría que la usaras más seguido?
+
+
+**Para el Segmento 2: Representantes del hogar**
+
+1. Gestión de finanzas en el panel:
+
+- ¿Qué opinas del panel de control donde puedes gestionar los gastos y contribuciones? ¿Lo encuentras útil?
+
+- ¿Fue fácil aprobar o modificar los gastos? ¿Hubo algo que te resultó confuso en el proceso?
+
+2. Visibilidad y control:
+
+- ¿Te pareció que tienes suficiente visibilidad sobre las contribuciones de los miembros del hogar?
+
+- ¿Qué tan útil encuentras la capacidad de ver los reportes mensuales y las contribuciones de todos los miembros del hogar?
+
+3. Personalización y ajustes:
+
+- ¿Te gustaría poder personalizar más aspectos de la herramienta, como las categorías de gastos o las reglas de división?
+
+- ¿Fue fácil ajustar los porcentajes de contribución o cambiar cualquier configuración?
+
+4. Usabilidad y eficiencia:
+
+- ¿Te resultó fácil realizar tareas como agregar miembros al hogar o asignar contribuciones?
+
+- ¿Hubo algún momento en que pensaste que la plataforma podía hacer algo más para facilitar la gestión de los gastos?
+
+5. Confianza en el sistema:
+
+- ¿Confías en que el sistema divide los gastos de manera justa? ¿Te gustaría que el sistema explique de manera más clara cómo se calculan los porcentajes?
+
+- ¿Hay alguna parte del proceso donde te gustaría tener más detalles o explicaciones sobre cómo funcionan los cálculos?
+
+6. Satisfacción general y recomendaciones:
+
+- ¿Crees que esta plataforma facilitaría la convivencia en términos de finanzas? ¿Por qué?
+
+- ¿Qué cambios harías para mejorar la experiencia como representante del hogar?
+
+
+### 5.3.2. Registro de Entrevistas.
+En esta sección se presentan los registros de las entrevistas realizadas para validar los productos de software enfocados a los representantes y miembros del hogar. Cada entrevista incluye información sobre el entrevistado, el entrevistador, el tiempo de la entrevista, un resumen de la misma
+
+**Entrevista 1**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <p align="center"><img src="../images/entrevista-01.png"/></p> | **Distrito:** Italia <br>**Entrevistado:** Harris Herrada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [Link](bit.ly/444Hopn)                                | **Entrevistador:** Camilla Espinoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Timing: 3:34                                          | **Resumen:** El entrevistado comentó que al inicio se confundió un poco, pero tras explorar la interfaz entendió rápido cómo usar la aplicación web. Consideró que la navegación es clara una vez familiarizado, los gráficos son suficientes y que la herramienta sí ayuda a comprender y gestionar mejor los gastos del hogar. |
+
+**Entrevista 2**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <p align="center"><img src="../images/entrevista-02.png"/></p> | **Distrito:** Italia <br>**Entrevistado:**  Antonio Herrada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [Link](bit.ly/4hYUwlD)                                | **Entrevistador:**    Camilla Espinoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Timing:  2:51                                        | **Resumen:** El entrevistado indicó que no tuvo ningún problema al usar el panel de control y que todas las funciones —gestión de gastos, visibilidad de contribuciones, reportes y ajustes— le parecieron claras y suficientes. Señaló que todo estuvo en orden, que la herramienta funciona como espera un representante del hogar y que considera que puede facilitar la gestión financiera sin necesidad de cambios adicionales. |
+
+**Entrevista 3**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <p align="center"><img src="../images/Entrevista 4.png"/></p> | **Distrito:** Chorrillos <br>**Entrevistado:** Eduardo Chareo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [Link]()                                | **Entrevistador:** Sebastian Cordova                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Timing:   6:50                                | **Resumen:**  Eduardo, representante del hogar de 23 años, consideró la plataforma clara, intuitiva y útil para organizar gastos y aportes entre los miembros. Destacó que el dashboard es fácil de entender, la gestión de gastos es sencilla y los reportes mensuales serían muy valiosos. Sugirió únicamente añadir un calendario y una explicación más transparente de cómo se calculan los porcentajes de contribución. En general, afirmó que la herramienta facilitaría la convivencia financiera y no hizo más cambios adicionales. |
+
+
+**Entrevista 4**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <p align="center"><img src="../images/Entrevista 5.png"/></p> | **Distrito:** Miraflores <br>**Entrevistado:** Maria Fernanda Vallejos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [Link]()                                | **Entrevistador:** Jose Martinez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Timing:   6:40                                | **Resumen:**  Mafer, menciono que tuvo facilidad para entender la plataforma, funcionalidades y como usrala en el dia dia. Destaca que esto le ayudara mucho en su dia a dia, en los gastos hormiga |
+
+
+
+
+
+**Entrevista 5**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <p align="center"><img src="https://imgur.com/hwh99wf.png"/></p> | **Distrito:** Chorrillos<br>**Entrevistada:** Jessica Castillo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [Link]()                                | **Entrevistador:** Angel Martin Gonzales Castillo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | 
+| Timing:                                        | **Resumen:**  Jessica Castillo, de 47 años, consideró que la herramienta es interesante y útil porque le permitiría medir y organizar sus gastos mensuales, mantener sus pagos al día y controlar mejor el dinero disponible en su hogar, especialmente porque a veces se desfasa en sus compras y termina quedándose ajustada. Durante la demostración, comprendió y validó las funciones principales como la creación y edición del hogar, el registro de miembros, la carga de facturas, la visualización de contribuciones y el uso de ajustes, confirmando que estas características responden a sus necesidades de orden y seguimiento. Además, resaltó que la aplicación la ayudaría a ahorrar un poco al tener claro qué debe pagar y cuándo, y como única mejora sugirió incorporar la opción de realizar pagos directamente desde la plataforma, lo cual reforzaría aún más su utilidad como herramienta de gestión financiera.|
+
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+**UX Heuristics & Principles Evaluation**  
+**Usability – Inclusive Design – Information Architecture**
+
+---
+
+# 1. Datos Generales
+
+### **Carrera:**  
+Ingeniería de Software
+
+### **Curso:**  
+Aplicaciones Web
+
+### **Sección:**  
+6642
+
+### **Profesores:**  
+Oscar Ivan Villafuerte
+
+### **Auditor:**  
+Grupo: Testigos de Harmonix
+
+### **Cliente(s):**  
+Camila Leonor Espinoza  
+Ángel Martín Gonzales  
+Kevin Patrick Pardo  
+José Luis Martínez  
+Sebastián Córdova  
+
+### **Site / App evaluada:**  
+**Harmonix – Plataforma web para gestión equitativa de gastos del hogar**
+
+---
+
+# 2. Alcance de la Evaluación
+
+## 2.1. Tareas Evaluadas
+
+1. Registro de un usuario nuevo  
+2. Inicio de sesión seguro  
+3. Creación de un hogar (representante)  
+4. Unión a un hogar mediante código (miembro)  
+5. Declaración de ingresos personales  
+6. Registro de un gasto compartido  
+7. Visualización del monto proporcional a pagar  
+8. Registro de pago y adjuntar comprobante  
+9. Revisión del historial de gastos  
+
+## 2.2. Tareas Excluidas
+
+1. Integración con pasarelas de pago reales  
+2. Intercambio de gastos con usuarios externos  
+3. Programas de fidelización o acumulación de puntos  
+4. Alertas automáticas avanzadas de consumo futuro  
+5. Foro comunitario o soporte técnico en vivo  
+6. Gestión de recordatorios y alertas  
+---
+
+# 3. Marco de Evaluación UX
+
+La evaluación se realizó siguiendo:
+
+- **10 Heurísticas de Usabilidad de Nielsen**
+- **Principios de Diseño Inclusivo**
+- **Buenas prácticas de Arquitectura de Información**
+- **Escala de severidad (Nielsen 0–4):**
+
+| Severidad | Descripción |
+|----------|-------------|
+| **0** | No es problema |
+| **1** | Problema cosmético |
+| **2** | Problema menor |
+| **3** | Problema mayor |
+| **4** | Catastrófico, atender de inmediato |
+
+---
+
+# 4. Matriz de Evaluación Heurística (Nielsen)
+
+---
+
+## 4.1. Visibilidad del estado del sistema
+
+| Observación | Severidad |
+|------------|-----------|
+| Loaders poco visibles al registrar ingresos o gastos. | 2 |
+| Falta de confirmaciones animadas tras acciones importantes. | 1 |
+
+**Recomendación:**  
+Añadir indicadores visuales persistentes y notificaciones de éxito.
+
+---
+
+## 4.2. Relación entre el sistema y el mundo real
+
+| Observación | Severidad |
+|------------|-----------|
+| Términos como “aporte proporcional” pueden ser complejos para usuarios no técnicos. | 2 |
+| No se muestra duración o reglas sobre el código de unión al hogar. | 1 |
+
+**Recomendación:**  
+Usar lenguaje más natural y explicativo.
+
+---
+
+## 4.3. Control y libertad del usuario
+
+| Observación | Severidad |
+|------------|-----------|
+| Falta botón de “volver” en pantallas internas. | 3 |
+| Confirmaciones de eliminación con un solo botón. | 2 |
+
+---
+
+## 4.4. Consistencia y estándares
+
+| Observación | Severidad |
+|------------|-----------|
+| Formularios de ingresos y gastos con estilos distintos. | 2 |
+| Mezcla de Bootstrap Icons con íconos personalizados. | 1 |
+
+---
+
+## 4.5. Prevención de errores
+
+| Observación | Severidad |
+|------------|-----------|
+| Se permiten números negativos en ingresos/gastos. | 3 |
+| Validación débil en tipos de archivo de comprobante. | 2 |
+
+---
+
+## 4.6. Reconocer en lugar de recordar
+
+| Observación | Severidad |
+|------------|-----------|
+| El usuario debe memorizar el código de unión; no se copia automáticamente. | 2 |
+| Algunos botones solo tienen ícono sin texto. | 1 |
+
+---
+
+## 4.7. Flexibilidad y eficiencia
+
+| Observación | Severidad |
+|------------|-----------|
+| No hay atajos de usuario avanzado (filtros, plantillas, etc.) | 2 |
+| No existe autocompletado de categorías. | 2 |
+
+---
+
+## 4.8. Diseño estético y minimalista
+
+| Observación | Severidad |
+|------------|-----------|
+| Algunas pantallas tienen contenido muy agrupado. | 1 |
+
+---
+
+## 4.9. Ayuda al usuario a reconocer y recuperarse de errores
+
+| Observación | Severidad |
+|------------|-----------|
+| Mensajes de error genéricos (“Ocurrió un error”). | 3 |
+| No se explica cómo solucionar entradas duplicadas. | 2 |
+
+---
+
+## 4.10. Ayuda y documentación
+
+| Observación | Severidad |
+|------------|-----------|
+| No existe sección de ayuda o FAQs. | 3 |
+| Falta onboarding para nuevos usuarios. | 2 |
+
+---
+
+# 5. Evaluación de Diseño Inclusivo
+
+| Criterio | Estado | Observación |
+|---------|--------|-------------|
+| Accesibilidad visual | Parcial | Falta modo claro y mejor contraste en algunas áreas. |
+| Accesibilidad motora | Adecuado | Botones suficientemente grandes. |
+| Accesibilidad cognitiva | Parcial | Vocabulario financiero puede confundir. |
+| Lectura de pantalla (ARIA) | Insuficiente | Faltan etiquetas en varios componentes. |
+| Uso sin color | Adecuado | Estructura funcional se mantiene. |
+
+---
+
+# 6. Evaluación de Arquitectura de Información
+
+| Aspecto | Desempeño | Observación |
+|---------|-----------|-------------|
+| Estructura del menú | Buena | Navegación simple y entendible. |
+| Flujo de tareas | Correcto | Flujo claro para representantes y miembros. |
+| Etiquetado | Consistente | Verbos claros y orientados a acción. |
+| Navegación | Mejorable | Falta breadcrumb o navegación secundaria. |
+
+---
+
+# 7. Hallazgos Críticos Prioritarios
+
+### **Prioridad Alta (Severidad 3–4)**
+- Validaciones insuficientes en ingresos y gastos.  
+- Falta de mensajes correctivos y explicativos.  
+- Ausencia de navegación “volver” en flujos internos.
+
+### **Prioridad Media (Severidad 2)**
+- Lenguaje técnico para usuarios no financieros.  
+- Falta de autocompletado y accesos rápidos.  
+- Loaders poco visibles.
+
+### **Prioridad Baja (Severidad 1)**
+- Inconsistencias visuales menores.  
+- Íconos sin textos complementarios.
+
+---
+
+# 8. Recomendaciones Específicas
+
+## 8.1. Usabilidad
+- Agregar loaders animados y mensajes persistentes.  
+- Uniformizar estilos de formularios y pantallas.  
+
+## 8.2. Inclusividad
+- Añadir etiquetas ARIA y roles accesibles.  
+- Simplificar texto y agregar modo claro/oscuro.  
+
+## 8.3. Arquitectura de Información
+- Incorporar breadcrumbs.  
+- Añadir plantillas de categorías de gastos.  
+
+---
+
+# 9. Conclusiones Generales
+
+La aplicación **Harmonix** presenta una propuesta sólida y funcional, centrada en la equidad financiera en hogares. Su estilo visual es moderno y minimalista, aunque aún requiere mejoras en:
+
+- Comunicación de errores  
+- Accesibilidad  
+- Consistencia visual  
+- Prevención de errores  
+- Retroalimentación al usuario  
+
+Los problemas identificados son en su mayoría **moderados** y pueden resolverse sin rediseños completos.  
+Aplicar estas mejoras fortalecera la experiencia del usuario, aumentando claridad, accesibilidad y confianza en el sistema.
+
+
+
+## 5.4. Video About-the-Product.
+En el siguiente video se muestra una vista detallada del uso y proposito del aplicativo deasarrollado: https://shorturl.at/1Hyl0
+
